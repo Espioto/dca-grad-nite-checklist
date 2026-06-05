@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T13:19:09-07:00",
+  "updatedAt": "2026-06-05T13:21:12-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,11 +8,11 @@
     "action": "Hit Mater's now (15 min).",
     "why": "Do quick wins first; don\u2019t burn early energy on a monster Radiator standby.",
     "fingerprint": "2:00\u20133:30 \u00b7 enter + warmup|Hit Mater's now (15 min).",
-    "checkedAtLocal": "2026-06-05T13:19:09-07:00",
+    "checkedAtLocal": "2026-06-05T13:21:12-07:00",
     "keyWaits": {
       "Radiator": "65 mins",
       "Radiator Single Rider": "Open",
-      "Guardians": "80 mins",
+      "Guardians": "95 mins",
       "Incredicoaster": "35 mins",
       "Incredicoaster Single Rider": "Open",
       "WEB Slingers": "30 mins"
@@ -84,8 +84,8 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "80 mins",
-      "wait_time": 80,
+      "status": "95 mins",
+      "wait_time": 95,
       "kind": "posted"
     },
     {
@@ -137,10 +137,10 @@
       "id": "291",
       "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
       "land": "Hollywood Land",
-      "is_open": true,
-      "status": "35 mins",
-      "wait_time": 35,
-      "kind": "posted"
+      "is_open": false,
+      "status": "Closed",
+      "wait_time": null,
+      "kind": "closed"
     },
     {
       "id": "315",
