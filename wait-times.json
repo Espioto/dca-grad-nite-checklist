@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T13:00:44-07:00",
+  "updatedAt": "2026-06-05T13:05:50-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,12 +8,12 @@
     "action": "Hit Mater's now (15 min).",
     "why": "Do quick wins first; don\u2019t burn early energy on a monster Radiator standby.",
     "fingerprint": "2:00\u20133:30 \u00b7 enter + warmup|Hit Mater's now (15 min).",
-    "checkedAtLocal": "2026-06-05T13:00:44-07:00",
+    "checkedAtLocal": "2026-06-05T13:05:50-07:00",
     "keyWaits": {
-      "Radiator": "65 mins",
+      "Radiator": "75 mins",
       "Radiator Single Rider": "Open",
       "Guardians": "80 mins",
-      "Incredicoaster": "30 mins",
+      "Incredicoaster": "35 mins",
       "Incredicoaster Single Rider": "Open",
       "WEB Slingers": "Closed"
     }
@@ -25,14 +25,6 @@
       "status": "5 mins",
       "land": "Hollywood Land",
       "message": "Monsters Inc. is a good warmup/low-energy ride right now.",
-      "priority": 85
-    },
-    {
-      "ride": "The Little Mermaid - Ariel's Undersea Adventure",
-      "wait": 15,
-      "status": "15 mins",
-      "land": "Paradise Gardens Park",
-      "message": "Little Mermaid is a good AC/sit-down reset if people are tired.",
       "priority": 85
     },
     {
@@ -58,14 +50,6 @@
       "land": "Cars Land",
       "message": "Mater\u2019s is short and fun \u2014 good Cars Land filler.",
       "priority": 80
-    },
-    {
-      "ride": "Incredicoaster",
-      "wait": 30,
-      "status": "30 mins",
-      "land": "Pixar Pier",
-      "message": "Incredicoaster is short enough to hit or reride.",
-      "priority": 70
     }
   ],
   "rides": [
@@ -74,8 +58,8 @@
       "name": "Radiator Springs Racers",
       "land": "Cars Land",
       "is_open": true,
-      "status": "65 mins",
-      "wait_time": 65,
+      "status": "75 mins",
+      "wait_time": 75,
       "kind": "posted"
     },
     {
@@ -119,8 +103,8 @@
       "name": "Incredicoaster",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "30 mins",
-      "wait_time": 30,
+      "status": "35 mins",
+      "wait_time": 35,
       "kind": "posted"
     },
     {
@@ -164,8 +148,8 @@
       "name": "The Little Mermaid - Ariel's Undersea Adventure",
       "land": "Paradise Gardens Park",
       "is_open": true,
-      "status": "15 mins",
-      "wait_time": 15,
+      "status": "25 mins",
+      "wait_time": 25,
       "kind": "posted"
     },
     {
