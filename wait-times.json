@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-06-05T11:52:11-07:00",
+  "updatedAt": "2026-06-05T11:57:17-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
   "opportunities": [
     {
       "ride": "The Little Mermaid - Ariel's Undersea Adventure",
-      "wait": 5,
-      "status": "5 mins",
+      "wait": 10,
+      "status": "10 mins",
       "land": "Paradise Gardens Park",
       "message": "Little Mermaid is a good AC/sit-down reset if people are tired.",
       "priority": 85
@@ -37,6 +37,14 @@
       "priority": 80
     },
     {
+      "ride": "Incredicoaster",
+      "wait": 30,
+      "status": "30 mins",
+      "land": "Pixar Pier",
+      "message": "Incredicoaster is short enough to hit or reride.",
+      "priority": 70
+    },
+    {
       "ride": "Soarin' Over California",
       "wait": 35,
       "status": "35 mins",
@@ -51,8 +59,8 @@
       "name": "Radiator Springs Racers",
       "land": "Cars Land",
       "is_open": true,
-      "status": "105 mins",
-      "wait_time": 105,
+      "status": "85 mins",
+      "wait_time": 85,
       "kind": "posted"
     },
     {
@@ -96,8 +104,8 @@
       "name": "Incredicoaster",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "35 mins",
-      "wait_time": 35,
+      "status": "30 mins",
+      "wait_time": 30,
       "kind": "posted"
     },
     {
@@ -141,8 +149,8 @@
       "name": "The Little Mermaid - Ariel's Undersea Adventure",
       "land": "Paradise Gardens Park",
       "is_open": true,
-      "status": "5 mins",
-      "wait_time": 5,
+      "status": "10 mins",
+      "wait_time": 10,
       "kind": "posted"
     },
     {
@@ -150,8 +158,8 @@
       "name": "Toy Story Midway Mania!",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "45 mins",
-      "wait_time": 45,
+      "status": "70 mins",
+      "wait_time": 70,
       "kind": "posted"
     },
     {
