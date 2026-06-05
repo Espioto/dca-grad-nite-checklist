@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T15:14:08-07:00",
+  "updatedAt": "2026-06-05T15:16:11-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,12 +8,12 @@
     "action": "Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
     "why": "Early dinner replaces the old 5\u20136:45 waitlist block and frees up prime afternoon ride time.",
     "fingerprint": "2:30\u20133:30 \u00b7 Din Tai Fung now|Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
-    "checkedAtLocal": "2026-06-05T15:14:08-07:00",
+    "checkedAtLocal": "2026-06-05T15:16:11-07:00",
     "keyWaits": {
       "Radiator": "70 mins",
       "Radiator Single Rider": "Open",
-      "Guardians": "70 mins",
-      "Incredicoaster": "30 mins",
+      "Guardians": "85 mins",
+      "Incredicoaster": "35 mins",
       "Incredicoaster Single Rider": "Open",
       "WEB Slingers": "45 mins"
     }
@@ -58,14 +58,6 @@
       "land": "Avengers Campus",
       "message": "WEB Slingers Single Rider is marked Open \u2014 good quick add-on if nearby.",
       "priority": 78
-    },
-    {
-      "ride": "Incredicoaster",
-      "wait": 30,
-      "status": "30 mins",
-      "land": "Pixar Pier",
-      "message": "Incredicoaster is short enough to hit or reride.",
-      "priority": 70
     }
   ],
   "rideDecisions": [
@@ -128,12 +120,12 @@
       "display": "Incredicoaster",
       "ride": "Incredicoaster",
       "priorityNote": "High value",
-      "status": "30 mins",
-      "wait": 30,
+      "status": "35 mins",
+      "wait": 35,
       "isOpen": true,
       "recommended": true,
       "why": "Recommended at \u226435; great at night or as a reride.",
-      "sort": 30
+      "sort": 35
     },
     {
       "display": "Grizzly River Run",
@@ -202,17 +194,6 @@
       "sort": 95
     },
     {
-      "display": "Guardians",
-      "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
-      "priorityNote": "Top hype ride",
-      "status": "70 mins",
-      "wait": 70,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 70 min is about 15 min over the target threshold (55). Recheck later.",
-      "sort": 120
-    },
-    {
       "display": "Radiator Springs Racers",
       "ride": "Radiator Springs Racers",
       "priorityNote": "Must-do at night",
@@ -222,6 +203,17 @@
       "recommended": false,
       "why": "Not worth it yet: 70 min is about 10 min over the target threshold (60). Recheck later.",
       "sort": 120
+    },
+    {
+      "display": "Guardians",
+      "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
+      "priorityNote": "Top hype ride",
+      "status": "85 mins",
+      "wait": 85,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 85 min is about 30 min over the target threshold (55). Recheck later.",
+      "sort": 135
     }
   ],
   "rides": [
@@ -248,8 +240,8 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "70 mins",
-      "wait_time": 70,
+      "status": "85 mins",
+      "wait_time": 85,
       "kind": "posted"
     },
     {
@@ -275,8 +267,8 @@
       "name": "Incredicoaster",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "30 mins",
-      "wait_time": 30,
+      "status": "35 mins",
+      "wait_time": 35,
       "kind": "posted"
     },
     {
