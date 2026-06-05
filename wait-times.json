@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T14:45:24-07:00",
+  "updatedAt": "2026-06-05T14:47:27-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,14 +8,14 @@
     "action": "Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
     "why": "Early dinner replaces the old 5\u20136:45 waitlist block and frees up prime afternoon ride time.",
     "fingerprint": "2:30\u20133:30 \u00b7 Din Tai Fung now|Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
-    "checkedAtLocal": "2026-06-05T14:45:24-07:00",
+    "checkedAtLocal": "2026-06-05T14:47:27-07:00",
     "keyWaits": {
       "Radiator": "65 mins",
       "Radiator Single Rider": "Open",
       "Guardians": "65 mins",
-      "Incredicoaster": "30 mins",
+      "Incredicoaster": "40 mins",
       "Incredicoaster Single Rider": "Open",
-      "WEB Slingers": "55 mins"
+      "WEB Slingers": "45 mins"
     }
   },
   "opportunities": [
@@ -60,12 +60,12 @@
       "priority": 78
     },
     {
-      "ride": "Incredicoaster",
+      "ride": "Soarin' Over California",
       "wait": 30,
       "status": "30 mins",
-      "land": "Pixar Pier",
-      "message": "Incredicoaster is short enough to hit or reride.",
-      "priority": 70
+      "land": "Grizzly Peak",
+      "message": "Soarin is a good sit-down reset at this wait.",
+      "priority": 65
     }
   ],
   "rides": [
@@ -101,8 +101,8 @@
       "name": "WEB SLINGERS: A Spider-Man Adventure",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "55 mins",
-      "wait_time": 55,
+      "status": "45 mins",
+      "wait_time": 45,
       "kind": "posted"
     },
     {
@@ -119,8 +119,8 @@
       "name": "Incredicoaster",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "30 mins",
-      "wait_time": 30,
+      "status": "40 mins",
+      "wait_time": 40,
       "kind": "posted"
     },
     {
@@ -137,8 +137,8 @@
       "name": "Soarin' Over California",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "45 mins",
-      "wait_time": 45,
+      "status": "30 mins",
+      "wait_time": 30,
       "kind": "posted"
     },
     {
