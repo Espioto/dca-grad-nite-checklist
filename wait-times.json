@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T16:09:30-07:00",
+  "updatedAt": "2026-06-05T16:11:33-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,14 +8,14 @@
     "action": "Hit Mater's now (10 min).",
     "why": "Dinner is already handled, so clear efficient rides while normal guests are still spread out.",
     "fingerprint": "3:30\u20135:00 \u00b7 post-dinner quick wins|Hit Mater's now (10 min).",
-    "checkedAtLocal": "2026-06-05T16:09:30-07:00",
+    "checkedAtLocal": "2026-06-05T16:11:33-07:00",
     "keyWaits": {
-      "Radiator": "80 mins",
+      "Radiator": "70 mins",
       "Radiator Single Rider": "Open",
       "Guardians": "80 mins",
       "Incredicoaster": "50 mins",
       "Incredicoaster Single Rider": "Open",
-      "WEB Slingers": "30 mins"
+      "WEB Slingers": "45 mins"
     }
   },
   "opportunities": [
@@ -58,14 +58,6 @@
       "land": "Avengers Campus",
       "message": "WEB Slingers Single Rider is marked Open \u2014 good quick add-on if nearby.",
       "priority": 78
-    },
-    {
-      "ride": "WEB SLINGERS: A Spider-Man Adventure",
-      "wait": 30,
-      "status": "30 mins",
-      "land": "Avengers Campus",
-      "message": "WEB Slingers is worth it at this wait; skip giant lines.",
-      "priority": 60
     }
   ],
   "rideDecisions": [
@@ -125,17 +117,6 @@
       "sort": 10
     },
     {
-      "display": "WEB Slingers",
-      "ride": "WEB SLINGERS: A Spider-Man Adventure",
-      "priorityNote": "Good bonus ride",
-      "status": "30 mins",
-      "wait": 30,
-      "isOpen": true,
-      "recommended": true,
-      "why": "Recommended at \u226440; skip long waits because bigger rides matter more.",
-      "sort": 30
-    },
-    {
       "display": "Pixar Pal-A-Round",
       "ride": "Pixar Pal-A-Round - Non-Swinging",
       "priorityNote": "Photo/view ride",
@@ -180,6 +161,17 @@
       "sort": 95
     },
     {
+      "display": "WEB Slingers",
+      "ride": "WEB SLINGERS: A Spider-Man Adventure",
+      "priorityNote": "Good bonus ride",
+      "status": "45 mins",
+      "wait": 45,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 45 min is about 5 min over the target threshold (40). Recheck later.",
+      "sort": 95
+    },
+    {
       "display": "Incredicoaster",
       "ride": "Incredicoaster",
       "priorityNote": "High value",
@@ -202,6 +194,17 @@
       "sort": 105
     },
     {
+      "display": "Radiator Springs Racers",
+      "ride": "Radiator Springs Racers",
+      "priorityNote": "Must-do at night",
+      "status": "70 mins",
+      "wait": 70,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 70 min is about 10 min over the target threshold (60). Recheck later.",
+      "sort": 120
+    },
+    {
       "display": "Guardians",
       "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "priorityNote": "Top hype ride",
@@ -211,17 +214,6 @@
       "recommended": false,
       "why": "Not worth it yet: 80 min is about 25 min over the target threshold (55). Recheck later.",
       "sort": 130
-    },
-    {
-      "display": "Radiator Springs Racers",
-      "ride": "Radiator Springs Racers",
-      "priorityNote": "Must-do at night",
-      "status": "80 mins",
-      "wait": 80,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 80 min is about 20 min over the target threshold (60). Recheck later.",
-      "sort": 130
     }
   ],
   "rides": [
@@ -230,8 +222,8 @@
       "name": "Radiator Springs Racers",
       "land": "Cars Land",
       "is_open": true,
-      "status": "80 mins",
-      "wait_time": 80,
+      "status": "70 mins",
+      "wait_time": 70,
       "kind": "posted"
     },
     {
@@ -257,8 +249,8 @@
       "name": "WEB SLINGERS: A Spider-Man Adventure",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "30 mins",
-      "wait_time": 30,
+      "status": "45 mins",
+      "wait_time": 45,
       "kind": "posted"
     },
     {
