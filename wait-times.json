@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T13:45:50-07:00",
+  "updatedAt": "2026-06-05T13:47:53-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,11 +8,11 @@
     "action": "Hit Mater's now (15 min).",
     "why": "Do quick wins first; don\u2019t burn early energy on a monster Radiator standby.",
     "fingerprint": "2:00\u20133:30 \u00b7 enter + warmup|Hit Mater's now (15 min).",
-    "checkedAtLocal": "2026-06-05T13:45:50-07:00",
+    "checkedAtLocal": "2026-06-05T13:47:53-07:00",
     "keyWaits": {
       "Radiator": "65 mins",
       "Radiator Single Rider": "Open",
-      "Guardians": "95 mins",
+      "Guardians": "85 mins",
       "Incredicoaster": "50 mins",
       "Incredicoaster Single Rider": "Open",
       "WEB Slingers": "40 mins"
@@ -25,6 +25,14 @@
       "status": "5 mins",
       "land": "Hollywood Land",
       "message": "Monsters Inc. is a good warmup/low-energy ride right now.",
+      "priority": 85
+    },
+    {
+      "ride": "The Little Mermaid - Ariel's Undersea Adventure",
+      "wait": 15,
+      "status": "15 mins",
+      "land": "Paradise Gardens Park",
+      "message": "Little Mermaid is a good AC/sit-down reset if people are tired.",
       "priority": 85
     },
     {
@@ -58,14 +66,6 @@
       "land": "Avengers Campus",
       "message": "WEB Slingers Single Rider is marked Open \u2014 good quick add-on if nearby.",
       "priority": 78
-    },
-    {
-      "ride": "Soarin' Over California",
-      "wait": 20,
-      "status": "20 mins",
-      "land": "Grizzly Peak",
-      "message": "Soarin is a good sit-down reset at this wait.",
-      "priority": 65
     }
   ],
   "rides": [
@@ -92,8 +92,8 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "95 mins",
-      "wait_time": 95,
+      "status": "85 mins",
+      "wait_time": 85,
       "kind": "posted"
     },
     {
@@ -137,8 +137,8 @@
       "name": "Soarin' Over California",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "20 mins",
-      "wait_time": 20,
+      "status": "15 mins",
+      "wait_time": 15,
       "kind": "posted"
     },
     {
@@ -164,8 +164,8 @@
       "name": "The Little Mermaid - Ariel's Undersea Adventure",
       "land": "Paradise Gardens Park",
       "is_open": true,
-      "status": "25 mins",
-      "wait_time": 25,
+      "status": "15 mins",
+      "wait_time": 15,
       "kind": "posted"
     },
     {
@@ -173,8 +173,8 @@
       "name": "Toy Story Midway Mania!",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "50 mins",
-      "wait_time": 50,
+      "status": "65 mins",
+      "wait_time": 65,
       "kind": "posted"
     },
     {
@@ -182,8 +182,8 @@
       "name": "Grizzly River Run",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "40 mins",
-      "wait_time": 40,
+      "status": "15 mins",
+      "wait_time": 15,
       "kind": "posted"
     }
   ]
