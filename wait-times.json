@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T16:01:19-07:00",
+  "updatedAt": "2026-06-05T16:03:21-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,7 +8,7 @@
     "action": "Hit Mater's now (10 min).",
     "why": "Dinner is already handled, so clear efficient rides while normal guests are still spread out.",
     "fingerprint": "3:30\u20135:00 \u00b7 post-dinner quick wins|Hit Mater's now (10 min).",
-    "checkedAtLocal": "2026-06-05T16:01:19-07:00",
+    "checkedAtLocal": "2026-06-05T16:03:21-07:00",
     "keyWaits": {
       "Radiator": "80 mins",
       "Radiator Single Rider": "Open",
