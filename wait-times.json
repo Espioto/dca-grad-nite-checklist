@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T15:10:01-07:00",
+  "updatedAt": "2026-06-05T15:12:05-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,10 +8,10 @@
     "action": "Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
     "why": "Early dinner replaces the old 5\u20136:45 waitlist block and frees up prime afternoon ride time.",
     "fingerprint": "2:30\u20133:30 \u00b7 Din Tai Fung now|Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
-    "checkedAtLocal": "2026-06-05T15:10:01-07:00",
+    "checkedAtLocal": "2026-06-05T15:12:05-07:00",
     "keyWaits": {
-      "Radiator": "Closed",
-      "Radiator Single Rider": "Closed",
+      "Radiator": "70 mins",
+      "Radiator Single Rider": "Open",
       "Guardians": "70 mins",
       "Incredicoaster": "30 mins",
       "Incredicoaster Single Rider": "Open",
@@ -21,11 +21,19 @@
   "opportunities": [
     {
       "ride": "The Little Mermaid - Ariel's Undersea Adventure",
-      "wait": 15,
-      "status": "15 mins",
+      "wait": 10,
+      "status": "10 mins",
       "land": "Paradise Gardens Park",
       "message": "Little Mermaid is a good AC/sit-down reset if people are tired.",
       "priority": 85
+    },
+    {
+      "ride": "Radiator Springs Racers Single Rider",
+      "wait": null,
+      "status": "Open",
+      "land": "Cars Land",
+      "message": "Single Rider is marked Open \u2014 only use if splitting is okay; it is not a guaranteed 0-minute wait.",
+      "priority": 82
     },
     {
       "ride": "Incredicoaster Single Rider",
@@ -58,14 +66,6 @@
       "land": "Pixar Pier",
       "message": "Incredicoaster is short enough to hit or reride.",
       "priority": 70
-    },
-    {
-      "ride": "Soarin' Over California",
-      "wait": 20,
-      "status": "20 mins",
-      "land": "Grizzly Peak",
-      "message": "Soarin is a good sit-down reset at this wait.",
-      "priority": 65
     }
   ],
   "rideDecisions": [
@@ -81,6 +81,17 @@
       "sort": 5
     },
     {
+      "display": "Radiator Single Rider",
+      "ride": "Radiator Springs Racers Single Rider",
+      "priorityNote": "Split if group is down",
+      "status": "Open",
+      "wait": null,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Single Rider is marked open; use it if everyone is okay splitting.",
+      "sort": 5
+    },
+    {
       "display": "WEB Single Rider",
       "ride": "WEB SLINGERS: A Spider-Man Adventure Single Rider",
       "priorityNote": "Quick add-on",
@@ -92,6 +103,17 @@
       "sort": 5
     },
     {
+      "display": "Little Mermaid",
+      "ride": "The Little Mermaid - Ariel's Undersea Adventure",
+      "priorityNote": "AC reset",
+      "status": "10 mins",
+      "wait": 10,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Recommended at \u226415 if tired or hot; otherwise only filler.",
+      "sort": 10
+    },
+    {
       "display": "Mater's",
       "ride": "Mater's Junkyard Jamboree",
       "priorityNote": "Cars Land filler",
@@ -101,28 +123,6 @@
       "recommended": true,
       "why": "Recommended at \u226420 as quick filler, but not a priority.",
       "sort": 10
-    },
-    {
-      "display": "Little Mermaid",
-      "ride": "The Little Mermaid - Ariel's Undersea Adventure",
-      "priorityNote": "AC reset",
-      "status": "15 mins",
-      "wait": 15,
-      "isOpen": true,
-      "recommended": true,
-      "why": "Recommended at \u226415 if tired or hot; otherwise only filler.",
-      "sort": 15
-    },
-    {
-      "display": "Soarin'",
-      "ride": "Soarin' Over California",
-      "priorityNote": "Sit-down reset",
-      "status": "20 mins",
-      "wait": 20,
-      "isOpen": true,
-      "recommended": true,
-      "why": "Recommended at \u226435 when people need a calmer ride.",
-      "sort": 20
     },
     {
       "display": "Incredicoaster",
@@ -147,6 +147,17 @@
       "sort": 80
     },
     {
+      "display": "Monsters Inc.",
+      "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
+      "priorityNote": "Low-effort indoor",
+      "status": "30 mins",
+      "wait": 30,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 30 min is about 15 min over the target threshold (15). Recheck later.",
+      "sort": 80
+    },
+    {
       "display": "Pixar Pal-A-Round",
       "ride": "Pixar Pal-A-Round - Non-Swinging",
       "priorityNote": "Photo/view ride",
@@ -158,26 +169,15 @@
       "sort": 90
     },
     {
-      "display": "Radiator Single Rider",
-      "ride": "Radiator Springs Racers Single Rider",
-      "priorityNote": "Split if group is down",
-      "status": "Closed",
-      "wait": null,
-      "isOpen": false,
+      "display": "Soarin'",
+      "ride": "Soarin' Over California",
+      "priorityNote": "Sit-down reset",
+      "status": "40 mins",
+      "wait": 40,
+      "isOpen": true,
       "recommended": false,
-      "why": "Closed right now \u2014 do not route here.",
-      "sort": 95
-    },
-    {
-      "display": "Radiator Springs Racers",
-      "ride": "Radiator Springs Racers",
-      "priorityNote": "Must-do at night",
-      "status": "Closed",
-      "wait": null,
-      "isOpen": false,
-      "recommended": false,
-      "why": "Closed right now \u2014 do not route here.",
-      "sort": 95
+      "why": "Not worth it yet: 40 min is about 5 min over the target threshold (35). Recheck later.",
+      "sort": 90
     },
     {
       "display": "Toy Story Mania",
@@ -202,17 +202,6 @@
       "sort": 95
     },
     {
-      "display": "Monsters Inc.",
-      "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
-      "priorityNote": "Low-effort indoor",
-      "status": "60 mins",
-      "wait": 60,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 60 min is about 45 min over the target threshold (15). Recheck later.",
-      "sort": 110
-    },
-    {
       "display": "Guardians",
       "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "priorityNote": "Top hype ride",
@@ -222,6 +211,17 @@
       "recommended": false,
       "why": "Not worth it yet: 70 min is about 15 min over the target threshold (55). Recheck later.",
       "sort": 120
+    },
+    {
+      "display": "Radiator Springs Racers",
+      "ride": "Radiator Springs Racers",
+      "priorityNote": "Must-do at night",
+      "status": "70 mins",
+      "wait": 70,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 70 min is about 10 min over the target threshold (60). Recheck later.",
+      "sort": 120
     }
   ],
   "rides": [
@@ -229,19 +229,19 @@
       "id": "295",
       "name": "Radiator Springs Racers",
       "land": "Cars Land",
-      "is_open": false,
-      "status": "Closed",
-      "wait_time": null,
-      "kind": "closed"
+      "is_open": true,
+      "status": "70 mins",
+      "wait_time": 70,
+      "kind": "posted"
     },
     {
       "id": "10904",
       "name": "Radiator Springs Racers Single Rider",
       "land": "Cars Land",
-      "is_open": false,
-      "status": "Closed",
+      "is_open": true,
+      "status": "Open",
       "wait_time": null,
-      "kind": "closed"
+      "kind": "open_no_minutes"
     },
     {
       "id": "329",
@@ -293,8 +293,8 @@
       "name": "Soarin' Over California",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "20 mins",
-      "wait_time": 20,
+      "status": "40 mins",
+      "wait_time": 40,
       "kind": "posted"
     },
     {
@@ -302,8 +302,8 @@
       "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
       "land": "Hollywood Land",
       "is_open": true,
-      "status": "60 mins",
-      "wait_time": 60,
+      "status": "30 mins",
+      "wait_time": 30,
       "kind": "posted"
     },
     {
@@ -320,8 +320,8 @@
       "name": "The Little Mermaid - Ariel's Undersea Adventure",
       "land": "Paradise Gardens Park",
       "is_open": true,
-      "status": "15 mins",
-      "wait_time": 15,
+      "status": "10 mins",
+      "wait_time": 10,
       "kind": "posted"
     },
     {
