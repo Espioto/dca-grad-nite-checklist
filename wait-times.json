@@ -1,16 +1,167 @@
 {
-  "updatedAt": "2026-06-05T11:26:36-07:00",
-  "source": "Official Disneyland app required; third-party queue feed disabled after mismatch",
-  "status": "manual_app_check_required",
-  "message": "Use the Disneyland app as the source of truth for posted waits. Send Hermes a screenshot or wait list and Hermes will call the best pivot.",
-  "opportunities": [],
-  "rides": [],
-  "rules": [
-    "Radiator Springs Racers: if 85 min, do not burn prime afternoon unless the group really wants it; save for night or use single rider only if the app itself shows it is available/short.",
-    "Guardians: good if roughly <=45 min.",
-    "Incredicoaster: good if roughly <=25\u201330 min, or single rider if the group is cool splitting.",
-    "WEB Slingers: good if roughly <=35\u201340 min.",
-    "Monsters Inc: good filler if roughly <=15 min.",
-    "Soarin: good sit-down reset if roughly <=30\u201335 min."
+  "updatedAt": "2026-06-05T11:30:47-07:00",
+  "source": "https://queue-times.com/en-US/parks/17/queue_times",
+  "status": "live_queue_times_html",
+  "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
+  "opportunities": [
+    {
+      "ride": "The Little Mermaid - Ariel's Undersea Adventure",
+      "wait": 5,
+      "status": "5 mins",
+      "land": "Paradise Gardens Park",
+      "message": "Little Mermaid is a good AC/sit-down reset if people are tired.",
+      "priority": 85
+    },
+    {
+      "ride": "Radiator Springs Racers Single Rider",
+      "wait": null,
+      "status": "Open",
+      "land": "Cars Land",
+      "message": "Single Rider is marked Open \u2014 only use if splitting is okay; it is not a guaranteed 0-minute wait.",
+      "priority": 82
+    },
+    {
+      "ride": "Incredicoaster Single Rider",
+      "wait": null,
+      "status": "Open",
+      "land": "Pixar Pier",
+      "message": "Incredicoaster Single Rider is marked Open \u2014 strong option if the group will split.",
+      "priority": 82
+    },
+    {
+      "ride": "Mater's Junkyard Jamboree",
+      "wait": 20,
+      "status": "20 mins",
+      "land": "Cars Land",
+      "message": "Mater\u2019s is short and fun \u2014 good Cars Land filler.",
+      "priority": 80
+    },
+    {
+      "ride": "Soarin' Over California",
+      "wait": 35,
+      "status": "35 mins",
+      "land": "Grizzly Peak",
+      "message": "Soarin is a good sit-down reset at this wait.",
+      "priority": 65
+    }
+  ],
+  "rides": [
+    {
+      "id": "295",
+      "name": "Radiator Springs Racers",
+      "land": "Cars Land",
+      "is_open": true,
+      "status": "85 mins",
+      "wait_time": 85,
+      "kind": "posted"
+    },
+    {
+      "id": "10904",
+      "name": "Radiator Springs Racers Single Rider",
+      "land": "Cars Land",
+      "is_open": true,
+      "status": "Open",
+      "wait_time": null,
+      "kind": "open_no_minutes"
+    },
+    {
+      "id": "329",
+      "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
+      "land": "Avengers Campus",
+      "is_open": true,
+      "status": "50 mins",
+      "wait_time": 50,
+      "kind": "posted"
+    },
+    {
+      "id": "8843",
+      "name": "WEB SLINGERS: A Spider-Man Adventure",
+      "land": "Avengers Campus",
+      "is_open": false,
+      "status": "Closed",
+      "wait_time": null,
+      "kind": "closed"
+    },
+    {
+      "id": "10907",
+      "name": "WEB SLINGERS: A Spider-Man Adventure Single Rider",
+      "land": "Avengers Campus",
+      "is_open": false,
+      "status": "Closed",
+      "wait_time": null,
+      "kind": "closed"
+    },
+    {
+      "id": "322",
+      "name": "Incredicoaster",
+      "land": "Pixar Pier",
+      "is_open": true,
+      "status": "35 mins",
+      "wait_time": 35,
+      "kind": "posted"
+    },
+    {
+      "id": "10906",
+      "name": "Incredicoaster Single Rider",
+      "land": "Pixar Pier",
+      "is_open": true,
+      "status": "Open",
+      "wait_time": null,
+      "kind": "open_no_minutes"
+    },
+    {
+      "id": "312",
+      "name": "Soarin' Over California",
+      "land": "Grizzly Peak",
+      "is_open": true,
+      "status": "35 mins",
+      "wait_time": 35,
+      "kind": "posted"
+    },
+    {
+      "id": "291",
+      "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
+      "land": "Hollywood Land",
+      "is_open": true,
+      "status": "30 mins",
+      "wait_time": 30,
+      "kind": "posted"
+    },
+    {
+      "id": "315",
+      "name": "Mater's Junkyard Jamboree",
+      "land": "Cars Land",
+      "is_open": true,
+      "status": "20 mins",
+      "wait_time": 20,
+      "kind": "posted"
+    },
+    {
+      "id": "316",
+      "name": "The Little Mermaid - Ariel's Undersea Adventure",
+      "land": "Paradise Gardens Park",
+      "is_open": true,
+      "status": "5 mins",
+      "wait_time": 5,
+      "kind": "posted"
+    },
+    {
+      "id": "313",
+      "name": "Toy Story Midway Mania!",
+      "land": "Pixar Pier",
+      "is_open": true,
+      "status": "40 mins",
+      "wait_time": 40,
+      "kind": "posted"
+    },
+    {
+      "id": "302",
+      "name": "Grizzly River Run",
+      "land": "Grizzly Peak",
+      "is_open": true,
+      "status": "25 mins",
+      "wait_time": 25,
+      "kind": "posted"
+    }
   ]
 }
