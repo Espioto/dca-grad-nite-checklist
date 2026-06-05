@@ -81,8 +81,8 @@ priority_names = [
     "Grizzly River Run",
 ]
 
-completed_ride_names = {"Mater's Junkyard Jamboree"}
-completed_display_names = {"Mater's"}
+completed_ride_names = {"Mater's Junkyard Jamboree", "The Little Mermaid - Ariel's Undersea Adventure"}
+completed_display_names = {"Mater's", "Little Mermaid"}
 
 recs = []
 def add_wait(name, threshold, msg):
@@ -117,7 +117,7 @@ add_wait("Soarin' Over California", 35, "Soarin is a good sit-down reset at this
 add_wait("Monsters, Inc. Mike & Sulley to the Rescue!", 15, "Monsters Inc. is a good warmup/low-energy ride right now.")
 add_wait("Mater's Junkyard Jamboree", 20, "Mater’s is short and fun — good Cars Land filler.")
 add_wait("The Little Mermaid - Ariel's Undersea Adventure", 15, "Little Mermaid is a good AC/sit-down reset if people are tired.")
-recs = [o for o in recs if o.get("ride") not in completed_ride_names]
+recs = [o for o in recs if o.get("ride") not in completed_ride_names and o.get("ride") not in completed_display_names]
 recs = sorted(recs, key=lambda x: (-x["priority"], 999 if x["wait"] is None else x["wait"]))[:6]
 
 ride_rules = [
@@ -180,7 +180,7 @@ def best_filler():
         ("Little Mermaid", wait("The Little Mermaid - Ariel's Undersea Adventure"), 15),
         ("Soarin'", wait("Soarin' Over California") or wait("Soarin' Around the World"), 35),
     ]
-    completed_filler_names = {"Mater's"}
+    completed_filler_names = {"Mater's", "Little Mermaid"}
     good = [(n,w,t) for n,w,t in candidates if n not in completed_filler_names and isinstance(w,int) and w <= t]
     if good:
         n,w,t = sorted(good, key=lambda x: x[1])[0]

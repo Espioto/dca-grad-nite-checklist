@@ -1,32 +1,24 @@
 {
-  "updatedAt": "2026-06-05T16:44:21-07:00",
+  "updatedAt": "2026-06-05T16:46:03-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
   "schedule": {
     "phase": "3:30\u20135:00 \u00b7 post-dinner quick wins",
-    "action": "Hit Little Mermaid now (10 min).",
+    "action": "Hit WEB Slingers now (30 min).",
     "why": "Dinner is already handled, so clear efficient rides while normal guests are still spread out.",
-    "fingerprint": "3:30\u20135:00 \u00b7 post-dinner quick wins|Hit Little Mermaid now (10 min).",
-    "checkedAtLocal": "2026-06-05T16:44:21-07:00",
+    "fingerprint": "3:30\u20135:00 \u00b7 post-dinner quick wins|Hit WEB Slingers now (30 min).",
+    "checkedAtLocal": "2026-06-05T16:46:03-07:00",
     "keyWaits": {
       "Radiator": "70 mins",
       "Radiator Single Rider": "Open",
-      "Guardians": "60 mins",
+      "Guardians": "110 mins",
       "Incredicoaster": "40 mins",
       "Incredicoaster Single Rider": "Open",
       "WEB Slingers": "30 mins"
     }
   },
   "opportunities": [
-    {
-      "ride": "The Little Mermaid - Ariel's Undersea Adventure",
-      "wait": 10,
-      "status": "10 mins",
-      "land": "Paradise Gardens Park",
-      "message": "Little Mermaid is a good AC/sit-down reset if people are tired.",
-      "priority": 85
-    },
     {
       "ride": "Radiator Springs Racers Single Rider",
       "wait": null,
@@ -98,18 +90,6 @@
       "sort": 5
     },
     {
-      "display": "Little Mermaid",
-      "ride": "The Little Mermaid - Ariel's Undersea Adventure",
-      "priorityNote": "AC reset",
-      "completed": false,
-      "status": "10 mins",
-      "wait": 10,
-      "isOpen": true,
-      "recommended": true,
-      "why": "Recommended at \u226415 if tired or hot; otherwise only filler.",
-      "sort": 10
-    },
-    {
       "display": "WEB Slingers",
       "ride": "WEB SLINGERS: A Spider-Man Adventure",
       "priorityNote": "Good bonus ride",
@@ -158,18 +138,6 @@
       "sort": 90
     },
     {
-      "display": "Soarin'",
-      "ride": "Soarin' Over California",
-      "priorityNote": "Sit-down reset",
-      "completed": false,
-      "status": "40 mins",
-      "wait": 40,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 40 min is about 5 min over the target threshold (35). Recheck later.",
-      "sort": 90
-    },
-    {
       "display": "Monsters Inc.",
       "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
       "priorityNote": "Low-effort indoor",
@@ -194,16 +162,16 @@
       "sort": 95
     },
     {
-      "display": "Guardians",
-      "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
-      "priorityNote": "Top hype ride",
+      "display": "Soarin'",
+      "ride": "Soarin' Over California",
+      "priorityNote": "Sit-down reset",
       "completed": false,
-      "status": "60 mins",
-      "wait": 60,
+      "status": "55 mins",
+      "wait": 55,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 60 min is about 5 min over the target threshold (55). Recheck later.",
-      "sort": 110
+      "why": "Not worth it yet: 55 min is about 20 min over the target threshold (35). Recheck later.",
+      "sort": 105
     },
     {
       "display": "Radiator Springs Racers",
@@ -216,6 +184,30 @@
       "recommended": false,
       "why": "Not worth it yet: 70 min is about 10 min over the target threshold (60). Recheck later.",
       "sort": 120
+    },
+    {
+      "display": "Guardians",
+      "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
+      "priorityNote": "Top hype ride",
+      "completed": false,
+      "status": "110 mins",
+      "wait": 110,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 110 min is about 55 min over the target threshold (55). Recheck later.",
+      "sort": 160
+    },
+    {
+      "display": "Little Mermaid",
+      "ride": "The Little Mermaid - Ariel's Undersea Adventure",
+      "priorityNote": "AC reset",
+      "completed": true,
+      "status": "Done",
+      "wait": null,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Already completed \u2014 no need to route here again unless the group wants a reride.",
+      "sort": 1000
     },
     {
       "display": "Mater's",
@@ -231,7 +223,8 @@
     }
   ],
   "completedRides": [
-    "Mater's Junkyard Jamboree"
+    "Mater's Junkyard Jamboree",
+    "The Little Mermaid - Ariel's Undersea Adventure"
   ],
   "rides": [
     {
@@ -257,8 +250,8 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "60 mins",
-      "wait_time": 60,
+      "status": "110 mins",
+      "wait_time": 110,
       "kind": "posted"
     },
     {
@@ -302,8 +295,8 @@
       "name": "Soarin' Over California",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "40 mins",
-      "wait_time": 40,
+      "status": "55 mins",
+      "wait_time": 55,
       "kind": "posted"
     },
     {
