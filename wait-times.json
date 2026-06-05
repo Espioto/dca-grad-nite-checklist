@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T15:49:01-07:00",
+  "updatedAt": "2026-06-05T15:51:04-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,7 +8,7 @@
     "action": "Hit Mater's now (10 min).",
     "why": "Dinner is already handled, so clear efficient rides while normal guests are still spread out.",
     "fingerprint": "3:30\u20135:00 \u00b7 post-dinner quick wins|Hit Mater's now (10 min).",
-    "checkedAtLocal": "2026-06-05T15:49:01-07:00",
+    "checkedAtLocal": "2026-06-05T15:51:04-07:00",
     "keyWaits": {
       "Radiator": "80 mins",
       "Radiator Single Rider": "Open",
@@ -128,17 +128,6 @@
       "sort": 80
     },
     {
-      "display": "Grizzly River Run",
-      "ride": "Grizzly River Run",
-      "priorityNote": "Only if okay wet",
-      "status": "35 mins",
-      "wait": 35,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 35 min is about 10 min over the target threshold (25). Recheck later.",
-      "sort": 85
-    },
-    {
       "display": "Pixar Pal-A-Round",
       "ride": "Pixar Pal-A-Round - Non-Swinging",
       "priorityNote": "Photo/view ride",
@@ -159,6 +148,17 @@
       "recommended": false,
       "why": "Not worth it yet: 40 min is about 5 min over the target threshold (35). Recheck later.",
       "sort": 90
+    },
+    {
+      "display": "Grizzly River Run",
+      "ride": "Grizzly River Run",
+      "priorityNote": "Only if okay wet",
+      "status": "45 mins",
+      "wait": 45,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 45 min is about 20 min over the target threshold (25). Recheck later.",
+      "sort": 95
     },
     {
       "display": "Incredicoaster",
@@ -330,8 +330,8 @@
       "name": "Grizzly River Run",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "35 mins",
-      "wait_time": 35,
+      "status": "45 mins",
+      "wait_time": 45,
       "kind": "posted"
     }
   ]
