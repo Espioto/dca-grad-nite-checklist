@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T13:35:34-07:00",
+  "updatedAt": "2026-06-05T13:37:37-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,7 +8,7 @@
     "action": "Hit Mater's now (15 min).",
     "why": "Do quick wins first; don\u2019t burn early energy on a monster Radiator standby.",
     "fingerprint": "2:00\u20133:30 \u00b7 enter + warmup|Hit Mater's now (15 min).",
-    "checkedAtLocal": "2026-06-05T13:35:34-07:00",
+    "checkedAtLocal": "2026-06-05T13:37:37-07:00",
     "keyWaits": {
       "Radiator": "65 mins",
       "Radiator Single Rider": "Open",
@@ -19,6 +19,14 @@
     }
   },
   "opportunities": [
+    {
+      "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
+      "wait": 5,
+      "status": "5 mins",
+      "land": "Hollywood Land",
+      "message": "Monsters Inc. is a good warmup/low-energy ride right now.",
+      "priority": 85
+    },
     {
       "ride": "Radiator Springs Racers Single Rider",
       "wait": null,
@@ -52,12 +60,12 @@
       "priority": 78
     },
     {
-      "ride": "WEB SLINGERS: A Spider-Man Adventure",
-      "wait": 40,
-      "status": "40 mins",
-      "land": "Avengers Campus",
-      "message": "WEB Slingers is worth it at this wait; skip giant lines.",
-      "priority": 60
+      "ride": "Soarin' Over California",
+      "wait": 20,
+      "status": "20 mins",
+      "land": "Grizzly Peak",
+      "message": "Soarin is a good sit-down reset at this wait.",
+      "priority": 65
     }
   ],
   "rides": [
@@ -129,18 +137,18 @@
       "name": "Soarin' Over California",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "75 mins",
-      "wait_time": 75,
+      "status": "20 mins",
+      "wait_time": 20,
       "kind": "posted"
     },
     {
       "id": "291",
       "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
       "land": "Hollywood Land",
-      "is_open": false,
-      "status": "Closed",
-      "wait_time": null,
-      "kind": "closed"
+      "is_open": true,
+      "status": "5 mins",
+      "wait_time": 5,
+      "kind": "posted"
     },
     {
       "id": "315",
@@ -165,8 +173,8 @@
       "name": "Toy Story Midway Mania!",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "40 mins",
-      "wait_time": 40,
+      "status": "50 mins",
+      "wait_time": 50,
       "kind": "posted"
     },
     {
