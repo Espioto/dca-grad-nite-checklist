@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T14:04:22-07:00",
+  "updatedAt": "2026-06-05T14:06:25-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,14 +8,14 @@
     "action": "Hit Little Mermaid now (5 min).",
     "why": "Do quick wins first; don\u2019t burn early energy on a monster Radiator standby.",
     "fingerprint": "2:00\u20133:30 \u00b7 enter + warmup|Hit Little Mermaid now (5 min).",
-    "checkedAtLocal": "2026-06-05T14:04:22-07:00",
+    "checkedAtLocal": "2026-06-05T14:06:25-07:00",
     "keyWaits": {
       "Radiator": "65 mins",
       "Radiator Single Rider": "Open",
-      "Guardians": "75 mins",
+      "Guardians": "70 mins",
       "Incredicoaster": "50 mins",
       "Incredicoaster Single Rider": "Open",
-      "WEB Slingers": "55 mins"
+      "WEB Slingers": "45 mins"
     }
   },
   "opportunities": [
@@ -25,14 +25,6 @@
       "status": "5 mins",
       "land": "Paradise Gardens Park",
       "message": "Little Mermaid is a good AC/sit-down reset if people are tired.",
-      "priority": 85
-    },
-    {
-      "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
-      "wait": 15,
-      "status": "15 mins",
-      "land": "Hollywood Land",
-      "message": "Monsters Inc. is a good warmup/low-energy ride right now.",
       "priority": 85
     },
     {
@@ -92,8 +84,8 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "75 mins",
-      "wait_time": 75,
+      "status": "70 mins",
+      "wait_time": 70,
       "kind": "posted"
     },
     {
@@ -101,8 +93,8 @@
       "name": "WEB SLINGERS: A Spider-Man Adventure",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "55 mins",
-      "wait_time": 55,
+      "status": "45 mins",
+      "wait_time": 45,
       "kind": "posted"
     },
     {
@@ -146,8 +138,8 @@
       "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
       "land": "Hollywood Land",
       "is_open": true,
-      "status": "15 mins",
-      "wait_time": 15,
+      "status": "30 mins",
+      "wait_time": 30,
       "kind": "posted"
     },
     {
@@ -173,8 +165,8 @@
       "name": "Toy Story Midway Mania!",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "65 mins",
-      "wait_time": 65,
+      "status": "50 mins",
+      "wait_time": 50,
       "kind": "posted"
     },
     {
