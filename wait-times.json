@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T16:56:40-07:00",
+  "updatedAt": "2026-06-05T16:58:43-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,11 +8,11 @@
     "action": "Hit WEB Slingers now (30 min).",
     "why": "Dinner is already handled, so clear efficient rides while normal guests are still spread out.",
     "fingerprint": "3:30\u20135:00 \u00b7 post-dinner quick wins|Hit WEB Slingers now (30 min).",
-    "checkedAtLocal": "2026-06-05T16:56:40-07:00",
+    "checkedAtLocal": "2026-06-05T16:58:43-07:00",
     "keyWaits": {
       "Radiator": "70 mins",
       "Radiator Single Rider": "Open",
-      "Guardians": "unknown",
+      "Guardians": "110 mins",
       "Incredicoaster": "40 mins",
       "Incredicoaster Single Rider": "Open",
       "WEB Slingers": "30 mins"
@@ -114,18 +114,6 @@
       "sort": 80
     },
     {
-      "display": "Guardians",
-      "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
-      "priorityNote": "Top hype ride",
-      "completed": false,
-      "status": "Unknown",
-      "wait": null,
-      "isOpen": false,
-      "recommended": false,
-      "why": "No live status found. Check the Disneyland app before walking over.",
-      "sort": 90
-    },
-    {
       "display": "Incredicoaster",
       "ride": "Incredicoaster",
       "priorityNote": "High value",
@@ -198,6 +186,18 @@
       "sort": 120
     },
     {
+      "display": "Guardians",
+      "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
+      "priorityNote": "Top hype ride",
+      "completed": false,
+      "status": "110 mins",
+      "wait": 110,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 110 min is about 55 min over the target threshold (55). Recheck later.",
+      "sort": 160
+    },
+    {
       "display": "Little Mermaid",
       "ride": "The Little Mermaid - Ariel's Undersea Adventure",
       "priorityNote": "AC reset",
@@ -244,6 +244,15 @@
       "status": "Open",
       "wait_time": null,
       "kind": "open_no_minutes"
+    },
+    {
+      "id": "329",
+      "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
+      "land": "Avengers Campus",
+      "is_open": true,
+      "status": "110 mins",
+      "wait_time": 110,
+      "kind": "posted"
     },
     {
       "id": "8843",
