@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T15:30:33-07:00",
+  "updatedAt": "2026-06-05T15:32:36-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,9 +8,9 @@
     "action": "Hit Little Mermaid now (5 min).",
     "why": "Dinner is already handled, so clear efficient rides while normal guests are still spread out.",
     "fingerprint": "3:30\u20135:00 \u00b7 post-dinner quick wins|Hit Little Mermaid now (5 min).",
-    "checkedAtLocal": "2026-06-05T15:30:33-07:00",
+    "checkedAtLocal": "2026-06-05T15:32:36-07:00",
     "keyWaits": {
-      "Radiator": "70 mins",
+      "Radiator": "80 mins",
       "Radiator Single Rider": "Open",
       "Guardians": "100 mins",
       "Incredicoaster": "35 mins",
@@ -128,17 +128,6 @@
       "sort": 35
     },
     {
-      "display": "Grizzly River Run",
-      "ride": "Grizzly River Run",
-      "priorityNote": "Only if okay wet",
-      "status": "30 mins",
-      "wait": 30,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 30 min is about 5 min over the target threshold (25). Recheck later.",
-      "sort": 80
-    },
-    {
       "display": "Monsters Inc.",
       "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
       "priorityNote": "Low-effort indoor",
@@ -148,6 +137,17 @@
       "recommended": false,
       "why": "Not worth it yet: 30 min is about 15 min over the target threshold (15). Recheck later.",
       "sort": 80
+    },
+    {
+      "display": "Grizzly River Run",
+      "ride": "Grizzly River Run",
+      "priorityNote": "Only if okay wet",
+      "status": "35 mins",
+      "wait": 35,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 35 min is about 10 min over the target threshold (25). Recheck later.",
+      "sort": 85
     },
     {
       "display": "Pixar Pal-A-Round",
@@ -197,12 +197,12 @@
       "display": "Radiator Springs Racers",
       "ride": "Radiator Springs Racers",
       "priorityNote": "Must-do at night",
-      "status": "70 mins",
-      "wait": 70,
+      "status": "80 mins",
+      "wait": 80,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 70 min is about 10 min over the target threshold (60). Recheck later.",
-      "sort": 120
+      "why": "Not worth it yet: 80 min is about 20 min over the target threshold (60). Recheck later.",
+      "sort": 130
     },
     {
       "display": "Guardians",
@@ -222,8 +222,8 @@
       "name": "Radiator Springs Racers",
       "land": "Cars Land",
       "is_open": true,
-      "status": "70 mins",
-      "wait_time": 70,
+      "status": "80 mins",
+      "wait_time": 80,
       "kind": "posted"
     },
     {
@@ -330,8 +330,8 @@
       "name": "Grizzly River Run",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "30 mins",
-      "wait_time": 30,
+      "status": "35 mins",
+      "wait_time": 35,
       "kind": "posted"
     }
   ]
