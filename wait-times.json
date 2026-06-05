@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T16:23:51-07:00",
+  "updatedAt": "2026-06-05T16:25:54-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,11 +8,11 @@
     "action": "Hit Little Mermaid now (10 min).",
     "why": "Dinner is already handled, so clear efficient rides while normal guests are still spread out.",
     "fingerprint": "3:30\u20135:00 \u00b7 post-dinner quick wins|Hit Little Mermaid now (10 min).",
-    "checkedAtLocal": "2026-06-05T16:23:51-07:00",
+    "checkedAtLocal": "2026-06-05T16:25:54-07:00",
     "keyWaits": {
       "Radiator": "70 mins",
       "Radiator Single Rider": "Open",
-      "Guardians": "80 mins",
+      "Guardians": "115 mins",
       "Incredicoaster": "35 mins",
       "Incredicoaster Single Rider": "Open",
       "WEB Slingers": "70 mins"
@@ -202,12 +202,12 @@
       "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "priorityNote": "Top hype ride",
       "completed": false,
-      "status": "80 mins",
-      "wait": 80,
+      "status": "115 mins",
+      "wait": 115,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 80 min is about 25 min over the target threshold (55). Recheck later.",
-      "sort": 130
+      "why": "Not worth it yet: 115 min is about 60 min over the target threshold (55). Recheck later.",
+      "sort": 165
     },
     {
       "display": "Mater's",
@@ -249,8 +249,8 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "80 mins",
-      "wait_time": 80,
+      "status": "115 mins",
+      "wait_time": 115,
       "kind": "posted"
     },
     {
