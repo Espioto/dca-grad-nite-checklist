@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-06-05T12:01:27-07:00",
+  "updatedAt": "2026-06-05T12:06:33-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
   "schedule": {
     "phase": "2:00\u20133:30 \u00b7 enter + warmup",
-    "action": "Hit Little Mermaid now (10 min).",
+    "action": "Hit Mater's now (15 min).",
     "why": "Do quick wins first; don\u2019t burn early energy on a monster Radiator standby.",
-    "fingerprint": "2:00\u20133:30 \u00b7 enter + warmup|Hit Little Mermaid now (10 min).",
-    "checkedAtLocal": "2026-06-05T12:01:27-07:00",
+    "fingerprint": "2:00\u20133:30 \u00b7 enter + warmup|Hit Mater's now (15 min).",
+    "checkedAtLocal": "2026-06-05T12:06:33-07:00",
     "keyWaits": {
       "Radiator": "65 mins",
       "Radiator Single Rider": "Open",
       "Guardians": "65 mins",
-      "Incredicoaster": "30 mins",
+      "Incredicoaster": "35 mins",
       "Incredicoaster Single Rider": "Open",
       "WEB Slingers": "Closed"
     }
@@ -21,8 +21,8 @@
   "opportunities": [
     {
       "ride": "The Little Mermaid - Ariel's Undersea Adventure",
-      "wait": 10,
-      "status": "10 mins",
+      "wait": 15,
+      "status": "15 mins",
       "land": "Paradise Gardens Park",
       "message": "Little Mermaid is a good AC/sit-down reset if people are tired.",
       "priority": 85
@@ -50,14 +50,6 @@
       "land": "Cars Land",
       "message": "Mater\u2019s is short and fun \u2014 good Cars Land filler.",
       "priority": 80
-    },
-    {
-      "ride": "Incredicoaster",
-      "wait": 30,
-      "status": "30 mins",
-      "land": "Pixar Pier",
-      "message": "Incredicoaster is short enough to hit or reride.",
-      "priority": 70
     },
     {
       "ride": "Soarin' Over California",
@@ -119,8 +111,8 @@
       "name": "Incredicoaster",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "30 mins",
-      "wait_time": 30,
+      "status": "35 mins",
+      "wait_time": 35,
       "kind": "posted"
     },
     {
@@ -164,8 +156,8 @@
       "name": "The Little Mermaid - Ariel's Undersea Adventure",
       "land": "Paradise Gardens Park",
       "is_open": true,
-      "status": "10 mins",
-      "wait_time": 10,
+      "status": "15 mins",
+      "wait_time": 15,
       "kind": "posted"
     },
     {
