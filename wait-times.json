@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T14:55:40-07:00",
+  "updatedAt": "2026-06-05T14:57:43-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,10 +8,10 @@
     "action": "Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
     "why": "Early dinner replaces the old 5\u20136:45 waitlist block and frees up prime afternoon ride time.",
     "fingerprint": "2:30\u20133:30 \u00b7 Din Tai Fung now|Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
-    "checkedAtLocal": "2026-06-05T14:55:40-07:00",
+    "checkedAtLocal": "2026-06-05T14:57:43-07:00",
     "keyWaits": {
-      "Radiator": "65 mins",
-      "Radiator Single Rider": "Open",
+      "Radiator": "Closed",
+      "Radiator Single Rider": "Closed",
       "Guardians": "65 mins",
       "Incredicoaster": "40 mins",
       "Incredicoaster Single Rider": "Open",
@@ -28,14 +28,6 @@
       "priority": 85
     },
     {
-      "ride": "Radiator Springs Racers Single Rider",
-      "wait": null,
-      "status": "Open",
-      "land": "Cars Land",
-      "message": "Single Rider is marked Open \u2014 only use if splitting is okay; it is not a guaranteed 0-minute wait.",
-      "priority": 82
-    },
-    {
       "ride": "Incredicoaster Single Rider",
       "wait": null,
       "status": "Open",
@@ -45,8 +37,8 @@
     },
     {
       "ride": "Mater's Junkyard Jamboree",
-      "wait": 15,
-      "status": "15 mins",
+      "wait": 10,
+      "status": "10 mins",
       "land": "Cars Land",
       "message": "Mater\u2019s is short and fun \u2014 good Cars Land filler.",
       "priority": 80
@@ -61,8 +53,8 @@
     },
     {
       "ride": "Soarin' Over California",
-      "wait": 30,
-      "status": "30 mins",
+      "wait": 20,
+      "status": "20 mins",
       "land": "Grizzly Peak",
       "message": "Soarin is a good sit-down reset at this wait.",
       "priority": 65
@@ -73,19 +65,19 @@
       "id": "295",
       "name": "Radiator Springs Racers",
       "land": "Cars Land",
-      "is_open": true,
-      "status": "65 mins",
-      "wait_time": 65,
-      "kind": "posted"
+      "is_open": false,
+      "status": "Closed",
+      "wait_time": null,
+      "kind": "closed"
     },
     {
       "id": "10904",
       "name": "Radiator Springs Racers Single Rider",
       "land": "Cars Land",
-      "is_open": true,
-      "status": "Open",
+      "is_open": false,
+      "status": "Closed",
       "wait_time": null,
-      "kind": "open_no_minutes"
+      "kind": "closed"
     },
     {
       "id": "329",
@@ -137,8 +129,8 @@
       "name": "Soarin' Over California",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "30 mins",
-      "wait_time": 30,
+      "status": "20 mins",
+      "wait_time": 20,
       "kind": "posted"
     },
     {
@@ -155,8 +147,8 @@
       "name": "Mater's Junkyard Jamboree",
       "land": "Cars Land",
       "is_open": true,
-      "status": "15 mins",
-      "wait_time": 15,
+      "status": "10 mins",
+      "wait_time": 10,
       "kind": "posted"
     },
     {
@@ -173,8 +165,8 @@
       "name": "Toy Story Midway Mania!",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "50 mins",
-      "wait_time": 50,
+      "status": "45 mins",
+      "wait_time": 45,
       "kind": "posted"
     },
     {
