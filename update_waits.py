@@ -145,21 +145,21 @@ def best_filler():
     return "Follow the printed block and avoid any giant standby line."
 
 if mins < 15*60+30:
-    phase = "2:00–3:30 · enter + warmup"
-    action = best_filler()
-    why = "Do quick wins first; don’t burn early energy on a monster Radiator standby."
+    phase = "2:30–3:30 · Din Tai Fung now"
+    action = "Eat, hydrate, bathroom, and charge phones — then head back into DCA as soon as the group is done."
+    why = "Early dinner replaces the old 5–6:45 waitlist block and frees up prime afternoon ride time."
 elif mins < 17*60:
-    phase = "3:30–5:00 · Pixar Pier / pre-dinner"
+    phase = "3:30–5:00 · post-dinner quick wins"
     action = best_filler()
-    why = "Get efficient rides before dinner logistics start."
-elif mins < 18*60+45:
-    phase = "5:00–6:45 · Din Tai Fung dinner window"
-    action = "Open Disneyland app and check/join Din Tai Fung walk-up if quoted return is around 6:15–6:45."
-    why = "Dinner has to happen before the 9PM DCA lock-in; one of you must tap Join in the app."
+    why = "Dinner is already handled, so clear efficient rides while normal guests are still spread out."
+elif mins < 18*60+30:
+    phase = "5:00–6:30 · Pixar Pier / efficient ride loop"
+    action = best_filler()
+    why = "This used to be dinner time; now it is bonus park time for Incredicoaster, Toy Story, Soarin, or short fillers."
 elif mins < 20*60:
-    phase = "6:45–8:00 · golden hour + medium rides"
+    phase = "6:30–8:00 · golden hour + Cars Land setup"
     action = best_filler()
-    why = "Stay flexible after dinner, but be back inside DCA and don’t start anything that risks the 8PM reset."
+    why = "Use photos and medium rides, but avoid anything that risks the 8PM reset before Grad Nite."
 elif mins < 21*60:
     phase = "8:00–9:00 · reset before Grad Nite"
     action = "Bathroom, water, charge phones, hoodie, regroup near Cars Land unless waits scream otherwise."
