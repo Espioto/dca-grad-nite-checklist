@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-06-05T14:10:31-07:00",
+  "updatedAt": "2026-06-05T14:12:34-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
   "schedule": {
     "phase": "2:00\u20133:30 \u00b7 enter + warmup",
-    "action": "Hit Little Mermaid now (5 min).",
+    "action": "Hit Little Mermaid now (10 min).",
     "why": "Do quick wins first; don\u2019t burn early energy on a monster Radiator standby.",
-    "fingerprint": "2:00\u20133:30 \u00b7 enter + warmup|Hit Little Mermaid now (5 min).",
-    "checkedAtLocal": "2026-06-05T14:10:31-07:00",
+    "fingerprint": "2:00\u20133:30 \u00b7 enter + warmup|Hit Little Mermaid now (10 min).",
+    "checkedAtLocal": "2026-06-05T14:12:34-07:00",
     "keyWaits": {
       "Radiator": "65 mins",
       "Radiator Single Rider": "Open",
@@ -21,8 +21,8 @@
   "opportunities": [
     {
       "ride": "The Little Mermaid - Ariel's Undersea Adventure",
-      "wait": 5,
-      "status": "5 mins",
+      "wait": 10,
+      "status": "10 mins",
       "land": "Paradise Gardens Park",
       "message": "Little Mermaid is a good AC/sit-down reset if people are tired.",
       "priority": 85
@@ -156,8 +156,8 @@
       "name": "The Little Mermaid - Ariel's Undersea Adventure",
       "land": "Paradise Gardens Park",
       "is_open": true,
-      "status": "5 mins",
-      "wait_time": 5,
+      "status": "10 mins",
+      "wait_time": 10,
       "kind": "posted"
     },
     {
