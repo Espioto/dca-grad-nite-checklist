@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T15:38:45-07:00",
+  "updatedAt": "2026-06-05T15:40:49-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,12 +8,12 @@
     "action": "Hit Mater's now (10 min).",
     "why": "Dinner is already handled, so clear efficient rides while normal guests are still spread out.",
     "fingerprint": "3:30\u20135:00 \u00b7 post-dinner quick wins|Hit Mater's now (10 min).",
-    "checkedAtLocal": "2026-06-05T15:38:45-07:00",
+    "checkedAtLocal": "2026-06-05T15:40:49-07:00",
     "keyWaits": {
       "Radiator": "80 mins",
       "Radiator Single Rider": "Open",
       "Guardians": "100 mins",
-      "Incredicoaster": "35 mins",
+      "Incredicoaster": "60 mins",
       "Incredicoaster Single Rider": "Open",
       "WEB Slingers": "50 mins"
     }
@@ -117,17 +117,6 @@
       "sort": 15
     },
     {
-      "display": "Incredicoaster",
-      "ride": "Incredicoaster",
-      "priorityNote": "High value",
-      "status": "35 mins",
-      "wait": 35,
-      "isOpen": true,
-      "recommended": true,
-      "why": "Recommended at \u226435; great at night or as a reride.",
-      "sort": 35
-    },
-    {
       "display": "Monsters Inc.",
       "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
       "priorityNote": "Low-effort indoor",
@@ -164,12 +153,12 @@
       "display": "Soarin'",
       "ride": "Soarin' Over California",
       "priorityNote": "Sit-down reset",
-      "status": "45 mins",
-      "wait": 45,
+      "status": "40 mins",
+      "wait": 40,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 45 min is about 10 min over the target threshold (35). Recheck later.",
-      "sort": 95
+      "why": "Not worth it yet: 40 min is about 5 min over the target threshold (35). Recheck later.",
+      "sort": 90
     },
     {
       "display": "WEB Slingers",
@@ -192,6 +181,17 @@
       "recommended": false,
       "why": "Not worth it yet: 55 min is about 20 min over the target threshold (35). Recheck later.",
       "sort": 105
+    },
+    {
+      "display": "Incredicoaster",
+      "ride": "Incredicoaster",
+      "priorityNote": "High value",
+      "status": "60 mins",
+      "wait": 60,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 60 min is about 25 min over the target threshold (35). Recheck later.",
+      "sort": 110
     },
     {
       "display": "Radiator Springs Racers",
@@ -267,8 +267,8 @@
       "name": "Incredicoaster",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "35 mins",
-      "wait_time": 35,
+      "status": "60 mins",
+      "wait_time": 60,
       "kind": "posted"
     },
     {
@@ -285,8 +285,8 @@
       "name": "Soarin' Over California",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "45 mins",
-      "wait_time": 45,
+      "status": "40 mins",
+      "wait_time": 40,
       "kind": "posted"
     },
     {
