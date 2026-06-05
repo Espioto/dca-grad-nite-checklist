@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T11:36:51-07:00",
+  "updatedAt": "2026-06-05T11:41:58-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -59,8 +59,8 @@
       "name": "Radiator Springs Racers",
       "land": "Cars Land",
       "is_open": true,
-      "status": "85 mins",
-      "wait_time": 85,
+      "status": "105 mins",
+      "wait_time": 105,
       "kind": "posted"
     },
     {
