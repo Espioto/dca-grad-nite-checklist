@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T13:43:47-07:00",
+  "updatedAt": "2026-06-05T13:45:50-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,7 +8,7 @@
     "action": "Hit Mater's now (15 min).",
     "why": "Do quick wins first; don\u2019t burn early energy on a monster Radiator standby.",
     "fingerprint": "2:00\u20133:30 \u00b7 enter + warmup|Hit Mater's now (15 min).",
-    "checkedAtLocal": "2026-06-05T13:43:47-07:00",
+    "checkedAtLocal": "2026-06-05T13:45:50-07:00",
     "keyWaits": {
       "Radiator": "65 mins",
       "Radiator Single Rider": "Open",
