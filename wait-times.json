@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T11:30:47-07:00",
+  "updatedAt": "2026-06-05T11:31:45-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -123,8 +123,8 @@
       "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
       "land": "Hollywood Land",
       "is_open": true,
-      "status": "30 mins",
-      "wait_time": 30,
+      "status": "45 mins",
+      "wait_time": 45,
       "kind": "posted"
     },
     {
@@ -150,8 +150,8 @@
       "name": "Toy Story Midway Mania!",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "40 mins",
-      "wait_time": 40,
+      "status": "50 mins",
+      "wait_time": 50,
       "kind": "posted"
     },
     {
