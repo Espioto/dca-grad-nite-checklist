@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T13:25:18-07:00",
+  "updatedAt": "2026-06-05T13:27:22-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,12 +8,12 @@
     "action": "Hit Mater's now (15 min).",
     "why": "Do quick wins first; don\u2019t burn early energy on a monster Radiator standby.",
     "fingerprint": "2:00\u20133:30 \u00b7 enter + warmup|Hit Mater's now (15 min).",
-    "checkedAtLocal": "2026-06-05T13:25:18-07:00",
+    "checkedAtLocal": "2026-06-05T13:27:22-07:00",
     "keyWaits": {
       "Radiator": "65 mins",
       "Radiator Single Rider": "Open",
       "Guardians": "95 mins",
-      "Incredicoaster": "35 mins",
+      "Incredicoaster": "50 mins",
       "Incredicoaster Single Rider": "Open",
       "WEB Slingers": "30 mins"
     }
@@ -111,8 +111,8 @@
       "name": "Incredicoaster",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "35 mins",
-      "wait_time": 35,
+      "status": "50 mins",
+      "wait_time": 50,
       "kind": "posted"
     },
     {
