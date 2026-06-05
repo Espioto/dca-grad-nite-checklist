@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T15:20:17-07:00",
+  "updatedAt": "2026-06-05T15:22:20-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,14 +8,14 @@
     "action": "Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
     "why": "Early dinner replaces the old 5\u20136:45 waitlist block and frees up prime afternoon ride time.",
     "fingerprint": "2:30\u20133:30 \u00b7 Din Tai Fung now|Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
-    "checkedAtLocal": "2026-06-05T15:20:17-07:00",
+    "checkedAtLocal": "2026-06-05T15:22:20-07:00",
     "keyWaits": {
       "Radiator": "70 mins",
       "Radiator Single Rider": "Open",
-      "Guardians": "85 mins",
+      "Guardians": "100 mins",
       "Incredicoaster": "35 mins",
       "Incredicoaster Single Rider": "Open",
-      "WEB Slingers": "45 mins"
+      "WEB Slingers": "60 mins"
     }
   },
   "opportunities": [
@@ -186,12 +186,12 @@
       "display": "WEB Slingers",
       "ride": "WEB SLINGERS: A Spider-Man Adventure",
       "priorityNote": "Good bonus ride",
-      "status": "45 mins",
-      "wait": 45,
+      "status": "60 mins",
+      "wait": 60,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 45 min is about 5 min over the target threshold (40). Recheck later.",
-      "sort": 95
+      "why": "Not worth it yet: 60 min is about 20 min over the target threshold (40). Recheck later.",
+      "sort": 110
     },
     {
       "display": "Radiator Springs Racers",
@@ -208,12 +208,12 @@
       "display": "Guardians",
       "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "priorityNote": "Top hype ride",
-      "status": "85 mins",
-      "wait": 85,
+      "status": "100 mins",
+      "wait": 100,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 85 min is about 30 min over the target threshold (55). Recheck later.",
-      "sort": 135
+      "why": "Not worth it yet: 100 min is about 45 min over the target threshold (55). Recheck later.",
+      "sort": 150
     }
   ],
   "rides": [
@@ -240,8 +240,8 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "85 mins",
-      "wait_time": 85,
+      "status": "100 mins",
+      "wait_time": 100,
       "kind": "posted"
     },
     {
@@ -249,8 +249,8 @@
       "name": "WEB SLINGERS: A Spider-Man Adventure",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "45 mins",
-      "wait_time": 45,
+      "status": "60 mins",
+      "wait_time": 60,
       "kind": "posted"
     },
     {
