@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T12:37:17-07:00",
+  "updatedAt": "2026-06-05T12:42:23-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,12 +8,12 @@
     "action": "Hit Little Mermaid now (10 min).",
     "why": "Do quick wins first; don\u2019t burn early energy on a monster Radiator standby.",
     "fingerprint": "2:00\u20133:30 \u00b7 enter + warmup|Hit Little Mermaid now (10 min).",
-    "checkedAtLocal": "2026-06-05T12:37:17-07:00",
+    "checkedAtLocal": "2026-06-05T12:42:23-07:00",
     "keyWaits": {
       "Radiator": "65 mins",
       "Radiator Single Rider": "Open",
       "Guardians": "80 mins",
-      "Incredicoaster": "45 mins",
+      "Incredicoaster": "30 mins",
       "Incredicoaster Single Rider": "Open",
       "WEB Slingers": "Closed"
     }
@@ -52,12 +52,12 @@
       "priority": 80
     },
     {
-      "ride": "Soarin' Over California",
-      "wait": 35,
-      "status": "35 mins",
-      "land": "Grizzly Peak",
-      "message": "Soarin is a good sit-down reset at this wait.",
-      "priority": 65
+      "ride": "Incredicoaster",
+      "wait": 30,
+      "status": "30 mins",
+      "land": "Pixar Pier",
+      "message": "Incredicoaster is short enough to hit or reride.",
+      "priority": 70
     }
   ],
   "rides": [
@@ -111,8 +111,8 @@
       "name": "Incredicoaster",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "45 mins",
-      "wait_time": 45,
+      "status": "30 mins",
+      "wait_time": 30,
       "kind": "posted"
     },
     {
@@ -129,8 +129,8 @@
       "name": "Soarin' Over California",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "35 mins",
-      "wait_time": 35,
+      "status": "75 mins",
+      "wait_time": 75,
       "kind": "posted"
     },
     {
@@ -165,8 +165,8 @@
       "name": "Toy Story Midway Mania!",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "75 mins",
-      "wait_time": 75,
+      "status": "40 mins",
+      "wait_time": 40,
       "kind": "posted"
     },
     {
@@ -174,8 +174,8 @@
       "name": "Grizzly River Run",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "35 mins",
-      "wait_time": 35,
+      "status": "25 mins",
+      "wait_time": 25,
       "kind": "posted"
     }
   ]
