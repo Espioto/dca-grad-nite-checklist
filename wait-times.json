@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-06-05T16:15:40-07:00",
+  "updatedAt": "2026-06-05T16:16:16-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
   "schedule": {
     "phase": "3:30\u20135:00 \u00b7 post-dinner quick wins",
-    "action": "Hit Mater's now (10 min).",
+    "action": "Hit Little Mermaid now (10 min).",
     "why": "Dinner is already handled, so clear efficient rides while normal guests are still spread out.",
-    "fingerprint": "3:30\u20135:00 \u00b7 post-dinner quick wins|Hit Mater's now (10 min).",
-    "checkedAtLocal": "2026-06-05T16:15:40-07:00",
+    "fingerprint": "3:30\u20135:00 \u00b7 post-dinner quick wins|Hit Little Mermaid now (10 min).",
+    "checkedAtLocal": "2026-06-05T16:16:16-07:00",
     "keyWaits": {
       "Radiator": "70 mins",
       "Radiator Single Rider": "Open",
       "Guardians": "80 mins",
-      "Incredicoaster": "50 mins",
+      "Incredicoaster": "35 mins",
       "Incredicoaster Single Rider": "Open",
-      "WEB Slingers": "45 mins"
+      "WEB Slingers": "70 mins"
     }
   },
   "opportunities": [
@@ -44,14 +44,6 @@
       "priority": 82
     },
     {
-      "ride": "Mater's Junkyard Jamboree",
-      "wait": 10,
-      "status": "10 mins",
-      "land": "Cars Land",
-      "message": "Mater\u2019s is short and fun \u2014 good Cars Land filler.",
-      "priority": 80
-    },
-    {
       "ride": "WEB SLINGERS: A Spider-Man Adventure Single Rider",
       "wait": null,
       "status": "Open",
@@ -65,6 +57,7 @@
       "display": "Incredicoaster Single Rider",
       "ride": "Incredicoaster Single Rider",
       "priorityNote": "Best reride cheat",
+      "completed": false,
       "status": "Open",
       "wait": null,
       "isOpen": true,
@@ -76,6 +69,7 @@
       "display": "Radiator Single Rider",
       "ride": "Radiator Springs Racers Single Rider",
       "priorityNote": "Split if group is down",
+      "completed": false,
       "status": "Open",
       "wait": null,
       "isOpen": true,
@@ -87,6 +81,7 @@
       "display": "WEB Single Rider",
       "ride": "WEB SLINGERS: A Spider-Man Adventure Single Rider",
       "priorityNote": "Quick add-on",
+      "completed": false,
       "status": "Open",
       "wait": null,
       "isOpen": true,
@@ -98,6 +93,7 @@
       "display": "Little Mermaid",
       "ride": "The Little Mermaid - Ariel's Undersea Adventure",
       "priorityNote": "AC reset",
+      "completed": false,
       "status": "10 mins",
       "wait": 10,
       "isOpen": true,
@@ -106,20 +102,34 @@
       "sort": 10
     },
     {
-      "display": "Mater's",
-      "ride": "Mater's Junkyard Jamboree",
-      "priorityNote": "Cars Land filler",
-      "status": "10 mins",
-      "wait": 10,
+      "display": "Incredicoaster",
+      "ride": "Incredicoaster",
+      "priorityNote": "High value",
+      "completed": false,
+      "status": "35 mins",
+      "wait": 35,
       "isOpen": true,
       "recommended": true,
-      "why": "Recommended at \u226420 as quick filler, but not a priority.",
-      "sort": 10
+      "why": "Recommended at \u226435; great at night or as a reride.",
+      "sort": 35
+    },
+    {
+      "display": "Grizzly River Run",
+      "ride": "Grizzly River Run",
+      "priorityNote": "Only if okay wet",
+      "completed": false,
+      "status": "30 mins",
+      "wait": 30,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 30 min is about 5 min over the target threshold (25). Recheck later.",
+      "sort": 80
     },
     {
       "display": "Pixar Pal-A-Round",
       "ride": "Pixar Pal-A-Round - Non-Swinging",
       "priorityNote": "Photo/view ride",
+      "completed": false,
       "status": "Unknown",
       "wait": null,
       "isOpen": false,
@@ -131,6 +141,7 @@
       "display": "Soarin'",
       "ride": "Soarin' Over California",
       "priorityNote": "Sit-down reset",
+      "completed": false,
       "status": "40 mins",
       "wait": 40,
       "isOpen": true,
@@ -139,20 +150,10 @@
       "sort": 90
     },
     {
-      "display": "Grizzly River Run",
-      "ride": "Grizzly River Run",
-      "priorityNote": "Only if okay wet",
-      "status": "45 mins",
-      "wait": 45,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 45 min is about 20 min over the target threshold (25). Recheck later.",
-      "sort": 95
-    },
-    {
       "display": "Monsters Inc.",
       "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
       "priorityNote": "Low-effort indoor",
+      "completed": false,
       "status": "45 mins",
       "wait": 45,
       "isOpen": true,
@@ -161,31 +162,10 @@
       "sort": 95
     },
     {
-      "display": "WEB Slingers",
-      "ride": "WEB SLINGERS: A Spider-Man Adventure",
-      "priorityNote": "Good bonus ride",
-      "status": "45 mins",
-      "wait": 45,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 45 min is about 5 min over the target threshold (40). Recheck later.",
-      "sort": 95
-    },
-    {
-      "display": "Incredicoaster",
-      "ride": "Incredicoaster",
-      "priorityNote": "High value",
-      "status": "50 mins",
-      "wait": 50,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 50 min is about 15 min over the target threshold (35). Recheck later.",
-      "sort": 100
-    },
-    {
       "display": "Toy Story Mania",
       "ride": "Toy Story Midway Mania!",
       "priorityNote": "Fun group competition",
+      "completed": false,
       "status": "55 mins",
       "wait": 55,
       "isOpen": true,
@@ -197,6 +177,7 @@
       "display": "Radiator Springs Racers",
       "ride": "Radiator Springs Racers",
       "priorityNote": "Must-do at night",
+      "completed": false,
       "status": "70 mins",
       "wait": 70,
       "isOpen": true,
@@ -205,16 +186,44 @@
       "sort": 120
     },
     {
+      "display": "WEB Slingers",
+      "ride": "WEB SLINGERS: A Spider-Man Adventure",
+      "priorityNote": "Good bonus ride",
+      "completed": false,
+      "status": "70 mins",
+      "wait": 70,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 70 min is about 30 min over the target threshold (40). Recheck later.",
+      "sort": 120
+    },
+    {
       "display": "Guardians",
       "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "priorityNote": "Top hype ride",
+      "completed": false,
       "status": "80 mins",
       "wait": 80,
       "isOpen": true,
       "recommended": false,
       "why": "Not worth it yet: 80 min is about 25 min over the target threshold (55). Recheck later.",
       "sort": 130
+    },
+    {
+      "display": "Mater's",
+      "ride": "Mater's Junkyard Jamboree",
+      "priorityNote": "Cars Land filler",
+      "completed": true,
+      "status": "Done",
+      "wait": null,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Already completed \u2014 no need to route here again unless the group wants a reride.",
+      "sort": 1000
     }
+  ],
+  "completedRides": [
+    "Mater's Junkyard Jamboree"
   ],
   "rides": [
     {
@@ -249,8 +258,8 @@
       "name": "WEB SLINGERS: A Spider-Man Adventure",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "45 mins",
-      "wait_time": 45,
+      "status": "70 mins",
+      "wait_time": 70,
       "kind": "posted"
     },
     {
@@ -267,8 +276,8 @@
       "name": "Incredicoaster",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "50 mins",
-      "wait_time": 50,
+      "status": "35 mins",
+      "wait_time": 35,
       "kind": "posted"
     },
     {
@@ -330,8 +339,8 @@
       "name": "Grizzly River Run",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "45 mins",
-      "wait_time": 45,
+      "status": "30 mins",
+      "wait_time": 30,
       "kind": "posted"
     }
   ]

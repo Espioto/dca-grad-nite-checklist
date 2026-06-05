@@ -81,6 +81,9 @@ priority_names = [
     "Grizzly River Run",
 ]
 
+completed_ride_names = {"Mater's Junkyard Jamboree"}
+completed_display_names = {"Mater's"}
+
 recs = []
 def add_wait(name, threshold, msg):
     r = rides.get(name)
@@ -114,6 +117,7 @@ add_wait("Soarin' Over California", 35, "Soarin is a good sit-down reset at this
 add_wait("Monsters, Inc. Mike & Sulley to the Rescue!", 15, "Monsters Inc. is a good warmup/low-energy ride right now.")
 add_wait("Mater's Junkyard Jamboree", 20, "Mater’s is short and fun — good Cars Land filler.")
 add_wait("The Little Mermaid - Ariel's Undersea Adventure", 15, "Little Mermaid is a good AC/sit-down reset if people are tired.")
+recs = [o for o in recs if o.get("ride") not in completed_ride_names]
 recs = sorted(recs, key=lambda x: (-x["priority"], 999 if x["wait"] is None else x["wait"]))[:6]
 
 ride_rules = [
@@ -135,7 +139,10 @@ ride_rules = [
 
 def decision_for(display, ride_name, threshold, priority_note, good_why):
     r = rides.get(ride_name)
-    base = {"display": display, "ride": ride_name, "priorityNote": priority_note}
+    completed = ride_name in completed_ride_names or display in completed_display_names
+    base = {"display": display, "ride": ride_name, "priorityNote": priority_note, "completed": completed}
+    if completed:
+        return {**base, "status": "Done", "wait": None, "isOpen": True, "recommended": False, "why": "Already completed — no need to route here again unless the group wants a reride.", "sort": 1000}
     if not r:
         return {**base, "status": "Unknown", "wait": None, "isOpen": False, "recommended": False, "why": "No live status found. Check the Disneyland app before walking over.", "sort": 90}
     status = r.get("status", "Unknown")
@@ -173,7 +180,8 @@ def best_filler():
         ("Little Mermaid", wait("The Little Mermaid - Ariel's Undersea Adventure"), 15),
         ("Soarin'", wait("Soarin' Over California") or wait("Soarin' Around the World"), 35),
     ]
-    good = [(n,w,t) for n,w,t in candidates if isinstance(w,int) and w <= t]
+    completed_filler_names = {"Mater's"}
+    good = [(n,w,t) for n,w,t in candidates if n not in completed_filler_names and isinstance(w,int) and w <= t]
     if good:
         n,w,t = sorted(good, key=lambda x: x[1])[0]
         return f"Hit {n} now ({w} min)."
@@ -266,6 +274,7 @@ wait_json = {
     "schedule": schedule,
     "opportunities": recs,
     "rideDecisions": ride_decisions,
+    "completedRides": sorted(completed_ride_names),
     "rides": [rides[n] for n in priority_names if n in rides],
 }
 (repo / "wait-times.json").write_text(json.dumps(wait_json, indent=2), encoding="utf-8")
