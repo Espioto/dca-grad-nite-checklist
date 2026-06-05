@@ -1,8 +1,23 @@
 {
-  "updatedAt": "2026-06-05T11:57:17-07:00",
+  "updatedAt": "2026-06-05T12:00:52-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
+  "schedule": {
+    "phase": "2:00\u20133:30 \u00b7 enter + warmup",
+    "action": "Hit Little Mermaid now (10 min).",
+    "why": "Do quick wins first; don\u2019t burn early energy on a monster Radiator standby.",
+    "fingerprint": "2:00\u20133:30 \u00b7 enter + warmup|Hit Little Mermaid now (10 min).",
+    "checkedAtLocal": "2026-06-05T12:00:52-07:00",
+    "keyWaits": {
+      "Radiator": "85 mins",
+      "Radiator Single Rider": "Open",
+      "Guardians": "65 mins",
+      "Incredicoaster": "30 mins",
+      "Incredicoaster Single Rider": "Open",
+      "WEB Slingers": "Closed"
+    }
+  },
   "opportunities": [
     {
       "ride": "The Little Mermaid - Ariel's Undersea Adventure",
@@ -30,8 +45,8 @@
     },
     {
       "ride": "Mater's Junkyard Jamboree",
-      "wait": 20,
-      "status": "20 mins",
+      "wait": 15,
+      "status": "15 mins",
       "land": "Cars Land",
       "message": "Mater\u2019s is short and fun \u2014 good Cars Land filler.",
       "priority": 80
@@ -140,8 +155,8 @@
       "name": "Mater's Junkyard Jamboree",
       "land": "Cars Land",
       "is_open": true,
-      "status": "20 mins",
-      "wait_time": 20,
+      "status": "15 mins",
+      "wait_time": 15,
       "kind": "posted"
     },
     {
@@ -158,8 +173,8 @@
       "name": "Toy Story Midway Mania!",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "70 mins",
-      "wait_time": 70,
+      "status": "75 mins",
+      "wait_time": 75,
       "kind": "posted"
     },
     {
