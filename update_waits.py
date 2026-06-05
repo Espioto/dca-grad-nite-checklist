@@ -9,7 +9,20 @@ from pathlib import Path
 repo = Path(__file__).resolve().parent
 URL = "https://queue-times.com/en-US/parks/17/queue_times"
 req = urllib.request.Request(URL, headers={"User-Agent": "Mozilla/5.0", "Accept": "text/html,*/*"})
-page = urllib.request.urlopen(req, timeout=20).read().decode("utf-8", "ignore")
+try:
+    page = urllib.request.urlopen(req, timeout=20).read().decode("utf-8", "ignore")
+except Exception as e:
+    existing = repo / "wait-times.json"
+    if existing.exists():
+        data = json.loads(existing.read_text(encoding="utf-8"))
+        data["feedError"] = f"{type(e).__name__}: {e}"
+        data["feedErrorAt"] = datetime.datetime.now().astimezone().isoformat(timespec="seconds")
+        data["message"] = "Queue Times feed temporarily unavailable; keeping last good snapshot. Disneyland app is source of truth."
+        existing.write_text(json.dumps(data, indent=2), encoding="utf-8")
+        print(f"Queue Times unavailable; kept previous wait-times.json ({type(e).__name__}: {e})")
+        raise SystemExit(0)
+    print(f"Queue Times unavailable and no previous snapshot exists ({type(e).__name__}: {e})")
+    raise SystemExit(0)
 
 land = None
 rides = {}

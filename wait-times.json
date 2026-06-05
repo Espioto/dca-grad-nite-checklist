@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T12:42:23-07:00",
+  "updatedAt": "2026-06-05T12:50:19-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,7 +8,7 @@
     "action": "Hit Little Mermaid now (10 min).",
     "why": "Do quick wins first; don\u2019t burn early energy on a monster Radiator standby.",
     "fingerprint": "2:00\u20133:30 \u00b7 enter + warmup|Hit Little Mermaid now (10 min).",
-    "checkedAtLocal": "2026-06-05T12:42:23-07:00",
+    "checkedAtLocal": "2026-06-05T12:50:19-07:00",
     "keyWaits": {
       "Radiator": "65 mins",
       "Radiator Single Rider": "Open",
@@ -19,6 +19,14 @@
     }
   },
   "opportunities": [
+    {
+      "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
+      "wait": 5,
+      "status": "5 mins",
+      "land": "Hollywood Land",
+      "message": "Monsters Inc. is a good warmup/low-energy ride right now.",
+      "priority": 85
+    },
     {
       "ride": "The Little Mermaid - Ariel's Undersea Adventure",
       "wait": 10,
@@ -137,10 +145,10 @@
       "id": "291",
       "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
       "land": "Hollywood Land",
-      "is_open": false,
-      "status": "Closed",
-      "wait_time": null,
-      "kind": "closed"
+      "is_open": true,
+      "status": "5 mins",
+      "wait_time": 5,
+      "kind": "posted"
     },
     {
       "id": "315",
