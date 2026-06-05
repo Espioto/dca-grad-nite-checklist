@@ -3,398 +3,91 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DCA Grad Nite Checklist</title>
+  <title>DCA Grad Nite Trip</title>
   <style>
-    :root {
-      --bg: #090b17;
-      --panel: #12172b;
-      --panel-2: #181f39;
-      --text: #f7f3ff;
-      --muted: #b8b6cc;
-      --line: rgba(255,255,255,.12);
-      --pink: #ff4fb8;
-      --blue: #57d7ff;
-      --gold: #ffd166;
-      --green: #56f2a6;
-      --danger: #ff6b6b;
-      --shadow: 0 18px 55px rgba(0,0,0,.36);
-    }
-
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      margin: 0;
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background:
-        radial-gradient(circle at 15% 10%, rgba(87,215,255,.18), transparent 28%),
-        radial-gradient(circle at 85% 0%, rgba(255,79,184,.2), transparent 30%),
-        linear-gradient(180deg, #090b17 0%, #0e1020 48%, #090b17 100%);
-      color: var(--text);
-      min-height: 100vh;
-    }
-
-    .wrap { width: min(1080px, calc(100% - 28px)); margin: 0 auto; padding: 22px 0 48px; }
-
-    header {
-      border: 1px solid var(--line);
-      border-radius: 28px;
-      background: linear-gradient(135deg, rgba(18,23,43,.94), rgba(24,31,57,.82));
-      box-shadow: var(--shadow);
-      padding: clamp(22px, 5vw, 44px);
-      position: relative;
-      overflow: hidden;
-    }
-    header::before {
-      content: "";
-      position: absolute;
-      inset: -1px;
-      background: linear-gradient(120deg, transparent 0 25%, rgba(87,215,255,.22), transparent 48%, rgba(255,79,184,.16), transparent 78%);
-      opacity: .65;
-      pointer-events: none;
-    }
-    header > * { position: relative; z-index: 1; }
-    .eyebrow { color: var(--blue); font-weight: 800; letter-spacing: .16em; text-transform: uppercase; font-size: .78rem; }
-    h1 { font-size: clamp(2.1rem, 8vw, 5rem); line-height: .9; margin: 10px 0 14px; letter-spacing: -.06em; }
-    .sub { font-size: clamp(1rem, 2.5vw, 1.25rem); color: var(--muted); max-width: 760px; margin: 0; }
-    .chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 22px; }
-    .chip { border: 1px solid var(--line); background: rgba(255,255,255,.06); padding: 9px 12px; border-radius: 999px; font-weight: 700; color: #fff; }
-    .chip b { color: var(--gold); }
-
-    .sticky {
-      position: sticky;
-      top: 0;
-      z-index: 10;
-      margin: 14px 0;
-      border: 1px solid var(--line);
-      border-radius: 18px;
-      background: rgba(9,11,23,.88);
-      backdrop-filter: blur(14px);
-      padding: 10px;
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 10px;
-      align-items: center;
-    }
-    .progress-shell { height: 12px; border-radius: 999px; background: rgba(255,255,255,.1); overflow: hidden; }
-    .progress-bar { height: 100%; width: 0%; background: linear-gradient(90deg, var(--green), var(--blue), var(--pink)); transition: width .25s ease; }
-    .progress-text { font-size: .9rem; font-weight: 900; color: #fff; white-space: nowrap; }
-
-    .grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: 16px; margin-top: 16px; align-items: start; }
-    @media (max-width: 820px) { .grid { grid-template-columns: 1fr; } .sticky { grid-template-columns: 1fr; } }
-
-    section, .card {
-      border: 1px solid var(--line);
-      border-radius: 24px;
-      background: rgba(18,23,43,.86);
-      box-shadow: 0 10px 32px rgba(0,0,0,.22);
-      overflow: hidden;
-    }
-    section { margin-bottom: 16px; }
-    .section-head { padding: 18px 18px 10px; border-bottom: 1px solid rgba(255,255,255,.08); background: rgba(255,255,255,.035); }
-    h2 { margin: 0; font-size: 1.3rem; letter-spacing: -.02em; }
-    .time { display: inline-flex; align-items: center; gap: 8px; color: var(--gold); font-weight: 900; margin-bottom: 6px; }
-    .note { color: var(--muted); margin: 6px 0 0; font-size: .94rem; }
-
-    .items { padding: 10px; }
-    label.task {
-      min-height: 50px;
-      display: grid;
-      grid-template-columns: 28px 1fr;
-      gap: 10px;
-      align-items: start;
-      padding: 12px;
-      border-radius: 16px;
-      cursor: pointer;
-      transition: background .15s ease, transform .15s ease;
-    }
-    label.task:hover { background: rgba(255,255,255,.055); transform: translateY(-1px); }
-    input[type="checkbox"] {
-      appearance: none;
-      width: 23px; height: 23px;
-      border-radius: 8px;
-      border: 2px solid rgba(255,255,255,.38);
-      background: rgba(255,255,255,.05);
-      margin: 1px 0 0;
-      position: relative;
-      flex: none;
-    }
-    input[type="checkbox"]:checked { border-color: var(--green); background: var(--green); }
-    input[type="checkbox"]:checked::after { content: "✓"; color: #06120d; font-weight: 1000; position: absolute; left: 4px; top: -2px; font-size: 18px; }
-    .task-text { color: #fff; font-weight: 800; }
-    .task-sub { display: block; margin-top: 3px; color: var(--muted); font-weight: 600; font-size: .9rem; }
-    label.task:has(input:checked) .task-text { color: rgba(255,255,255,.55); text-decoration: line-through; }
-
-    .sidebar { position: sticky; top: 76px; display: grid; gap: 16px; }
-    @media (max-width: 820px) { .sidebar { position: static; } }
-    .card { padding: 18px; }
-    .card h3 { margin: 0 0 12px; font-size: 1.1rem; }
-    .pill-list { display: flex; flex-wrap: wrap; gap: 8px; }
-    .pill { border: 1px solid var(--line); color: #fff; padding: 8px 10px; border-radius: 999px; background: rgba(255,255,255,.06); font-size: .88rem; font-weight: 800; }
-    .warn { color: #ffe8a3; background: rgba(255,209,102,.1); border: 1px solid rgba(255,209,102,.25); padding: 12px; border-radius: 16px; line-height: 1.35; }
-    .buttons { display: grid; gap: 10px; margin-top: 12px; }
-    button, a.button {
-      width: 100%;
-      border: 0;
-      min-height: 46px;
-      border-radius: 15px;
-      font-weight: 1000;
-      color: #07111c;
-      background: linear-gradient(135deg, var(--gold), #ff9f1c);
-      cursor: pointer;
-      text-decoration: none;
-      display: grid;
-      place-items: center;
-      font-size: .95rem;
-    }
-    button.secondary { background: rgba(255,255,255,.08); color: #fff; border: 1px solid var(--line); }
-    .mini { font-size: .84rem; color: var(--muted); line-height: 1.45; }
-    .map-link { color: var(--blue); font-weight: 900; }
-    footer { color: var(--muted); text-align: center; padding: 18px 0 0; font-size: .86rem; }
-
-    @media print {
-      body { background: white; color: black; }
-      header, section, .card, .sticky { background: white; color: black; box-shadow: none; border-color: #bbb; }
-      .sidebar { position: static; }
-      .task-text, h1, h2, h3, .chip, .sub, .note, .mini { color: black !important; }
-      button, .buttons { display: none; }
-    }
+    :root{--bg:#090b17;--panel:#12172b;--text:#f7f3ff;--muted:#b8b6cc;--line:rgba(255,255,255,.12);--pink:#ff4fb8;--blue:#57d7ff;--gold:#ffd166;--green:#56f2a6;--red:#ff6b6b;--shadow:0 18px 55px rgba(0,0,0,.36)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at 15% 10%,rgba(87,215,255,.18),transparent 28%),radial-gradient(circle at 85% 0%,rgba(255,79,184,.2),transparent 30%),linear-gradient(180deg,#090b17 0%,#0e1020 48%,#090b17 100%);color:var(--text);min-height:100vh}.wrap{width:min(1120px,calc(100% - 28px));margin:0 auto;padding:22px 0 48px}
+    header{border:1px solid var(--line);border-radius:28px;background:linear-gradient(135deg,rgba(18,23,43,.94),rgba(24,31,57,.82));box-shadow:var(--shadow);padding:clamp(22px,5vw,44px);position:relative;overflow:hidden}header:before{content:"";position:absolute;inset:-1px;background:linear-gradient(120deg,transparent 0 25%,rgba(87,215,255,.22),transparent 48%,rgba(255,79,184,.16),transparent 78%);opacity:.65}header>*{position:relative;z-index:1}.eyebrow{color:var(--blue);font-weight:900;letter-spacing:.16em;text-transform:uppercase;font-size:.78rem}h1{font-size:clamp(2.4rem,8vw,5.6rem);line-height:.9;margin:10px 0 14px;letter-spacing:-.06em}.sub{font-size:clamp(1rem,2.5vw,1.25rem);color:var(--muted);max-width:800px;margin:0}.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.chip{border:1px solid var(--line);background:rgba(255,255,255,.06);padding:9px 12px;border-radius:999px;font-weight:800}.chip b{color:var(--gold)}
+    .sticky{position:sticky;top:0;z-index:10;margin:14px 0;border:1px solid var(--line);border-radius:18px;background:rgba(9,11,23,.9);backdrop-filter:blur(14px);padding:10px;display:grid;grid-template-columns:1fr auto;gap:10px;align-items:center}.progress-shell{height:12px;border-radius:999px;background:rgba(255,255,255,.1);overflow:hidden}.progress-bar{height:100%;width:0;background:linear-gradient(90deg,var(--green),var(--blue),var(--pink));transition:width .25s}.progress-text{font-size:.9rem;font-weight:900;white-space:nowrap}
+    .grid{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(300px,.9fr);gap:16px;margin-top:16px;align-items:start}@media(max-width:860px){.grid{grid-template-columns:1fr}.sticky{grid-template-columns:1fr}}section,.card{border:1px solid var(--line);border-radius:24px;background:rgba(18,23,43,.86);box-shadow:0 10px 32px rgba(0,0,0,.22);overflow:hidden}section{margin-bottom:16px}.section-head{padding:18px 18px 10px;border-bottom:1px solid rgba(255,255,255,.08);background:rgba(255,255,255,.035)}h2{margin:0;font-size:1.3rem;letter-spacing:-.02em}.time{display:inline-flex;color:var(--gold);font-weight:1000;margin-bottom:6px}.note{color:var(--muted);margin:6px 0 0;font-size:.94rem;line-height:1.45}.items{padding:10px}
+    label.task{min-height:50px;display:grid;grid-template-columns:28px 1fr;gap:10px;align-items:start;padding:12px;border-radius:16px;cursor:pointer;transition:background .15s,transform .15s}label.task:hover{background:rgba(255,255,255,.055);transform:translateY(-1px)}input[type=checkbox]{appearance:none;width:23px;height:23px;border-radius:8px;border:2px solid rgba(255,255,255,.38);background:rgba(255,255,255,.05);margin:1px 0 0;position:relative}input[type=checkbox]:checked{border-color:var(--green);background:var(--green)}input[type=checkbox]:checked:after{content:"✓";color:#06120d;font-weight:1000;position:absolute;left:4px;top:-2px;font-size:18px}.task-text{color:#fff;font-weight:850}.task-sub{display:block;margin-top:3px;color:var(--muted);font-weight:600;font-size:.9rem;line-height:1.38}label.task:has(input:checked) .task-text{color:rgba(255,255,255,.55);text-decoration:line-through}
+    .sidebar{position:sticky;top:76px;display:grid;gap:16px}@media(max-width:860px){.sidebar{position:static}}.card{padding:18px}.card h3{margin:0 0 12px;font-size:1.1rem}.pill-list{display:flex;flex-wrap:wrap;gap:8px}.pill{border:1px solid var(--line);color:#fff;padding:8px 10px;border-radius:999px;background:rgba(255,255,255,.06);font-size:.88rem;font-weight:800}.warn{color:#ffe8a3;background:rgba(255,209,102,.1);border:1px solid rgba(255,209,102,.25);padding:12px;border-radius:16px;line-height:1.35}.opportunity{display:grid;gap:8px}.opp{padding:10px;border-radius:14px;background:rgba(86,242,166,.09);border:1px solid rgba(86,242,166,.22)}.opp b{color:var(--green)}.wait-row{display:flex;justify-content:space-between;gap:8px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,.08);font-size:.92rem}.wait-row:last-child{border-bottom:0}.wait-row span:first-child{font-weight:750}.wait{color:var(--gold);font-weight:950;white-space:nowrap}.closed{color:var(--red)}
+    .buttons{display:grid;gap:10px;margin-top:12px}button,a.button{width:100%;border:0;min-height:46px;border-radius:15px;font-weight:1000;color:#07111c;background:linear-gradient(135deg,var(--gold),#ff9f1c);cursor:pointer;text-decoration:none;display:grid;place-items:center;font-size:.95rem}button.secondary{background:rgba(255,255,255,.08);color:#fff;border:1px solid var(--line)}.mini{font-size:.84rem;color:var(--muted);line-height:1.45}footer{color:var(--muted);text-align:center;padding:18px 0 0;font-size:.86rem}@media print{body{background:#fff;color:#000}header,section,.card,.sticky{background:#fff;color:#000;box-shadow:none;border-color:#bbb}.sidebar{position:static}.task-text,h1,h2,h3,.chip,.sub,.note,.mini{color:#000!important}button,.buttons{display:none}}
   </style>
 </head>
 <body>
   <div class="wrap">
-    <header>
-      <div class="eyebrow">Disney California Adventure · Grad Nite</div>
-      <h1>2PM → 2AM<br>Plan of Attack</h1>
-      <p class="sub">Checklist version for the group. Hit the big rides, eat Din Tai Fung at Downtown Disney, save energy for the 9PM–2AM Grad Nite party, and don’t become line zombies.</p>
-      <div class="chips">
-        <span class="chip"><b>Dinner:</b> Din Tai Fung</span>
-        <span class="chip"><b>Must-do:</b> Radiator at night</span>
-        <span class="chip"><b>Bring:</b> hoodie + charger</span>
-        <span class="chip"><b>Weather:</b> warm → cool, no rain vibes</span>
-      </div>
-    </header>
-
-    <div class="sticky">
-      <div class="progress-shell" aria-label="Checklist progress"><div class="progress-bar" id="progressBar"></div></div>
-      <div class="progress-text" id="progressText">0/0 done</div>
-    </div>
-
-    <div class="grid">
-      <main>
-        <section>
-          <div class="section-head">
-            <div class="time">Before / entering</div>
-            <h2>Setup so we don’t waste park time</h2>
-            <p class="note">Do these before the group starts wandering.</p>
-          </div>
-          <div class="items">
-            <label class="task"><input type="checkbox" data-id="app"><span><span class="task-text">Everyone has the Disneyland app updated</span><span class="task-sub">Check wait times + mobile order.</span></span></label>
-            <label class="task"><input type="checkbox" data-id="tickets"><span><span class="task-text">Tickets / Grad Nite entry handled</span><span class="task-sub">Nobody discovers a ticket issue at the gate.</span></span></label>
-            <label class="task"><input type="checkbox" data-id="charger"><span><span class="task-text">Portable charger + hoodie packed</span><span class="task-sub">It cools down late and phones will die.</span></span></label>
-            <label class="task"><input type="checkbox" data-id="mustdos"><span><span class="task-text">Group agrees on top 3 must-dos</span><span class="task-sub">Recommended: Radiator Springs Racers, Guardians, Incredicoaster.</span></span></label>
-          </div>
-        </section>
-
-        <section>
-          <div class="section-head">
-            <div class="time">2:00–3:30 PM</div>
-            <h2>Enter + easy warmup</h2>
-            <p class="note">Don’t start with a giant Radiator line unless single rider is free.</p>
-          </div>
-          <div class="items">
-            <label class="task"><input type="checkbox" data-id="entrance-photo"><span><span class="task-text">Entrance / Buena Vista group photo</span><span class="task-sub">Get the clean photo before everyone looks cooked.</span></span></label>
-            <label class="task"><input type="checkbox" data-id="check-waits"><span><span class="task-text">Check live waits and pick shortest good ride</span><span class="task-sub">Monsters Inc., WEB Slingers, or Guardians if reasonable.</span></span></label>
-            <label class="task"><input type="checkbox" data-id="warmup-ride"><span><span class="task-text">Do one warmup ride</span><span class="task-sub">Goal: momentum, not maximum intensity yet.</span></span></label>
-          </div>
-        </section>
-
-        <section>
-          <div class="section-head">
-            <div class="time">3:30–5:00 PM</div>
-            <h2>Pixar Pier loop</h2>
-            <p class="note">Good ride density and solid group/photo energy.</p>
-          </div>
-          <div class="items">
-            <label class="task"><input type="checkbox" data-id="incredicoaster-day"><span><span class="task-text">Incredicoaster</span><span class="task-sub">Use single rider if people are okay splitting.</span></span></label>
-            <label class="task"><input type="checkbox" data-id="pal-around"><span><span class="task-text">Pixar Pal-A-Round if the line is chill</span><span class="task-sub">Non-swinging = normal. Swinging = chaos.</span></span></label>
-            <label class="task"><input type="checkbox" data-id="little-mermaid"><span><span class="task-text">Little Mermaid / quick rest ride</span><span class="task-sub">Good low-wait reset if people need AC/sitting.</span></span></label>
-          </div>
-        </section>
-
-        <section>
-          <div class="section-head">
-            <div class="time">5:00–6:30 PM</div>
-            <h2>Dinner: Din Tai Fung at Downtown Disney</h2>
-            <p class="note">Leave DCA early enough. This is the real food break so nobody crashes later.</p>
-          </div>
-          <div class="items">
-            <label class="task"><input type="checkbox" data-id="dtf-reservation"><span><span class="task-text">Confirm reservation / join waitlist / check timing</span><span class="task-sub">Downtown Disney gets busy. Don’t wait until everyone is starving.</span></span></label>
-            <label class="task"><input type="checkbox" data-id="walk-dtf"><span><span class="task-text">Walk to Downtown Disney</span><span class="task-sub">Budget time for exit/re-entry and security/park logistics.</span></span></label>
-            <label class="task"><input type="checkbox" data-id="eat-dtf"><span><span class="task-text">Eat Din Tai Fung</span><span class="task-sub">Get water, actual food, and recharge before night mode.</span></span></label>
-            <label class="task"><input type="checkbox" data-id="return-dca"><span><span class="task-text">Return to DCA before the 8PM reset window</span><span class="task-sub">Don’t accidentally miss the Grad Nite transition.</span></span></label>
-          </div>
-        </section>
-
-        <section>
-          <div class="section-head">
-            <div class="time">6:30–8:00 PM</div>
-            <h2>Golden hour + medium rides</h2>
-            <p class="note">Photos, manageable rides, and no huge lines right before Grad Nite.</p>
-          </div>
-          <div class="items">
-            <label class="task"><input type="checkbox" data-id="cars-sunset"><span><span class="task-text">Cars Land sunset/night photos</span><span class="task-sub">The area gets way better once the lights come on.</span></span></label>
-            <label class="task"><input type="checkbox" data-id="soarin"><span><span class="task-text">Soarin’ if wait is reasonable</span><span class="task-sub">Good sit-down ride after dinner.</span></span></label>
-            <label class="task"><input type="checkbox" data-id="maters"><span><span class="task-text">Mater’s Junkyard Jamboree if short</span><span class="task-sub">Fast, dumb, fun group ride.</span></span></label>
-          </div>
-        </section>
-
-        <section>
-          <div class="section-head">
-            <div class="time">8:00–9:00 PM</div>
-            <h2>Reset before Grad Nite</h2>
-            <p class="note">Do not get trapped in a huge standby line right before the private event starts.</p>
-          </div>
-          <div class="items">
-            <label class="task"><input type="checkbox" data-id="bathroom"><span><span class="task-text">Bathroom + water refill</span><span class="task-sub">The least glamorous but most important checklist item.</span></span></label>
-            <label class="task"><input type="checkbox" data-id="hoodie"><span><span class="task-text">Hoodie / phone charge / regroup</span><span class="task-sub">Night mode begins.</span></span></label>
-            <label class="task"><input type="checkbox" data-id="position-cars"><span><span class="task-text">Position near Cars Land or Avengers Campus</span><span class="task-sub">Recommended opener: Cars Land → Radiator Springs Racers.</span></span></label>
-          </div>
-        </section>
-
-        <section>
-          <div class="section-head">
-            <div class="time">9:00–10:00 PM</div>
-            <h2>Grad Nite opener: Cars Land</h2>
-            <p class="note">Best use of early party energy.</p>
-          </div>
-          <div class="items">
-            <label class="task"><input type="checkbox" data-id="radiator-night"><span><span class="task-text">Radiator Springs Racers at night</span><span class="task-sub">Single rider if the line is brutal and the group is okay splitting.</span></span></label>
-            <label class="task"><input type="checkbox" data-id="cars-night-photo"><span><span class="task-text">Cars Land neon group photo</span><span class="task-sub">This is probably the best photo of the night.</span></span></label>
-          </div>
-        </section>
-
-        <section>
-          <div class="section-head">
-            <div class="time">10:00–11:15 PM</div>
-            <h2>Avengers Campus</h2>
-            <p class="note">Guardians is worth it. WEB Slingers only if the wait is not annoying.</p>
-          </div>
-          <div class="items">
-            <label class="task"><input type="checkbox" data-id="guardians"><span><span class="task-text">Guardians Mission: BREAKOUT</span><span class="task-sub">Best group hype ride in DCA.</span></span></label>
-            <label class="task"><input type="checkbox" data-id="web"><span><span class="task-text">WEB Slingers if under ~40 min</span><span class="task-sub">Skip if it’s a huge line.</span></span></label>
-            <label class="task"><input type="checkbox" data-id="party"><span><span class="task-text">Do at least one Grad Nite party/dance/photo moment</span><span class="task-sub">Don’t make the whole night only rides.</span></span></label>
-          </div>
-        </section>
-
-        <section>
-          <div class="section-head">
-            <div class="time">11:15 PM–12:30 AM</div>
-            <h2>Pixar Pier night lap</h2>
-            <p class="note">This is the chaotic fun window.</p>
-          </div>
-          <div class="items">
-            <label class="task"><input type="checkbox" data-id="incredicoaster-night"><span><span class="task-text">Incredicoaster at night</span><span class="task-sub">Easy reride candidate if the wait drops.</span></span></label>
-            <label class="task"><input type="checkbox" data-id="snack"><span><span class="task-text">Late snack / drinks / water</span><span class="task-sub">Prevent the midnight crash.</span></span></label>
-            <label class="task"><input type="checkbox" data-id="pier-photo"><span><span class="task-text">Pixar Pier night photo</span><span class="task-sub">Quick stop, no 20-minute photo shoot.</span></span></label>
-          </div>
-        </section>
-
-        <section>
-          <div class="section-head">
-            <div class="time">12:30–2:00 AM</div>
-            <h2>Rerides + final exit</h2>
-            <p class="note">Pick favorites, then don’t be the group that misses the bus/meetup.</p>
-          </div>
-          <div class="items">
-            <label class="task"><input type="checkbox" data-id="reride"><span><span class="task-text">Reride favorite: Guardians / Incredicoaster / Radiator</span><span class="task-sub">Choose based on live waits and group energy.</span></span></label>
-            <label class="task"><input type="checkbox" data-id="final-photo"><span><span class="task-text">Final destroyed 1AM group photo</span><span class="task-sub">Mandatory lore.</span></span></label>
-            <label class="task"><input type="checkbox" data-id="exit"><span><span class="task-text">Bathroom + meetup/exit on time</span><span class="task-sub">Do not enter a long line at 1:40 unless everyone agrees.</span></span></label>
-          </div>
-        </section>
-      </main>
-
-      <aside class="sidebar">
-        <div class="card">
-          <h3>Priority order</h3>
-          <div class="pill-list">
-            <span class="pill">1. Radiator at night</span>
-            <span class="pill">2. Guardians</span>
-            <span class="pill">3. Incredicoaster</span>
-            <span class="pill">4. Grad Nite party moment</span>
-            <span class="pill">5. Cars Land photos</span>
-          </div>
-        </div>
-
-        <div class="card">
-          <h3>Dinner note</h3>
-          <div class="warn"><b>Din Tai Fung plan:</b> aim to leave DCA around 5ish, eat, then be back inside DCA before 8PM so the group has time to reset before Grad Nite starts.</div>
-          <p class="mini">If there’s a reservation, treat it as locked. If not, check the waitlist early and be ready to pivot timing.</p>
-          <a class="button" href="https://www.google.com/maps/search/?api=1&query=Din+Tai+Fung+Downtown+Disney+Anaheim" target="_blank" rel="noreferrer">Open Din Tai Fung Map</a>
-        </div>
-
-        <div class="card">
-          <h3>Rules so we don’t sell</h3>
-          <div class="pill-list">
-            <span class="pill">No 20-min debates</span>
-            <span class="pill">Mobile order when possible</span>
-            <span class="pill">Single rider = max rides</span>
-            <span class="pill">Eat before starving</span>
-            <span class="pill">Hydrate</span>
-            <span class="pill">Hoodies after 9</span>
-          </div>
-        </div>
-
-        <div class="card">
-          <h3>Controls</h3>
-          <p class="mini">Checks save on this device/browser using localStorage.</p>
-          <div class="buttons">
-            <button type="button" onclick="window.print()">Print / Save PDF</button>
-            <button type="button" class="secondary" id="resetBtn">Reset checklist</button>
-          </div>
-        </div>
-      </aside>
-    </div>
-
-    <footer>Built for Mason’s DCA Grad Nite group · 2PM–2AM · checklist saves locally</footer>
+    <header><div class="eyebrow">Disney California Adventure · Grad Nite</div><h1>DCA Grad Nite Trip</h1><p class="sub">Live-ish checklist plan for the group: use the schedule, watch the opportunity panel, eat Din Tai Fung at Downtown Disney, then save the best rides/repeats for 9PM–2AM.</p><div class="chips"><span class="chip"><b>Dinner:</b> Din Tai Fung</span><span class="chip"><b>Must-do:</b> Radiator at night</span><span class="chip"><b>Bring:</b> hoodie + charger</span><span class="chip"><b>Rule:</b> pivot if waits drop</span></div></header>
+    <div class="sticky"><div class="progress-shell"><div class="progress-bar" id="progressBar"></div></div><div class="progress-text" id="progressText">0/0 done</div></div>
+    <div class="grid"><main>
+      <section><div class="section-head"><div class="time">Before / entering</div><h2>Setup so we don’t waste park time</h2><p class="note">Do these before the group starts wandering. Pick one person to check the live panel/app every 20–30 minutes.</p></div><div class="items">
+        <label class="task"><input type="checkbox" data-id="app"><span><span class="task-text">Everyone has the Disneyland app updated</span><span class="task-sub">Use it to sanity-check posted waits, food timing, show times, and re-entry details.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="tickets"><span><span class="task-text">Tickets / Grad Nite entry handled</span><span class="task-sub">Make sure everyone knows if there’s a wristband/check-in step before the 9PM event.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="charger"><span><span class="task-text">Portable charger + hoodie packed</span><span class="task-sub">It cools down late and phones will die right when you need meetup info.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="mustdos"><span><span class="task-text">Group agrees on top 3 must-dos</span><span class="task-sub">Recommended: Radiator Springs Racers, Guardians, Incredicoaster. Everything else is bonus.</span></span></label>
+      </div></section>
+      <section><div class="section-head"><div class="time">2:00–3:30 PM</div><h2>Enter + warmup rides</h2><p class="note">Start with short/medium lines. Do not blow the first hour on a huge Radiator wait unless single rider is basically open.</p></div><div class="items">
+        <label class="task"><input type="checkbox" data-id="entrance-photo"><span><span class="task-text">Entrance / Buena Vista group photo</span><span class="task-sub">Get the clean photo before everyone looks cooked at 1AM.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="warmup-monsters"><span><span class="task-text">Warmup option: Monsters Inc. if ≤15 min</span><span class="task-sub">Low effort, inside, good first ride while everyone gets oriented.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="warmup-web"><span><span class="task-text">Warmup option: WEB Slingers if ≤35–40 min</span><span class="task-sub">Worth doing if reasonable; skip if it’s a giant line because it’s not worth peak time.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="warmup-guardians"><span><span class="task-text">Warmup option: Guardians if ≤45 min</span><span class="task-sub">If Guardians is under 45, jump on it. If not, save for Grad Nite energy later.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="warmup-radiator-sr"><span><span class="task-text">Wildcard: Radiator single rider if ≤10–15 min</span><span class="task-sub">Only if the group is cool splitting. Otherwise save Radiator for night.</span></span></label>
+      </div></section>
+      <section><div class="section-head"><div class="time">3:30–5:00 PM</div><h2>Pixar Pier loop</h2><p class="note">This block is for efficient fun before dinner. Prioritize rides with good wait-to-fun ratio.</p></div><div class="items">
+        <label class="task"><input type="checkbox" data-id="incredicoaster-day"><span><span class="task-text">Incredicoaster if ≤25–30 min</span><span class="task-sub">Great if short; single rider is a cheat code if your group doesn’t mind splitting.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="toy-story"><span><span class="task-text">Toy Story Midway Mania if open and ≤35 min</span><span class="task-sub">Fun group competition, but do not wait forever.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="pal-around"><span><span class="task-text">Pixar Pal-A-Round if ≤25 min</span><span class="task-sub">Non-swinging = chill view. Swinging = funny chaos but can make people sick.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="little-mermaid"><span><span class="task-text">Little Mermaid if people need a reset</span><span class="task-sub">Good low-wait sit-down/AC ride. Don’t prioritize it over short Incredicoaster.</span></span></label>
+      </div></section>
+      <section><div class="section-head"><div class="time">5:00–6:45 PM</div><h2>Dinner: Din Tai Fung at Downtown Disney</h2><p class="note">Leave DCA with enough buffer. This is the real food break so nobody crashes later.</p></div><div class="items">
+        <label class="task"><input type="checkbox" data-id="dtf-reservation"><span><span class="task-text">Confirm reservation / join waitlist / check availability</span><span class="task-sub">Best target is around 5:15–5:45. If the wait is bad, join ASAP and use downtime for Downtown Disney.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="walk-dtf"><span><span class="task-text">Walk to Downtown Disney</span><span class="task-sub">Budget time for exit/re-entry/security. Keep the group together here.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="eat-dtf"><span><span class="task-text">Eat Din Tai Fung + drink water</span><span class="task-sub">Actual food now means you can stay alive for 9PM–2AM. Charge phones during dinner if possible.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="return-dca"><span><span class="task-text">Return to DCA by ~7:45–8:00</span><span class="task-sub">Do not accidentally miss Grad Nite transition/check-in logistics.</span></span></label>
+      </div></section>
+      <section><div class="section-head"><div class="time">6:45–8:00 PM</div><h2>Golden hour + medium rides</h2><p class="note">After dinner, do scenic/medium stuff and avoid any standby line that threatens the 8PM reset.</p></div><div class="items">
+        <label class="task"><input type="checkbox" data-id="cars-sunset"><span><span class="task-text">Cars Land sunset/neon photos</span><span class="task-sub">The lights coming on is elite. Quick photos, then keep moving.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="soarin"><span><span class="task-text">Soarin’ if ≤30 min</span><span class="task-sub">Good sit-down ride after dinner; skip if it’s creeping long.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="maters"><span><span class="task-text">Mater’s if ≤20 min</span><span class="task-sub">Short, dumb, fun. Good filler while near Cars Land.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="grizzly"><span><span class="task-text">Grizzly River Run only if everyone accepts getting wet</span><span class="task-sub">Good if very short and warm; terrible if people will complain about wet clothes at night.</span></span></label>
+      </div></section>
+      <section><div class="section-head"><div class="time">8:00–9:00 PM</div><h2>Reset before Grad Nite</h2><p class="note">No huge lines here. Prep for the private event and position near the first target.</p></div><div class="items">
+        <label class="task"><input type="checkbox" data-id="bathroom"><span><span class="task-text">Bathroom + water refill</span><span class="task-sub">The least glamorous but most important checklist item.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="hoodie"><span><span class="task-text">Hoodie / phone charge / regroup</span><span class="task-sub">Make sure everyone knows the meetup point if you split for single rider.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="position-cars"><span><span class="task-text">Position near Cars Land unless live waits say otherwise</span><span class="task-sub">Default opener: Radiator Springs Racers. Pivot to Guardians if Radiator is awful and Guardians drops.</span></span></label>
+      </div></section>
+      <section><div class="section-head"><div class="time">9:00–10:00 PM</div><h2>Grad Nite opener: Cars Land</h2><p class="note">Best use of early party energy unless the live opportunity panel is screaming Guardians/Incredicoaster.</p></div><div class="items">
+        <label class="task"><input type="checkbox" data-id="radiator-night"><span><span class="task-text">Radiator Springs Racers at night</span><span class="task-sub">Great if ≤45–60 min together. If single rider is ≤10–15, split and crush it.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="cars-night-photo"><span><span class="task-text">Cars Land neon group photo</span><span class="task-sub">Probably the best photo of the night. Do it before everyone disappears.</span></span></label>
+      </div></section>
+      <section><div class="section-head"><div class="time">10:00–11:15 PM</div><h2>Avengers Campus</h2><p class="note">Guardians is the priority. WEB Slingers is a bonus if short.</p></div><div class="items">
+        <label class="task"><input type="checkbox" data-id="guardians"><span><span class="task-text">Guardians Mission: BREAKOUT if ≤45–55 min</span><span class="task-sub">Worth a wait because it’s the best group hype ride. If it dips under 45, go immediately.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="web"><span><span class="task-text">WEB Slingers if ≤35–40 min or single rider is open</span><span class="task-sub">Skip if it’s long. It’s fun, but not worth sacrificing Radiator/Guardians/Incredicoaster.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="party"><span><span class="task-text">Do at least one Grad Nite party/dance/photo moment</span><span class="task-sub">Don’t make the whole night only rides. This is the part you can’t do on a normal DCA day.</span></span></label>
+      </div></section>
+      <section><div class="section-head"><div class="time">11:15 PM–12:30 AM</div><h2>Pixar Pier night lap</h2><p class="note">This is the chaotic fun window. Check whether Incredicoaster has dropped.</p></div><div class="items">
+        <label class="task"><input type="checkbox" data-id="incredicoaster-night"><span><span class="task-text">Incredicoaster at night if ≤25–30 min</span><span class="task-sub">If single rider is short, this is an easy reride. Night ride hits different.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="snack"><span><span class="task-text">Late snack / drinks / water</span><span class="task-sub">Prevent the midnight crash. Don’t spend 30 minutes in a snack line.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="pier-photo"><span><span class="task-text">Pixar Pier night photo</span><span class="task-sub">Quick stop. No 20-minute photo shoot unless the group really wants it.</span></span></label>
+      </div></section>
+      <section><div class="section-head"><div class="time">12:30–2:00 AM</div><h2>Rerides + final exit</h2><p class="note">Pick favorites based on live waits, then don’t be the group that misses the meetup.</p></div><div class="items">
+        <label class="task"><input type="checkbox" data-id="reride"><span><span class="task-text">Reride favorite: Guardians / Incredicoaster / Radiator</span><span class="task-sub">Rule: take the shortest elite ride. If Radiator single rider is open, that’s the move.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="final-photo"><span><span class="task-text">Final destroyed 1AM group photo</span><span class="task-sub">Mandatory lore.</span></span></label>
+        <label class="task"><input type="checkbox" data-id="exit"><span><span class="task-text">Bathroom + meetup/exit on time</span><span class="task-sub">Do not enter a long line at 1:40 unless everyone agrees and you know you’ll make it.</span></span></label>
+      </div></section>
+    </main><aside class="sidebar">
+      <div class="card"><h3>Live opportunity panel</h3><div id="updated" class="mini">Loading current DCA waits…</div><div class="opportunity" id="opportunities"></div><p class="mini">This reads the latest wait snapshot I publish. Verify in the Disneyland app before sprinting across the park.</p></div>
+      <div class="card"><h3>Priority waits</h3><div id="waitList" class="mini">Loading…</div></div>
+      <div class="card"><h3>Priority order</h3><div class="pill-list"><span class="pill">1. Radiator at night</span><span class="pill">2. Guardians</span><span class="pill">3. Incredicoaster</span><span class="pill">4. Grad Nite party moment</span><span class="pill">5. Cars Land photos</span></div></div>
+      <div class="card"><h3>Dinner note</h3><div class="warn"><b>Din Tai Fung plan:</b> target 5:15–5:45ish, then get back inside DCA by 7:45–8:00 so the group can reset before Grad Nite.</div><p class="mini">Reservation depends on party size/time availability. If no reservation, join waitlist early.</p><a class="button" href="https://www.google.com/maps/search/?api=1&query=Din+Tai+Fung+Downtown+Disney+Anaheim" target="_blank" rel="noreferrer">Open Din Tai Fung Map</a></div>
+      <div class="card"><h3>Rules so we don’t sell</h3><div class="pill-list"><span class="pill">No 20-min debates</span><span class="pill">Mobile order when possible</span><span class="pill">Single rider = max rides</span><span class="pill">Eat before starving</span><span class="pill">Hydrate</span><span class="pill">Hoodies after 9</span></div></div>
+      <div class="card"><h3>Controls</h3><p class="mini">Checks save on this device/browser using localStorage.</p><div class="buttons"><button type="button" onclick="window.print()">Print / Save PDF</button><button type="button" class="secondary" id="resetBtn">Reset checklist</button></div></div>
+    </aside></div><footer>Built for Mason’s DCA Grad Nite group · live wait snapshot auto-refreshes when updated · checklist saves locally</footer>
   </div>
-
   <script>
-    const KEY = 'dca-grad-nite-checklist-v1';
-    const boxes = Array.from(document.querySelectorAll('input[type="checkbox"][data-id]'));
-    const progressBar = document.getElementById('progressBar');
-    const progressText = document.getElementById('progressText');
-
-    function loadState() {
-      try {
-        const saved = JSON.parse(localStorage.getItem(KEY) || '{}');
-        boxes.forEach(box => { box.checked = !!saved[box.dataset.id]; });
-      } catch (_) {}
-      updateProgress();
-    }
-
-    function saveState() {
-      const state = {};
-      boxes.forEach(box => { state[box.dataset.id] = box.checked; });
-      localStorage.setItem(KEY, JSON.stringify(state));
-      updateProgress();
-    }
-
-    function updateProgress() {
-      const done = boxes.filter(b => b.checked).length;
-      const total = boxes.length;
-      const pct = total ? Math.round(done / total * 100) : 0;
-      progressBar.style.width = pct + '%';
-      progressText.textContent = `${done}/${total} done · ${pct}%`;
-    }
-
-    boxes.forEach(box => box.addEventListener('change', saveState));
-    document.getElementById('resetBtn').addEventListener('click', () => {
-      if (confirm('Reset all checked items on this device?')) {
-        boxes.forEach(box => box.checked = false);
-        saveState();
-      }
-    });
-    loadState();
+    const KEY='dca-grad-nite-checklist-v2';const boxes=Array.from(document.querySelectorAll('input[type="checkbox"][data-id]'));const progressBar=document.getElementById('progressBar'),progressText=document.getElementById('progressText');function loadState(){try{const s=JSON.parse(localStorage.getItem(KEY)||'{}');boxes.forEach(b=>{b.checked=!!s[b.dataset.id]})}catch(_){}updateProgress()}function saveState(){const s={};boxes.forEach(b=>{s[b.dataset.id]=b.checked});localStorage.setItem(KEY,JSON.stringify(s));updateProgress()}function updateProgress(){const d=boxes.filter(b=>b.checked).length,t=boxes.length,p=t?Math.round(d/t*100):0;progressBar.style.width=p+'%';progressText.textContent=`${d}/${t} done · ${p}%`}boxes.forEach(b=>b.addEventListener('change',saveState));document.getElementById('resetBtn').addEventListener('click',()=>{if(confirm('Reset all checked items on this device?')){boxes.forEach(b=>b.checked=false);saveState()}});loadState();
+    async function loadWaits(){try{const res=await fetch('wait-times.json?ts='+Date.now());const data=await res.json();const updated=new Date(data.updatedAt);document.getElementById('updated').textContent='Updated '+updated.toLocaleTimeString([],{hour:'numeric',minute:'2-digit'})+' · source: queue-times.com';const opp=document.getElementById('opportunities');opp.innerHTML=data.opportunities?.length?data.opportunities.map(o=>`<div class="opp"><b>${o.ride}</b> · ${o.wait} min<br><span class="mini">${o.message}</span></div>`).join(''):'<div class="warn">No screaming deal right now. Follow the schedule and re-check soon.</div>';document.getElementById('waitList').innerHTML=data.rides.map(r=>`<div class="wait-row"><span>${r.name}</span><span class="wait ${r.is_open?'':'closed'}">${r.is_open?r.wait_time+' min':'closed'}</span></div>`).join('')}catch(e){document.getElementById('updated').textContent='Live wait snapshot could not load. Use the Disneyland app as backup.'}}
+    loadWaits();setInterval(loadWaits,60000);
   </script>
 </body>
 </html>

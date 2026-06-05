@@ -1,0 +1,134 @@
+{
+  "updatedAt": "2026-06-05T09:09:03-07:00",
+  "source": "queue-times.com park 17 Disney California Adventure",
+  "opportunities": [
+    {
+      "ride": "Radiator Springs Racers Single Rider",
+      "wait": 0,
+      "land": "Cars Land",
+      "message": "Single rider Radiator is basically free \u2014 do it if splitting is okay.",
+      "priority": 90
+    },
+    {
+      "ride": "WEB SLINGERS: A Spider-Man Adventure Single Rider",
+      "wait": 0,
+      "land": "Avengers Campus",
+      "message": "WEB Slingers single rider is open/short \u2014 good quick add-on.",
+      "priority": 90
+    },
+    {
+      "ride": "Incredicoaster Single Rider",
+      "wait": 0,
+      "land": "Pixar Pier",
+      "message": "Incredicoaster single rider is basically free.",
+      "priority": 90
+    },
+    {
+      "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
+      "wait": 5,
+      "land": "Hollywood Land",
+      "message": "Monsters Inc. is a good warmup/low-energy ride right now.",
+      "priority": 85
+    },
+    {
+      "ride": "Mater's Junkyard Jamboree",
+      "wait": 15,
+      "land": "Cars Land",
+      "message": "Mater\u2019s is short and fun \u2014 good Cars Land filler.",
+      "priority": 80
+    }
+  ],
+  "rides": [
+    {
+      "name": "Radiator Springs Racers",
+      "land": "Cars Land",
+      "is_open": true,
+      "wait_time": 50,
+      "last_updated": "2026-06-05T16:05:39.000Z"
+    },
+    {
+      "name": "Radiator Springs Racers Single Rider",
+      "land": "Cars Land",
+      "is_open": true,
+      "wait_time": 0,
+      "last_updated": "2026-06-05T16:05:39.000Z"
+    },
+    {
+      "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
+      "land": "Avengers Campus",
+      "is_open": true,
+      "wait_time": 40,
+      "last_updated": "2026-06-05T16:05:39.000Z"
+    },
+    {
+      "name": "WEB SLINGERS: A Spider-Man Adventure",
+      "land": "Avengers Campus",
+      "is_open": true,
+      "wait_time": 50,
+      "last_updated": "2026-06-05T16:05:39.000Z"
+    },
+    {
+      "name": "WEB SLINGERS: A Spider-Man Adventure Single Rider",
+      "land": "Avengers Campus",
+      "is_open": true,
+      "wait_time": 0,
+      "last_updated": "2026-06-05T16:05:39.000Z"
+    },
+    {
+      "name": "Incredicoaster",
+      "land": "Pixar Pier",
+      "is_open": true,
+      "wait_time": 40,
+      "last_updated": "2026-06-05T16:05:39.000Z"
+    },
+    {
+      "name": "Incredicoaster Single Rider",
+      "land": "Pixar Pier",
+      "is_open": true,
+      "wait_time": 0,
+      "last_updated": "2026-06-05T16:05:39.000Z"
+    },
+    {
+      "name": "Soarin' Over California",
+      "land": "Grizzly Peak",
+      "is_open": true,
+      "wait_time": 15,
+      "last_updated": "2026-06-05T16:05:39.000Z"
+    },
+    {
+      "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
+      "land": "Hollywood Land",
+      "is_open": true,
+      "wait_time": 5,
+      "last_updated": "2026-06-05T16:05:39.000Z"
+    },
+    {
+      "name": "Mater's Junkyard Jamboree",
+      "land": "Cars Land",
+      "is_open": true,
+      "wait_time": 15,
+      "last_updated": "2026-06-05T16:05:39.000Z"
+    },
+    {
+      "name": "The Little Mermaid - Ariel's Undersea Adventure",
+      "land": "Paradise Gardens Park",
+      "is_open": true,
+      "wait_time": 5,
+      "last_updated": "2026-06-05T16:05:39.000Z"
+    },
+    {
+      "name": "Pixar Pal-A-Round \u2013 Non-Swinging",
+      "land": "Pixar Pier",
+      "is_open": true,
+      "wait_time": 5,
+      "last_updated": "2026-06-05T16:05:39.000Z"
+    },
+    {
+      "name": "Grizzly River Run",
+      "land": "Grizzly Peak",
+      "is_open": true,
+      "wait_time": 5,
+      "last_updated": "2026-06-05T16:05:39.000Z"
+    }
+  ]
+}
