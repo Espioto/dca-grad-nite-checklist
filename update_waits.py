@@ -116,6 +116,45 @@ add_wait("Mater's Junkyard Jamboree", 20, "Mater’s is short and fun — good C
 add_wait("The Little Mermaid - Ariel's Undersea Adventure", 15, "Little Mermaid is a good AC/sit-down reset if people are tired.")
 recs = sorted(recs, key=lambda x: (-x["priority"], 999 if x["wait"] is None else x["wait"]))[:6]
 
+ride_rules = [
+    ("Radiator Springs Racers", "Radiator Springs Racers", 60, "Must-do at night", "Worth it together if ≤60, especially after dark."),
+    ("Radiator Single Rider", "Radiator Springs Racers Single Rider", None, "Split if group is down", "Single Rider is marked open; use it if everyone is okay splitting."),
+    ("Guardians", "Guardians of the Galaxy - Mission: BREAKOUT!", 55, "Top hype ride", "Recommended when ≤55; go immediately if ≤45."),
+    ("WEB Slingers", "WEB SLINGERS: A Spider-Man Adventure", 40, "Good bonus ride", "Recommended at ≤40; skip long waits because bigger rides matter more."),
+    ("WEB Single Rider", "WEB SLINGERS: A Spider-Man Adventure Single Rider", None, "Quick add-on", "Single Rider is marked open; good if nearby and willing to split."),
+    ("Incredicoaster", "Incredicoaster", 35, "High value", "Recommended at ≤35; great at night or as a reride."),
+    ("Incredicoaster Single Rider", "Incredicoaster Single Rider", None, "Best reride cheat", "Single Rider is marked open; strong if the group can split."),
+    ("Soarin'", "Soarin' Over California", 35, "Sit-down reset", "Recommended at ≤35 when people need a calmer ride."),
+    ("Monsters Inc.", "Monsters, Inc. Mike & Sulley to the Rescue!", 15, "Low-effort indoor", "Recommended at ≤15 as a quick indoor reset."),
+    ("Toy Story Mania", "Toy Story Midway Mania!", 35, "Fun group competition", "Recommended at ≤35; fun but not worth a huge wait."),
+    ("Pixar Pal-A-Round", "Pixar Pal-A-Round - Non-Swinging", 25, "Photo/view ride", "Recommended at ≤25 if people want views; otherwise skip for thrill rides."),
+    ("Mater's", "Mater's Junkyard Jamboree", 20, "Cars Land filler", "Recommended at ≤20 as quick filler, but not a priority."),
+    ("Little Mermaid", "The Little Mermaid - Ariel's Undersea Adventure", 15, "AC reset", "Recommended at ≤15 if tired or hot; otherwise only filler."),
+    ("Grizzly River Run", "Grizzly River Run", 25, "Only if okay wet", "Recommended only if short and everyone accepts getting wet."),
+]
+
+def decision_for(display, ride_name, threshold, priority_note, good_why):
+    r = rides.get(ride_name)
+    base = {"display": display, "ride": ride_name, "priorityNote": priority_note}
+    if not r:
+        return {**base, "status": "Unknown", "wait": None, "isOpen": False, "recommended": False, "why": "No live status found. Check the Disneyland app before walking over.", "sort": 90}
+    status = r.get("status", "Unknown")
+    wait_time = r.get("wait_time")
+    is_open = bool(r.get("is_open"))
+    if not is_open:
+        return {**base, "status": status, "wait": wait_time, "isOpen": False, "recommended": False, "why": "Closed right now — do not route here.", "sort": 95}
+    if r.get("kind") == "open_no_minutes":
+        return {**base, "status": status, "wait": None, "isOpen": True, "recommended": True, "why": good_why, "sort": 5}
+    if isinstance(wait_time, int) and threshold is not None:
+        if wait_time <= threshold:
+            return {**base, "status": status, "wait": wait_time, "isOpen": True, "recommended": True, "why": good_why, "sort": wait_time}
+        over = wait_time - threshold
+        return {**base, "status": status, "wait": wait_time, "isOpen": True, "recommended": False, "why": f"Not worth it yet: {wait_time} min is about {over} min over the target threshold ({threshold}). Recheck later.", "sort": 50 + wait_time}
+    return {**base, "status": status, "wait": wait_time, "isOpen": True, "recommended": False, "why": "Open, but no posted minutes. Check Disneyland app / use only if nearby.", "sort": 70}
+
+ride_decisions = [decision_for(*rule) for rule in ride_rules]
+ride_decisions = sorted(ride_decisions, key=lambda d: (not d["recommended"], d["sort"], d["display"]))
+
 now = datetime.datetime.now().astimezone()
 mins = now.hour * 60 + now.minute
 
@@ -226,6 +265,7 @@ wait_json = {
     "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
     "schedule": schedule,
     "opportunities": recs,
+    "rideDecisions": ride_decisions,
     "rides": [rides[n] for n in priority_names if n in rides],
 }
 (repo / "wait-times.json").write_text(json.dumps(wait_json, indent=2), encoding="utf-8")

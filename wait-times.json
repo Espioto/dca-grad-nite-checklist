@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T14:57:43-07:00",
+  "updatedAt": "2026-06-05T14:59:06-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,7 +8,7 @@
     "action": "Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
     "why": "Early dinner replaces the old 5\u20136:45 waitlist block and frees up prime afternoon ride time.",
     "fingerprint": "2:30\u20133:30 \u00b7 Din Tai Fung now|Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
-    "checkedAtLocal": "2026-06-05T14:57:43-07:00",
+    "checkedAtLocal": "2026-06-05T14:59:06-07:00",
     "keyWaits": {
       "Radiator": "Closed",
       "Radiator Single Rider": "Closed",
@@ -58,6 +58,162 @@
       "land": "Grizzly Peak",
       "message": "Soarin is a good sit-down reset at this wait.",
       "priority": 65
+    }
+  ],
+  "rideDecisions": [
+    {
+      "display": "Incredicoaster Single Rider",
+      "ride": "Incredicoaster Single Rider",
+      "priorityNote": "Best reride cheat",
+      "status": "Open",
+      "wait": null,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Single Rider is marked open; strong if the group can split.",
+      "sort": 5
+    },
+    {
+      "display": "WEB Single Rider",
+      "ride": "WEB SLINGERS: A Spider-Man Adventure Single Rider",
+      "priorityNote": "Quick add-on",
+      "status": "Open",
+      "wait": null,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Single Rider is marked open; good if nearby and willing to split.",
+      "sort": 5
+    },
+    {
+      "display": "Mater's",
+      "ride": "Mater's Junkyard Jamboree",
+      "priorityNote": "Cars Land filler",
+      "status": "10 mins",
+      "wait": 10,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Recommended at \u226420 as quick filler, but not a priority.",
+      "sort": 10
+    },
+    {
+      "display": "Little Mermaid",
+      "ride": "The Little Mermaid - Ariel's Undersea Adventure",
+      "priorityNote": "AC reset",
+      "status": "15 mins",
+      "wait": 15,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Recommended at \u226415 if tired or hot; otherwise only filler.",
+      "sort": 15
+    },
+    {
+      "display": "Soarin'",
+      "ride": "Soarin' Over California",
+      "priorityNote": "Sit-down reset",
+      "status": "20 mins",
+      "wait": 20,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Recommended at \u226435 when people need a calmer ride.",
+      "sort": 20
+    },
+    {
+      "display": "Incredicoaster",
+      "ride": "Incredicoaster",
+      "priorityNote": "High value",
+      "status": "40 mins",
+      "wait": 40,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 40 min is about 5 min over the target threshold (35). Recheck later.",
+      "sort": 90
+    },
+    {
+      "display": "Pixar Pal-A-Round",
+      "ride": "Pixar Pal-A-Round - Non-Swinging",
+      "priorityNote": "Photo/view ride",
+      "status": "Unknown",
+      "wait": null,
+      "isOpen": false,
+      "recommended": false,
+      "why": "No live status found. Check the Disneyland app before walking over.",
+      "sort": 90
+    },
+    {
+      "display": "Grizzly River Run",
+      "ride": "Grizzly River Run",
+      "priorityNote": "Only if okay wet",
+      "status": "45 mins",
+      "wait": 45,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 45 min is about 20 min over the target threshold (25). Recheck later.",
+      "sort": 95
+    },
+    {
+      "display": "Monsters Inc.",
+      "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
+      "priorityNote": "Low-effort indoor",
+      "status": "45 mins",
+      "wait": 45,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 45 min is about 30 min over the target threshold (15). Recheck later.",
+      "sort": 95
+    },
+    {
+      "display": "Radiator Single Rider",
+      "ride": "Radiator Springs Racers Single Rider",
+      "priorityNote": "Split if group is down",
+      "status": "Closed",
+      "wait": null,
+      "isOpen": false,
+      "recommended": false,
+      "why": "Closed right now \u2014 do not route here.",
+      "sort": 95
+    },
+    {
+      "display": "Radiator Springs Racers",
+      "ride": "Radiator Springs Racers",
+      "priorityNote": "Must-do at night",
+      "status": "Closed",
+      "wait": null,
+      "isOpen": false,
+      "recommended": false,
+      "why": "Closed right now \u2014 do not route here.",
+      "sort": 95
+    },
+    {
+      "display": "Toy Story Mania",
+      "ride": "Toy Story Midway Mania!",
+      "priorityNote": "Fun group competition",
+      "status": "45 mins",
+      "wait": 45,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 45 min is about 10 min over the target threshold (35). Recheck later.",
+      "sort": 95
+    },
+    {
+      "display": "WEB Slingers",
+      "ride": "WEB SLINGERS: A Spider-Man Adventure",
+      "priorityNote": "Good bonus ride",
+      "status": "45 mins",
+      "wait": 45,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 45 min is about 5 min over the target threshold (40). Recheck later.",
+      "sort": 95
+    },
+    {
+      "display": "Guardians",
+      "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
+      "priorityNote": "Top hype ride",
+      "status": "65 mins",
+      "wait": 65,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 65 min is about 10 min over the target threshold (55). Recheck later.",
+      "sort": 115
     }
   ],
   "rides": [
