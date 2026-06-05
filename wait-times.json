@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T11:31:45-07:00",
+  "updatedAt": "2026-06-05T11:36:51-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -35,6 +35,14 @@
       "land": "Cars Land",
       "message": "Mater\u2019s is short and fun \u2014 good Cars Land filler.",
       "priority": 80
+    },
+    {
+      "ride": "WEB SLINGERS: A Spider-Man Adventure Single Rider",
+      "wait": null,
+      "status": "Open",
+      "land": "Avengers Campus",
+      "message": "WEB Slingers Single Rider is marked Open \u2014 good quick add-on if nearby.",
+      "priority": 78
     },
     {
       "ride": "Soarin' Over California",
@@ -77,19 +85,19 @@
       "id": "8843",
       "name": "WEB SLINGERS: A Spider-Man Adventure",
       "land": "Avengers Campus",
-      "is_open": false,
-      "status": "Closed",
-      "wait_time": null,
-      "kind": "closed"
+      "is_open": true,
+      "status": "40 mins",
+      "wait_time": 40,
+      "kind": "posted"
     },
     {
       "id": "10907",
       "name": "WEB SLINGERS: A Spider-Man Adventure Single Rider",
       "land": "Avengers Campus",
-      "is_open": false,
-      "status": "Closed",
+      "is_open": true,
+      "status": "Open",
       "wait_time": null,
-      "kind": "closed"
+      "kind": "open_no_minutes"
     },
     {
       "id": "322",
@@ -150,8 +158,8 @@
       "name": "Toy Story Midway Mania!",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "50 mins",
-      "wait_time": 50,
+      "status": "45 mins",
+      "wait_time": 45,
       "kind": "posted"
     },
     {
