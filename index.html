@@ -19,6 +19,7 @@
   <div class="wrap">
     <header><div class="eyebrow">Disney California Adventure · Grad Nite</div><h1>DCA Grad Nite Trip</h1><p class="sub">Live ride decision board for the group: each ride shows the current wait/status plus Recommended or Not Recommended with why. Use the official Disneyland app if it disagrees.</p><div class="chips"><span class="chip"><b>Dinner:</b> Din Tai Fung now</span><span class="chip"><b>Must-do:</b> Radiator at night</span><span class="chip"><b>Bring:</b> hoodie + charger</span><span class="chip"><b>Rule:</b> follow Recommended cards</span></div></header>
     <div class="sticky"><div class="progress-shell"><div class="progress-bar" id="progressBar"></div></div><div class="progress-text" id="progressText">0/0 done</div></div>
+    <div class="card" style="margin-top:16px"><h3>Live best move</h3><div id="updated" class="mini">Loading current DCA waits…</div><div id="nextMove" class="warn">Calculating best move…</div><p class="mini" id="nextWhy"></p></div>
     <div class="grid"><main>
       <section><div class="section-head"><div class="time">Before / entering</div><h2>Setup so we don’t waste park time</h2><p class="note">Do these before the group starts wandering. Pick one person to check the live panel/app every 20–30 minutes.</p></div><div class="items">
         <label class="task"><input type="checkbox" data-id="app"><span><span class="task-text">Everyone has the Disneyland app updated</span><span class="task-sub">Use it to sanity-check posted waits, food timing, show times, and re-entry details.</span></span></label>
@@ -28,7 +29,6 @@
       </div></section>
       <section><div class="section-head"><div class="time">Live ride board</div><h2>Checklist: pick rides by current recommendation</h2><p class="note">No more “if it’s this time range.” Check a ride off after you do it. Each card updates from the latest wait snapshot with Recommended / Not Recommended and the reason.</p></div><div class="items ride-list" id="rideChecklist"><div class="warn">Loading ride recommendations…</div></div></section>
     </main><aside class="sidebar">
-      <div class="card"><h3>Live next move</h3><div id="updated" class="mini">Loading current DCA waits…</div><div id="nextMove" class="warn">Calculating best move…</div><p class="mini" id="nextWhy"></p></div>
       <div class="card"><h3>Live opportunity panel</h3><div class="opportunity" id="opportunities"></div><p class="mini">Source: public Queue Times page. Disneyland app still wins if it disagrees. “Single Rider Open” is not treated as 0 minutes.</p></div>
       <div class="card"><h3>Priority waits</h3><div id="waitList" class="mini">Loading…</div></div>
       <div class="card"><h3>Priority order</h3><div class="pill-list"><span class="pill">1. Radiator at night</span><span class="pill">2. Guardians</span><span class="pill">3. Incredicoaster</span><span class="pill">4. Grad Nite party moment</span><span class="pill">5. Cars Land photos</span></div></div>
