@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T11:41:58-07:00",
+  "updatedAt": "2026-06-05T11:47:04-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -37,14 +37,6 @@
       "priority": 80
     },
     {
-      "ride": "WEB SLINGERS: A Spider-Man Adventure Single Rider",
-      "wait": null,
-      "status": "Open",
-      "land": "Avengers Campus",
-      "message": "WEB Slingers Single Rider is marked Open \u2014 good quick add-on if nearby.",
-      "priority": 78
-    },
-    {
       "ride": "Soarin' Over California",
       "wait": 35,
       "status": "35 mins",
@@ -77,27 +69,27 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "50 mins",
-      "wait_time": 50,
+      "status": "65 mins",
+      "wait_time": 65,
       "kind": "posted"
     },
     {
       "id": "8843",
       "name": "WEB SLINGERS: A Spider-Man Adventure",
       "land": "Avengers Campus",
-      "is_open": true,
-      "status": "40 mins",
-      "wait_time": 40,
-      "kind": "posted"
+      "is_open": false,
+      "status": "Closed",
+      "wait_time": null,
+      "kind": "closed"
     },
     {
       "id": "10907",
       "name": "WEB SLINGERS: A Spider-Man Adventure Single Rider",
       "land": "Avengers Campus",
-      "is_open": true,
-      "status": "Open",
+      "is_open": false,
+      "status": "Closed",
       "wait_time": null,
-      "kind": "open_no_minutes"
+      "kind": "closed"
     },
     {
       "id": "322",
