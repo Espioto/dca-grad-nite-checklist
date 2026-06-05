@@ -1,21 +1,21 @@
 {
-  "updatedAt": "2026-06-05T13:15:03-07:00",
+  "updatedAt": "2026-06-05T13:17:06-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
   "schedule": {
     "phase": "2:00\u20133:30 \u00b7 enter + warmup",
-    "action": "Hit WEB Slingers now (10 min).",
+    "action": "Hit Mater's now (15 min).",
     "why": "Do quick wins first; don\u2019t burn early energy on a monster Radiator standby.",
-    "fingerprint": "2:00\u20133:30 \u00b7 enter + warmup|Hit WEB Slingers now (10 min).",
-    "checkedAtLocal": "2026-06-05T13:15:03-07:00",
+    "fingerprint": "2:00\u20133:30 \u00b7 enter + warmup|Hit Mater's now (15 min).",
+    "checkedAtLocal": "2026-06-05T13:17:06-07:00",
     "keyWaits": {
-      "Radiator": "75 mins",
+      "Radiator": "65 mins",
       "Radiator Single Rider": "Open",
       "Guardians": "80 mins",
       "Incredicoaster": "35 mins",
       "Incredicoaster Single Rider": "Open",
-      "WEB Slingers": "10 mins"
+      "WEB Slingers": "30 mins"
     }
   },
   "opportunities": [
@@ -53,8 +53,8 @@
     },
     {
       "ride": "WEB SLINGERS: A Spider-Man Adventure",
-      "wait": 10,
-      "status": "10 mins",
+      "wait": 30,
+      "status": "30 mins",
       "land": "Avengers Campus",
       "message": "WEB Slingers is worth it at this wait; skip giant lines.",
       "priority": 60
@@ -66,8 +66,8 @@
       "name": "Radiator Springs Racers",
       "land": "Cars Land",
       "is_open": true,
-      "status": "75 mins",
-      "wait_time": 75,
+      "status": "65 mins",
+      "wait_time": 65,
       "kind": "posted"
     },
     {
@@ -93,8 +93,8 @@
       "name": "WEB SLINGERS: A Spider-Man Adventure",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "10 mins",
-      "wait_time": 10,
+      "status": "30 mins",
+      "wait_time": 30,
       "kind": "posted"
     },
     {
