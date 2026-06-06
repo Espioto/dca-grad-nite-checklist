@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-06-05T22:45:11-07:00",
+  "updatedAt": "2026-06-05T22:47:14-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
   "schedule": {
     "phase": "10:00\u201311:15 \u00b7 Avengers Campus",
-    "action": "WEB Slingers is reasonable (5 min); use it as the bonus.",
+    "action": "WEB Slingers is reasonable (15 min); use it as the bonus.",
     "why": "This is the hype block; Guardians is worth it when it drops.",
-    "fingerprint": "10:00\u201311:15 \u00b7 Avengers Campus|WEB Slingers is reasonable (5 min); use it as the bonus.",
-    "checkedAtLocal": "2026-06-05T22:45:11-07:00",
+    "fingerprint": "10:00\u201311:15 \u00b7 Avengers Campus|WEB Slingers is reasonable (15 min); use it as the bonus.",
+    "checkedAtLocal": "2026-06-05T22:47:14-07:00",
     "keyWaits": {
       "Radiator": "90 mins",
       "Guardians": "175 mins",
       "Incredicoaster": "65 mins",
-      "WEB Slingers": "5 mins"
+      "WEB Slingers": "15 mins"
     }
   },
   "opportunities": [
@@ -27,16 +27,16 @@
     },
     {
       "ride": "Soarin' Over California",
-      "wait": 10,
-      "status": "10 mins",
+      "wait": 20,
+      "status": "20 mins",
       "land": "Grizzly Peak",
       "message": "Soarin is a good sit-down reset at this wait.",
       "priority": 65
     },
     {
       "ride": "WEB SLINGERS: A Spider-Man Adventure",
-      "wait": 5,
-      "status": "5 mins",
+      "wait": 15,
+      "status": "15 mins",
       "land": "Avengers Campus",
       "message": "WEB Slingers is worth it at this wait; skip giant lines.",
       "priority": 60
@@ -56,30 +56,6 @@
       "sort": 5
     },
     {
-      "display": "WEB Slingers",
-      "ride": "WEB SLINGERS: A Spider-Man Adventure",
-      "priorityNote": "Good bonus ride",
-      "completed": false,
-      "status": "5 mins",
-      "wait": 5,
-      "isOpen": true,
-      "recommended": true,
-      "why": "Recommended at \u226440; skip long waits because bigger rides matter more.",
-      "sort": 5
-    },
-    {
-      "display": "Soarin'",
-      "ride": "Soarin' Over California",
-      "priorityNote": "Sit-down reset",
-      "completed": false,
-      "status": "10 mins",
-      "wait": 10,
-      "isOpen": true,
-      "recommended": true,
-      "why": "Recommended at \u226435 when people need a calmer ride.",
-      "sort": 10
-    },
-    {
       "display": "Toy Story Mania",
       "ride": "Toy Story Midway Mania!",
       "priorityNote": "Fun group competition",
@@ -90,6 +66,30 @@
       "recommended": true,
       "why": "Recommended at \u226435; fun but not worth a huge wait.",
       "sort": 15
+    },
+    {
+      "display": "WEB Slingers",
+      "ride": "WEB SLINGERS: A Spider-Man Adventure",
+      "priorityNote": "Good bonus ride",
+      "completed": false,
+      "status": "15 mins",
+      "wait": 15,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Recommended at \u226440; skip long waits because bigger rides matter more.",
+      "sort": 15
+    },
+    {
+      "display": "Soarin'",
+      "ride": "Soarin' Over California",
+      "priorityNote": "Sit-down reset",
+      "completed": false,
+      "status": "20 mins",
+      "wait": 20,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Recommended at \u226435 when people need a calmer ride.",
+      "sort": 20
     },
     {
       "display": "Pixar Pal-A-Round",
@@ -204,8 +204,8 @@
       "name": "WEB SLINGERS: A Spider-Man Adventure",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "5 mins",
-      "wait_time": 5,
+      "status": "15 mins",
+      "wait_time": 15,
       "kind": "posted"
     },
     {
@@ -222,8 +222,8 @@
       "name": "Soarin' Over California",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "10 mins",
-      "wait_time": 10,
+      "status": "20 mins",
+      "wait_time": 20,
       "kind": "posted"
     },
     {
