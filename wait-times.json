@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T19:44:45-07:00",
+  "updatedAt": "2026-06-05T19:46:47-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,11 +8,11 @@
     "action": "Hit WEB Slingers now (35 min).",
     "why": "Use photos and medium rides, but avoid anything that risks the 8PM reset before Grad Nite.",
     "fingerprint": "6:30\u20138:00 \u00b7 golden hour + Cars Land setup|Hit WEB Slingers now (35 min).",
-    "checkedAtLocal": "2026-06-05T19:44:45-07:00",
+    "checkedAtLocal": "2026-06-05T19:46:47-07:00",
     "keyWaits": {
       "Radiator": "70 mins",
       "Guardians": "80 mins",
-      "Incredicoaster": "35 mins",
+      "Incredicoaster": "45 mins",
       "WEB Slingers": "35 mins"
     }
   },
@@ -36,16 +36,28 @@
   ],
   "rideDecisions": [
     {
-      "display": "Incredicoaster",
-      "ride": "Incredicoaster",
-      "priorityNote": "High value",
+      "display": "Grizzly River Run",
+      "ride": "Grizzly River Run",
+      "priorityNote": "Only if okay wet",
       "completed": false,
-      "status": "35 mins",
-      "wait": 35,
+      "status": "15 mins",
+      "wait": 15,
       "isOpen": true,
       "recommended": true,
-      "why": "Recommended at \u226435; great at night or as a reride.",
-      "sort": 35
+      "why": "Recommended only if short and everyone accepts getting wet.",
+      "sort": 15
+    },
+    {
+      "display": "Toy Story Mania",
+      "ride": "Toy Story Midway Mania!",
+      "priorityNote": "Fun group competition",
+      "completed": false,
+      "status": "25 mins",
+      "wait": 25,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Recommended at \u226435; fun but not worth a huge wait.",
+      "sort": 25
     },
     {
       "display": "Soarin'",
@@ -84,18 +96,6 @@
       "sort": 80
     },
     {
-      "display": "Grizzly River Run",
-      "ride": "Grizzly River Run",
-      "priorityNote": "Only if okay wet",
-      "completed": false,
-      "status": "40 mins",
-      "wait": 40,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 40 min is about 15 min over the target threshold (25). Recheck later.",
-      "sort": 90
-    },
-    {
       "display": "Pixar Pal-A-Round",
       "ride": "Pixar Pal-A-Round - Non-Swinging",
       "priorityNote": "Photo/view ride",
@@ -108,16 +108,16 @@
       "sort": 90
     },
     {
-      "display": "Toy Story Mania",
-      "ride": "Toy Story Midway Mania!",
-      "priorityNote": "Fun group competition",
+      "display": "Incredicoaster",
+      "ride": "Incredicoaster",
+      "priorityNote": "High value",
       "completed": false,
-      "status": "40 mins",
-      "wait": 40,
+      "status": "45 mins",
+      "wait": 45,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 40 min is about 5 min over the target threshold (35). Recheck later.",
-      "sort": 90
+      "why": "Not worth it yet: 45 min is about 10 min over the target threshold (35). Recheck later.",
+      "sort": 95
     },
     {
       "display": "Radiator Springs Racers",
@@ -205,8 +205,8 @@
       "name": "Incredicoaster",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "35 mins",
-      "wait_time": 35,
+      "status": "45 mins",
+      "wait_time": 45,
       "kind": "posted"
     },
     {
@@ -250,8 +250,8 @@
       "name": "Toy Story Midway Mania!",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "40 mins",
-      "wait_time": 40,
+      "status": "25 mins",
+      "wait_time": 25,
       "kind": "posted"
     },
     {
@@ -259,8 +259,8 @@
       "name": "Grizzly River Run",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "40 mins",
-      "wait_time": 40,
+      "status": "15 mins",
+      "wait_time": 15,
       "kind": "posted"
     }
   ]
