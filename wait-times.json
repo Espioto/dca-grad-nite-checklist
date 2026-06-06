@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T23:54:56-07:00",
+  "updatedAt": "2026-06-05T23:56:59-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,7 +8,7 @@
     "action": "Get water/snack/photo, then choose the shortest elite ride.",
     "why": "Night Incredicoaster is high value, but avoid a late-night stall.",
     "fingerprint": "11:15\u201312:30 \u00b7 Pixar Pier night lap|Get water/snack/photo, then choose the shortest elite ride.",
-    "checkedAtLocal": "2026-06-05T23:54:56-07:00",
+    "checkedAtLocal": "2026-06-05T23:56:59-07:00",
     "keyWaits": {
       "Radiator": "110 mins",
       "Guardians": "145 mins",
@@ -17,14 +17,6 @@
     }
   },
   "opportunities": [
-    {
-      "ride": "Soarin' Over California",
-      "wait": 35,
-      "status": "35 mins",
-      "land": "Grizzly Peak",
-      "message": "Soarin is a good sit-down reset at this wait.",
-      "priority": 65
-    },
     {
       "ride": "WEB SLINGERS: A Spider-Man Adventure",
       "wait": 5,
@@ -35,6 +27,18 @@
     }
   ],
   "rideDecisions": [
+    {
+      "display": "Toy Story Mania",
+      "ride": "Toy Story Midway Mania!",
+      "priorityNote": "Fun group competition",
+      "completed": false,
+      "status": "5 mins",
+      "wait": 5,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Recommended at \u226435; fun but not worth a huge wait.",
+      "sort": 5
+    },
     {
       "display": "WEB Slingers",
       "ride": "WEB SLINGERS: A Spider-Man Adventure",
@@ -48,30 +52,6 @@
       "sort": 5
     },
     {
-      "display": "Toy Story Mania",
-      "ride": "Toy Story Midway Mania!",
-      "priorityNote": "Fun group competition",
-      "completed": false,
-      "status": "15 mins",
-      "wait": 15,
-      "isOpen": true,
-      "recommended": true,
-      "why": "Recommended at \u226435; fun but not worth a huge wait.",
-      "sort": 15
-    },
-    {
-      "display": "Soarin'",
-      "ride": "Soarin' Over California",
-      "priorityNote": "Sit-down reset",
-      "completed": false,
-      "status": "35 mins",
-      "wait": 35,
-      "isOpen": true,
-      "recommended": true,
-      "why": "Recommended at \u226435 when people need a calmer ride.",
-      "sort": 35
-    },
-    {
       "display": "Pixar Pal-A-Round",
       "ride": "Pixar Pal-A-Round - Non-Swinging",
       "priorityNote": "Photo/view ride",
@@ -81,6 +61,18 @@
       "isOpen": false,
       "recommended": false,
       "why": "No live status found. Check the Disneyland app before walking over.",
+      "sort": 90
+    },
+    {
+      "display": "Soarin'",
+      "ride": "Soarin' Over California",
+      "priorityNote": "Sit-down reset",
+      "completed": false,
+      "status": "40 mins",
+      "wait": 40,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 40 min is about 5 min over the target threshold (35). Recheck later.",
       "sort": 90
     },
     {
@@ -214,8 +206,8 @@
       "name": "Soarin' Over California",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "35 mins",
-      "wait_time": 35,
+      "status": "40 mins",
+      "wait_time": 40,
       "kind": "posted"
     },
     {
@@ -250,8 +242,8 @@
       "name": "Toy Story Midway Mania!",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "15 mins",
-      "wait_time": 15,
+      "status": "5 mins",
+      "wait_time": 5,
       "kind": "posted"
     },
     {
