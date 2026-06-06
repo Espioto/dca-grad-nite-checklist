@@ -65,12 +65,9 @@ for m in pattern.finditer(page):
 
 priority_names = [
     "Radiator Springs Racers",
-    "Radiator Springs Racers Single Rider",
     "Guardians of the Galaxy - Mission: BREAKOUT!",
     "WEB SLINGERS: A Spider-Man Adventure",
-    "WEB SLINGERS: A Spider-Man Adventure Single Rider",
     "Incredicoaster",
-    "Incredicoaster Single Rider",
     "Soarin' Around the World",
     "Soarin' Over California",
     "Monsters, Inc. Mike & Sulley to the Rescue!",
@@ -101,17 +98,10 @@ def wait(name):
         return None
     return r.get("wait_time")
 
-def open_sr(name):
-    r = rides.get(name)
-    return bool(r and r.get("is_open") and r.get("kind") == "open_no_minutes")
-
 add_wait("Radiator Springs Racers", 45, "Great posted Radiator window for the whole group.")
-add_open("Radiator Springs Racers Single Rider", "Single Rider is marked Open — only use if splitting is okay; it is not a guaranteed 0-minute wait.", 82)
 add_wait("Guardians of the Galaxy - Mission: BREAKOUT!", 45, "Guardians at/under 45 is worth jumping on.")
 add_wait("WEB SLINGERS: A Spider-Man Adventure", 40, "WEB Slingers is worth it at this wait; skip giant lines.")
-add_open("WEB SLINGERS: A Spider-Man Adventure Single Rider", "WEB Slingers Single Rider is marked Open — good quick add-on if nearby.", 78)
 add_wait("Incredicoaster", 30, "Incredicoaster is short enough to hit or reride.")
-add_open("Incredicoaster Single Rider", "Incredicoaster Single Rider is marked Open — strong option if the group will split.", 82)
 add_wait("Soarin' Around the World", 35, "Soarin is a good sit-down reset at this wait.")
 add_wait("Soarin' Over California", 35, "Soarin is a good sit-down reset at this wait.")
 add_wait("Monsters, Inc. Mike & Sulley to the Rescue!", 15, "Monsters Inc. is a good warmup/low-energy ride right now.")
@@ -122,12 +112,9 @@ recs = sorted(recs, key=lambda x: (-x["priority"], 999 if x["wait"] is None else
 
 ride_rules = [
     ("Radiator Springs Racers", "Radiator Springs Racers", 60, "Must-do at night", "Worth it together if ≤60, especially after dark."),
-    ("Radiator Single Rider", "Radiator Springs Racers Single Rider", None, "Split if group is down", "Single Rider is marked open; use it if everyone is okay splitting."),
     ("Guardians", "Guardians of the Galaxy - Mission: BREAKOUT!", 55, "Top hype ride", "Recommended when ≤55; go immediately if ≤45."),
     ("WEB Slingers", "WEB SLINGERS: A Spider-Man Adventure", 40, "Good bonus ride", "Recommended at ≤40; skip long waits because bigger rides matter more."),
-    ("WEB Single Rider", "WEB SLINGERS: A Spider-Man Adventure Single Rider", None, "Quick add-on", "Single Rider is marked open; good if nearby and willing to split."),
     ("Incredicoaster", "Incredicoaster", 35, "High value", "Recommended at ≤35; great at night or as a reride."),
-    ("Incredicoaster Single Rider", "Incredicoaster Single Rider", None, "Best reride cheat", "Single Rider is marked open; strong if the group can split."),
     ("Soarin'", "Soarin' Over California", 35, "Sit-down reset", "Recommended at ≤35 when people need a calmer ride."),
     ("Monsters Inc.", "Monsters, Inc. Mike & Sulley to the Rescue!", 15, "Low-effort indoor", "Recommended at ≤15 as a quick indoor reset."),
     ("Toy Story Mania", "Toy Story Midway Mania!", 35, "Fun group competition", "Recommended at ≤35; fun but not worth a huge wait."),
@@ -185,10 +172,6 @@ def best_filler():
     if good:
         n,w,t = sorted(good, key=lambda x: x[1])[0]
         return f"Hit {n} now ({w} min)."
-    if open_sr("Radiator Springs Racers Single Rider"):
-        return "Radiator Single Rider is open if you’re cool splitting."
-    if open_sr("Incredicoaster Single Rider"):
-        return "Incredicoaster Single Rider is open if you’re cool splitting."
     return "Follow the printed block and avoid any giant standby line."
 
 if mins < 15*60+30:
@@ -217,8 +200,6 @@ elif mins < 22*60:
     gw = wait("Guardians of the Galaxy - Mission: BREAKOUT!")
     if isinstance(rw,int) and rw <= 60:
         action = f"Go Radiator Springs Racers together ({rw} min)."
-    elif open_sr("Radiator Springs Racers Single Rider"):
-        action = "Radiator Single Rider is open — use it if the group accepts splitting, otherwise pivot."
     elif isinstance(gw,int) and gw <= 45:
         action = f"Pivot to Guardians ({gw} min), then come back to Cars Land."
     else:
@@ -240,8 +221,6 @@ elif mins < 24*60+30:
     iw = wait("Incredicoaster")
     if isinstance(iw,int) and iw <= 35:
         action = f"Go Incredicoaster now ({iw} min)."
-    elif open_sr("Incredicoaster Single Rider"):
-        action = "Incredicoaster Single Rider is open — great reride if splitting is okay."
     else:
         action = "Get water/snack/photo, then choose the shortest elite ride."
     why = "Night Incredicoaster is high value, but avoid a late-night stall."
@@ -258,10 +237,8 @@ schedule = {
     "checkedAtLocal": now.isoformat(timespec="seconds"),
     "keyWaits": {
         "Radiator": label("Radiator Springs Racers"),
-        "Radiator Single Rider": label("Radiator Springs Racers Single Rider"),
         "Guardians": label("Guardians of the Galaxy - Mission: BREAKOUT!"),
         "Incredicoaster": label("Incredicoaster"),
-        "Incredicoaster Single Rider": label("Incredicoaster Single Rider"),
         "WEB Slingers": label("WEB SLINGERS: A Spider-Man Adventure"),
     }
 }
@@ -280,7 +257,7 @@ wait_json = {
 (repo / "wait-times.json").write_text(json.dumps(wait_json, indent=2), encoding="utf-8")
 print("Updated wait-times.json from public Queue Times page")
 print(f"SCHEDULE: {phase} — {action}")
-for n in ["Radiator Springs Racers", "Radiator Springs Racers Single Rider", "Guardians of the Galaxy - Mission: BREAKOUT!", "WEB SLINGERS: A Spider-Man Adventure", "Incredicoaster", "Incredicoaster Single Rider"]:
+for n in ["Radiator Springs Racers", "Guardians of the Galaxy - Mission: BREAKOUT!", "WEB SLINGERS: A Spider-Man Adventure", "Incredicoaster"]:
     if n in rides:
         r = rides[n]
         print(f"{n}: {r['status']} ({r['land']})")
