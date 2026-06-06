@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T20:44:13-07:00",
+  "updatedAt": "2026-06-05T20:46:16-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,7 +8,7 @@
     "action": "Bathroom, water, charge phones, hoodie, regroup near Cars Land unless waits scream otherwise.",
     "why": "This hour is about positioning, not squeezing in a risky long line.",
     "fingerprint": "8:00\u20139:00 \u00b7 reset before Grad Nite|Bathroom, water, charge phones, hoodie, regroup near Cars Land unless waits scream otherwise.",
-    "checkedAtLocal": "2026-06-05T20:44:13-07:00",
+    "checkedAtLocal": "2026-06-05T20:46:16-07:00",
     "keyWaits": {
       "Radiator": "85 mins",
       "Guardians": "135 mins",
@@ -64,12 +64,12 @@
       "ride": "Toy Story Midway Mania!",
       "priorityNote": "Fun group competition",
       "completed": false,
-      "status": "35 mins",
-      "wait": 35,
+      "status": "25 mins",
+      "wait": 25,
       "isOpen": true,
       "recommended": true,
       "why": "Recommended at \u226435; fun but not worth a huge wait.",
-      "sort": 35
+      "sort": 25
     },
     {
       "display": "WEB Slingers",
@@ -250,8 +250,8 @@
       "name": "Toy Story Midway Mania!",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "35 mins",
-      "wait_time": 35,
+      "status": "25 mins",
+      "wait_time": 25,
       "kind": "posted"
     },
     {
