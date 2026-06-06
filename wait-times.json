@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T17:06:56-07:00",
+  "updatedAt": "2026-06-05T17:08:58-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,7 +8,7 @@
     "action": "Radiator Single Rider is open if you\u2019re cool splitting.",
     "why": "This used to be dinner time; now it is bonus park time for Incredicoaster, Toy Story, Soarin, or short fillers.",
     "fingerprint": "5:00\u20136:30 \u00b7 Pixar Pier / efficient ride loop|Radiator Single Rider is open if you\u2019re cool splitting.",
-    "checkedAtLocal": "2026-06-05T17:06:56-07:00",
+    "checkedAtLocal": "2026-06-05T17:08:58-07:00",
     "keyWaits": {
       "Radiator": "70 mins",
       "Radiator Single Rider": "Open",
