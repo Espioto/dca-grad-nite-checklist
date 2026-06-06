@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-06-05T21:57:58-07:00",
+  "updatedAt": "2026-06-05T22:00:03-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
   "schedule": {
-    "phase": "9:00\u201310:00 \u00b7 Grad Nite opener",
-    "action": "Start Cars Land photos/Mater\u2019s filler and watch for Radiator or Guardians to drop.",
-    "why": "Radiator at night is the top target, but not at any cost.",
-    "fingerprint": "9:00\u201310:00 \u00b7 Grad Nite opener|Start Cars Land photos/Mater\u2019s filler and watch for Radiator or Guardians to drop.",
-    "checkedAtLocal": "2026-06-05T21:57:58-07:00",
+    "phase": "10:00\u201311:15 \u00b7 Avengers Campus",
+    "action": "WEB Slingers is reasonable (25 min); use it as the bonus.",
+    "why": "This is the hype block; Guardians is worth it when it drops.",
+    "fingerprint": "10:00\u201311:15 \u00b7 Avengers Campus|WEB Slingers is reasonable (25 min); use it as the bonus.",
+    "checkedAtLocal": "2026-06-05T22:00:03-07:00",
     "keyWaits": {
       "Radiator": "100 mins",
       "Guardians": "150 mins",
