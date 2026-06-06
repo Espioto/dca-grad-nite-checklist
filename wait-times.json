@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T19:30:23-07:00",
+  "updatedAt": "2026-06-05T19:32:26-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,9 +8,9 @@
     "action": "Hit Soarin' now (35 min).",
     "why": "Use photos and medium rides, but avoid anything that risks the 8PM reset before Grad Nite.",
     "fingerprint": "6:30\u20138:00 \u00b7 golden hour + Cars Land setup|Hit Soarin' now (35 min).",
-    "checkedAtLocal": "2026-06-05T19:30:23-07:00",
+    "checkedAtLocal": "2026-06-05T19:32:26-07:00",
     "keyWaits": {
-      "Radiator": "65 mins",
+      "Radiator": "70 mins",
       "Guardians": "80 mins",
       "Incredicoaster": "35 mins",
       "WEB Slingers": "45 mins"
@@ -116,12 +116,12 @@
       "ride": "Radiator Springs Racers",
       "priorityNote": "Must-do at night",
       "completed": false,
-      "status": "65 mins",
-      "wait": 65,
+      "status": "70 mins",
+      "wait": 70,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 65 min is about 5 min over the target threshold (60). Recheck later.",
-      "sort": 115
+      "why": "Not worth it yet: 70 min is about 10 min over the target threshold (60). Recheck later.",
+      "sort": 120
     },
     {
       "display": "Guardians",
@@ -170,8 +170,8 @@
       "name": "Radiator Springs Racers",
       "land": "Cars Land",
       "is_open": true,
-      "status": "65 mins",
-      "wait_time": 65,
+      "status": "70 mins",
+      "wait_time": 70,
       "kind": "posted"
     },
     {
@@ -224,8 +224,8 @@
       "name": "Mater's Junkyard Jamboree",
       "land": "Cars Land",
       "is_open": true,
-      "status": "15 mins",
-      "wait_time": 15,
+      "status": "20 mins",
+      "wait_time": 20,
       "kind": "posted"
     },
     {
