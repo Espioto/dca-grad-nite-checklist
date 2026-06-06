@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T20:23:43-07:00",
+  "updatedAt": "2026-06-05T20:25:46-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,12 +8,12 @@
     "action": "Bathroom, water, charge phones, hoodie, regroup near Cars Land unless waits scream otherwise.",
     "why": "This hour is about positioning, not squeezing in a risky long line.",
     "fingerprint": "8:00\u20139:00 \u00b7 reset before Grad Nite|Bathroom, water, charge phones, hoodie, regroup near Cars Land unless waits scream otherwise.",
-    "checkedAtLocal": "2026-06-05T20:23:43-07:00",
+    "checkedAtLocal": "2026-06-05T20:25:46-07:00",
     "keyWaits": {
       "Radiator": "85 mins",
       "Guardians": "135 mins",
       "Incredicoaster": "50 mins",
-      "WEB Slingers": "25 mins"
+      "WEB Slingers": "30 mins"
     }
   },
   "opportunities": [
@@ -27,8 +27,8 @@
     },
     {
       "ride": "WEB SLINGERS: A Spider-Man Adventure",
-      "wait": 25,
-      "status": "25 mins",
+      "wait": 30,
+      "status": "30 mins",
       "land": "Avengers Campus",
       "message": "WEB Slingers is worth it at this wait; skip giant lines.",
       "priority": 60
@@ -64,12 +64,12 @@
       "ride": "WEB SLINGERS: A Spider-Man Adventure",
       "priorityNote": "Good bonus ride",
       "completed": false,
-      "status": "25 mins",
-      "wait": 25,
+      "status": "30 mins",
+      "wait": 30,
       "isOpen": true,
       "recommended": true,
       "why": "Recommended at \u226440; skip long waits because bigger rides matter more.",
-      "sort": 25
+      "sort": 30
     },
     {
       "display": "Monsters Inc.",
@@ -196,8 +196,8 @@
       "name": "WEB SLINGERS: A Spider-Man Adventure",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "25 mins",
-      "wait_time": 25,
+      "status": "30 mins",
+      "wait_time": 30,
       "kind": "posted"
     },
     {
