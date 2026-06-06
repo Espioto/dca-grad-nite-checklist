@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T21:00:36-07:00",
+  "updatedAt": "2026-06-05T21:02:39-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,10 +8,10 @@
     "action": "Start Cars Land photos/Mater\u2019s filler and watch for Radiator or Guardians to drop.",
     "why": "Radiator at night is the top target, but not at any cost.",
     "fingerprint": "9:00\u201310:00 \u00b7 Grad Nite opener|Start Cars Land photos/Mater\u2019s filler and watch for Radiator or Guardians to drop.",
-    "checkedAtLocal": "2026-06-05T21:00:36-07:00",
+    "checkedAtLocal": "2026-06-05T21:02:39-07:00",
     "keyWaits": {
-      "Radiator": "85 mins",
-      "Guardians": "135 mins",
+      "Radiator": "100 mins",
+      "Guardians": "150 mins",
       "Incredicoaster": "65 mins",
       "WEB Slingers": "35 mins"
     }
@@ -124,24 +124,24 @@
       "ride": "Radiator Springs Racers",
       "priorityNote": "Must-do at night",
       "completed": false,
-      "status": "85 mins",
-      "wait": 85,
+      "status": "100 mins",
+      "wait": 100,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 85 min is about 25 min over the target threshold (60). Recheck later.",
-      "sort": 135
+      "why": "Not worth it yet: 100 min is about 40 min over the target threshold (60). Recheck later.",
+      "sort": 150
     },
     {
       "display": "Guardians",
       "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "priorityNote": "Top hype ride",
       "completed": false,
-      "status": "135 mins",
-      "wait": 135,
+      "status": "150 mins",
+      "wait": 150,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 135 min is about 80 min over the target threshold (55). Recheck later.",
-      "sort": 185
+      "why": "Not worth it yet: 150 min is about 95 min over the target threshold (55). Recheck later.",
+      "sort": 200
     },
     {
       "display": "Little Mermaid",
@@ -178,8 +178,8 @@
       "name": "Radiator Springs Racers",
       "land": "Cars Land",
       "is_open": true,
-      "status": "85 mins",
-      "wait_time": 85,
+      "status": "100 mins",
+      "wait_time": 100,
       "kind": "posted"
     },
     {
@@ -187,8 +187,8 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "135 mins",
-      "wait_time": 135,
+      "status": "150 mins",
+      "wait_time": 150,
       "kind": "posted"
     },
     {
