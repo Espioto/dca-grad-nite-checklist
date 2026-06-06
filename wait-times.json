@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T22:24:40-07:00",
+  "updatedAt": "2026-06-05T22:26:43-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,10 +8,10 @@
     "action": "WEB Slingers is reasonable (20 min); use it as the bonus.",
     "why": "This is the hype block; Guardians is worth it when it drops.",
     "fingerprint": "10:00\u201311:15 \u00b7 Avengers Campus|WEB Slingers is reasonable (20 min); use it as the bonus.",
-    "checkedAtLocal": "2026-06-05T22:24:40-07:00",
+    "checkedAtLocal": "2026-06-05T22:26:43-07:00",
     "keyWaits": {
       "Radiator": "90 mins",
-      "Guardians": "100 mins",
+      "Guardians": "115 mins",
       "Incredicoaster": "65 mins",
       "WEB Slingers": "20 mins"
     }
@@ -27,8 +27,8 @@
     },
     {
       "ride": "Soarin' Over California",
-      "wait": 30,
-      "status": "30 mins",
+      "wait": 15,
+      "status": "15 mins",
       "land": "Grizzly Peak",
       "message": "Soarin is a good sit-down reset at this wait.",
       "priority": 65
@@ -68,6 +68,18 @@
       "sort": 5
     },
     {
+      "display": "Soarin'",
+      "ride": "Soarin' Over California",
+      "priorityNote": "Sit-down reset",
+      "completed": false,
+      "status": "15 mins",
+      "wait": 15,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Recommended at \u226435 when people need a calmer ride.",
+      "sort": 15
+    },
+    {
       "display": "WEB Slingers",
       "ride": "WEB SLINGERS: A Spider-Man Adventure",
       "priorityNote": "Good bonus ride",
@@ -78,18 +90,6 @@
       "recommended": true,
       "why": "Recommended at \u226440; skip long waits because bigger rides matter more.",
       "sort": 20
-    },
-    {
-      "display": "Soarin'",
-      "ride": "Soarin' Over California",
-      "priorityNote": "Sit-down reset",
-      "completed": false,
-      "status": "30 mins",
-      "wait": 30,
-      "isOpen": true,
-      "recommended": true,
-      "why": "Recommended at \u226435 when people need a calmer ride.",
-      "sort": 30
     },
     {
       "display": "Pixar Pal-A-Round",
@@ -144,12 +144,12 @@
       "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "priorityNote": "Top hype ride",
       "completed": false,
-      "status": "100 mins",
-      "wait": 100,
+      "status": "115 mins",
+      "wait": 115,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 100 min is about 45 min over the target threshold (55). Recheck later.",
-      "sort": 150
+      "why": "Not worth it yet: 115 min is about 60 min over the target threshold (55). Recheck later.",
+      "sort": 165
     },
     {
       "display": "Little Mermaid",
@@ -195,8 +195,8 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "100 mins",
-      "wait_time": 100,
+      "status": "115 mins",
+      "wait_time": 115,
       "kind": "posted"
     },
     {
@@ -222,8 +222,8 @@
       "name": "Soarin' Over California",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "30 mins",
-      "wait_time": 30,
+      "status": "15 mins",
+      "wait_time": 15,
       "kind": "posted"
     },
     {
