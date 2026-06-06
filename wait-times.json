@@ -1,23 +1,56 @@
 {
-  "updatedAt": "2026-06-05T19:24:14-07:00",
+  "updatedAt": "2026-06-05T19:26:17-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
   "schedule": {
     "phase": "6:30\u20138:00 \u00b7 golden hour + Cars Land setup",
-    "action": "Follow the printed block and avoid any giant standby line.",
+    "action": "Hit Soarin' now (35 min).",
     "why": "Use photos and medium rides, but avoid anything that risks the 8PM reset before Grad Nite.",
-    "fingerprint": "6:30\u20138:00 \u00b7 golden hour + Cars Land setup|Follow the printed block and avoid any giant standby line.",
-    "checkedAtLocal": "2026-06-05T19:24:14-07:00",
+    "fingerprint": "6:30\u20138:00 \u00b7 golden hour + Cars Land setup|Hit Soarin' now (35 min).",
+    "checkedAtLocal": "2026-06-05T19:26:17-07:00",
     "keyWaits": {
-      "Radiator": "70 mins",
+      "Radiator": "65 mins",
       "Guardians": "80 mins",
-      "Incredicoaster": "45 mins",
+      "Incredicoaster": "35 mins",
       "WEB Slingers": "45 mins"
     }
   },
-  "opportunities": [],
+  "opportunities": [
+    {
+      "ride": "Soarin' Over California",
+      "wait": 35,
+      "status": "35 mins",
+      "land": "Grizzly Peak",
+      "message": "Soarin is a good sit-down reset at this wait.",
+      "priority": 65
+    }
+  ],
   "rideDecisions": [
+    {
+      "display": "Incredicoaster",
+      "ride": "Incredicoaster",
+      "priorityNote": "High value",
+      "completed": false,
+      "status": "35 mins",
+      "wait": 35,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Recommended at \u226435; great at night or as a reride.",
+      "sort": 35
+    },
+    {
+      "display": "Soarin'",
+      "ride": "Soarin' Over California",
+      "priorityNote": "Sit-down reset",
+      "completed": false,
+      "status": "35 mins",
+      "wait": 35,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Recommended at \u226435 when people need a calmer ride.",
+      "sort": 35
+    },
     {
       "display": "Monsters Inc.",
       "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
@@ -55,9 +88,9 @@
       "sort": 90
     },
     {
-      "display": "Soarin'",
-      "ride": "Soarin' Over California",
-      "priorityNote": "Sit-down reset",
+      "display": "Toy Story Mania",
+      "ride": "Toy Story Midway Mania!",
+      "priorityNote": "Fun group competition",
       "completed": false,
       "status": "40 mins",
       "wait": 40,
@@ -65,30 +98,6 @@
       "recommended": false,
       "why": "Not worth it yet: 40 min is about 5 min over the target threshold (35). Recheck later.",
       "sort": 90
-    },
-    {
-      "display": "Incredicoaster",
-      "ride": "Incredicoaster",
-      "priorityNote": "High value",
-      "completed": false,
-      "status": "45 mins",
-      "wait": 45,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 45 min is about 10 min over the target threshold (35). Recheck later.",
-      "sort": 95
-    },
-    {
-      "display": "Toy Story Mania",
-      "ride": "Toy Story Midway Mania!",
-      "priorityNote": "Fun group competition",
-      "completed": false,
-      "status": "45 mins",
-      "wait": 45,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 45 min is about 10 min over the target threshold (35). Recheck later.",
-      "sort": 95
     },
     {
       "display": "WEB Slingers",
@@ -107,12 +116,12 @@
       "ride": "Radiator Springs Racers",
       "priorityNote": "Must-do at night",
       "completed": false,
-      "status": "70 mins",
-      "wait": 70,
+      "status": "65 mins",
+      "wait": 65,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 70 min is about 10 min over the target threshold (60). Recheck later.",
-      "sort": 120
+      "why": "Not worth it yet: 65 min is about 5 min over the target threshold (60). Recheck later.",
+      "sort": 115
     },
     {
       "display": "Guardians",
@@ -161,8 +170,8 @@
       "name": "Radiator Springs Racers",
       "land": "Cars Land",
       "is_open": true,
-      "status": "70 mins",
-      "wait_time": 70,
+      "status": "65 mins",
+      "wait_time": 65,
       "kind": "posted"
     },
     {
@@ -188,8 +197,8 @@
       "name": "Incredicoaster",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "45 mins",
-      "wait_time": 45,
+      "status": "35 mins",
+      "wait_time": 35,
       "kind": "posted"
     },
     {
@@ -197,8 +206,8 @@
       "name": "Soarin' Over California",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "40 mins",
-      "wait_time": 40,
+      "status": "35 mins",
+      "wait_time": 35,
       "kind": "posted"
     },
     {
@@ -233,8 +242,8 @@
       "name": "Toy Story Midway Mania!",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "45 mins",
-      "wait_time": 45,
+      "status": "40 mins",
+      "wait_time": 40,
       "kind": "posted"
     },
     {
