@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T17:08:58-07:00",
+  "updatedAt": "2026-06-05T17:11:01-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,14 +8,14 @@
     "action": "Radiator Single Rider is open if you\u2019re cool splitting.",
     "why": "This used to be dinner time; now it is bonus park time for Incredicoaster, Toy Story, Soarin, or short fillers.",
     "fingerprint": "5:00\u20136:30 \u00b7 Pixar Pier / efficient ride loop|Radiator Single Rider is open if you\u2019re cool splitting.",
-    "checkedAtLocal": "2026-06-05T17:08:58-07:00",
+    "checkedAtLocal": "2026-06-05T17:11:01-07:00",
     "keyWaits": {
       "Radiator": "70 mins",
       "Radiator Single Rider": "Open",
       "Guardians": "110 mins",
       "Incredicoaster": "55 mins",
       "Incredicoaster Single Rider": "Open",
-      "WEB Slingers": "55 mins"
+      "WEB Slingers": "Closed"
     }
   },
   "opportunities": [
@@ -34,14 +34,6 @@
       "land": "Pixar Pier",
       "message": "Incredicoaster Single Rider is marked Open \u2014 strong option if the group will split.",
       "priority": 82
-    },
-    {
-      "ride": "WEB SLINGERS: A Spider-Man Adventure Single Rider",
-      "wait": null,
-      "status": "Open",
-      "land": "Avengers Campus",
-      "message": "WEB Slingers Single Rider is marked Open \u2014 good quick add-on if nearby.",
-      "priority": 78
     }
   ],
   "rideDecisions": [
@@ -67,18 +59,6 @@
       "isOpen": true,
       "recommended": true,
       "why": "Single Rider is marked open; use it if everyone is okay splitting.",
-      "sort": 5
-    },
-    {
-      "display": "WEB Single Rider",
-      "ride": "WEB SLINGERS: A Spider-Man Adventure Single Rider",
-      "priorityNote": "Quick add-on",
-      "completed": false,
-      "status": "Open",
-      "wait": null,
-      "isOpen": true,
-      "recommended": true,
-      "why": "Single Rider is marked open; good if nearby and willing to split.",
       "sort": 5
     },
     {
@@ -142,6 +122,30 @@
       "sort": 95
     },
     {
+      "display": "WEB Single Rider",
+      "ride": "WEB SLINGERS: A Spider-Man Adventure Single Rider",
+      "priorityNote": "Quick add-on",
+      "completed": false,
+      "status": "Closed",
+      "wait": null,
+      "isOpen": false,
+      "recommended": false,
+      "why": "Closed right now \u2014 do not route here.",
+      "sort": 95
+    },
+    {
+      "display": "WEB Slingers",
+      "ride": "WEB SLINGERS: A Spider-Man Adventure",
+      "priorityNote": "Good bonus ride",
+      "completed": false,
+      "status": "Closed",
+      "wait": null,
+      "isOpen": false,
+      "recommended": false,
+      "why": "Closed right now \u2014 do not route here.",
+      "sort": 95
+    },
+    {
       "display": "Incredicoaster",
       "ride": "Incredicoaster",
       "priorityNote": "High value",
@@ -151,18 +155,6 @@
       "isOpen": true,
       "recommended": false,
       "why": "Not worth it yet: 55 min is about 20 min over the target threshold (35). Recheck later.",
-      "sort": 105
-    },
-    {
-      "display": "WEB Slingers",
-      "ride": "WEB SLINGERS: A Spider-Man Adventure",
-      "priorityNote": "Good bonus ride",
-      "completed": false,
-      "status": "55 mins",
-      "wait": 55,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 55 min is about 15 min over the target threshold (40). Recheck later.",
       "sort": 105
     },
     {
@@ -250,19 +242,19 @@
       "id": "8843",
       "name": "WEB SLINGERS: A Spider-Man Adventure",
       "land": "Avengers Campus",
-      "is_open": true,
-      "status": "55 mins",
-      "wait_time": 55,
-      "kind": "posted"
+      "is_open": false,
+      "status": "Closed",
+      "wait_time": null,
+      "kind": "closed"
     },
     {
       "id": "10907",
       "name": "WEB SLINGERS: A Spider-Man Adventure Single Rider",
       "land": "Avengers Campus",
-      "is_open": true,
-      "status": "Open",
+      "is_open": false,
+      "status": "Closed",
       "wait_time": null,
-      "kind": "open_no_minutes"
+      "kind": "closed"
     },
     {
       "id": "322",
