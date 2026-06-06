@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T17:35:37-07:00",
+  "updatedAt": "2026-06-05T17:37:40-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,12 +8,12 @@
     "action": "Follow the printed block and avoid any giant standby line.",
     "why": "This used to be dinner time; now it is bonus park time for Incredicoaster, Toy Story, Soarin, or short fillers.",
     "fingerprint": "5:00\u20136:30 \u00b7 Pixar Pier / efficient ride loop|Follow the printed block and avoid any giant standby line.",
-    "checkedAtLocal": "2026-06-05T17:35:37-07:00",
+    "checkedAtLocal": "2026-06-05T17:37:40-07:00",
     "keyWaits": {
       "Radiator": "70 mins",
-      "Guardians": "110 mins",
+      "Guardians": "75 mins",
       "Incredicoaster": "65 mins",
-      "WEB Slingers": "Closed"
+      "WEB Slingers": "55 mins"
     }
   },
   "opportunities": [],
@@ -67,18 +67,6 @@
       "sort": 95
     },
     {
-      "display": "WEB Slingers",
-      "ride": "WEB SLINGERS: A Spider-Man Adventure",
-      "priorityNote": "Good bonus ride",
-      "completed": false,
-      "status": "Closed",
-      "wait": null,
-      "isOpen": false,
-      "recommended": false,
-      "why": "Closed right now \u2014 do not route here.",
-      "sort": 95
-    },
-    {
       "display": "Toy Story Mania",
       "ride": "Toy Story Midway Mania!",
       "priorityNote": "Fun group competition",
@@ -88,6 +76,18 @@
       "isOpen": true,
       "recommended": false,
       "why": "Not worth it yet: 55 min is about 20 min over the target threshold (35). Recheck later.",
+      "sort": 105
+    },
+    {
+      "display": "WEB Slingers",
+      "ride": "WEB SLINGERS: A Spider-Man Adventure",
+      "priorityNote": "Good bonus ride",
+      "completed": false,
+      "status": "55 mins",
+      "wait": 55,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 55 min is about 15 min over the target threshold (40). Recheck later.",
       "sort": 105
     },
     {
@@ -119,12 +119,12 @@
       "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "priorityNote": "Top hype ride",
       "completed": false,
-      "status": "110 mins",
-      "wait": 110,
+      "status": "75 mins",
+      "wait": 75,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 110 min is about 55 min over the target threshold (55). Recheck later.",
-      "sort": 160
+      "why": "Not worth it yet: 75 min is about 20 min over the target threshold (55). Recheck later.",
+      "sort": 125
     },
     {
       "display": "Little Mermaid",
@@ -170,18 +170,18 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "110 mins",
-      "wait_time": 110,
+      "status": "75 mins",
+      "wait_time": 75,
       "kind": "posted"
     },
     {
       "id": "8843",
       "name": "WEB SLINGERS: A Spider-Man Adventure",
       "land": "Avengers Campus",
-      "is_open": false,
-      "status": "Closed",
-      "wait_time": null,
-      "kind": "closed"
+      "is_open": true,
+      "status": "55 mins",
+      "wait_time": 55,
+      "kind": "posted"
     },
     {
       "id": "322",
@@ -224,8 +224,8 @@
       "name": "The Little Mermaid - Ariel's Undersea Adventure",
       "land": "Paradise Gardens Park",
       "is_open": true,
-      "status": "20 mins",
-      "wait_time": 20,
+      "status": "30 mins",
+      "wait_time": 30,
       "kind": "posted"
     },
     {
