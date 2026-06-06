@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T21:14:57-07:00",
+  "updatedAt": "2026-06-05T21:17:00-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,7 +8,7 @@
     "action": "Start Cars Land photos/Mater\u2019s filler and watch for Radiator or Guardians to drop.",
     "why": "Radiator at night is the top target, but not at any cost.",
     "fingerprint": "9:00\u201310:00 \u00b7 Grad Nite opener|Start Cars Land photos/Mater\u2019s filler and watch for Radiator or Guardians to drop.",
-    "checkedAtLocal": "2026-06-05T21:14:57-07:00",
+    "checkedAtLocal": "2026-06-05T21:17:00-07:00",
     "keyWaits": {
       "Radiator": "100 mins",
       "Guardians": "150 mins",
@@ -17,6 +17,14 @@
     }
   },
   "opportunities": [
+    {
+      "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
+      "wait": 10,
+      "status": "10 mins",
+      "land": "Hollywood Land",
+      "message": "Monsters Inc. is a good warmup/low-energy ride right now.",
+      "priority": 85
+    },
     {
       "ride": "Soarin' Over California",
       "wait": 25,
@@ -35,6 +43,18 @@
     }
   ],
   "rideDecisions": [
+    {
+      "display": "Monsters Inc.",
+      "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
+      "priorityNote": "Low-effort indoor",
+      "completed": false,
+      "status": "10 mins",
+      "wait": 10,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Recommended at \u226415 as a quick indoor reset.",
+      "sort": 10
+    },
     {
       "display": "Soarin'",
       "ride": "Soarin' Over California",
@@ -70,18 +90,6 @@
       "recommended": true,
       "why": "Recommended at \u226440; skip long waits because bigger rides matter more.",
       "sort": 35
-    },
-    {
-      "display": "Monsters Inc.",
-      "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
-      "priorityNote": "Low-effort indoor",
-      "completed": false,
-      "status": "25 mins",
-      "wait": 25,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 25 min is about 10 min over the target threshold (15). Recheck later.",
-      "sort": 75
     },
     {
       "display": "Pixar Pal-A-Round",
@@ -223,8 +231,8 @@
       "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
       "land": "Hollywood Land",
       "is_open": true,
-      "status": "25 mins",
-      "wait_time": 25,
+      "status": "10 mins",
+      "wait_time": 10,
       "kind": "posted"
     },
     {
