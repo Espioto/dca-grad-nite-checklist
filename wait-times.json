@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-06-05T22:14:24-07:00",
+  "updatedAt": "2026-06-05T22:16:27-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
   "schedule": {
     "phase": "10:00\u201311:15 \u00b7 Avengers Campus",
-    "action": "WEB Slingers is reasonable (30 min); use it as the bonus.",
+    "action": "WEB Slingers is reasonable (20 min); use it as the bonus.",
     "why": "This is the hype block; Guardians is worth it when it drops.",
-    "fingerprint": "10:00\u201311:15 \u00b7 Avengers Campus|WEB Slingers is reasonable (30 min); use it as the bonus.",
-    "checkedAtLocal": "2026-06-05T22:14:24-07:00",
+    "fingerprint": "10:00\u201311:15 \u00b7 Avengers Campus|WEB Slingers is reasonable (20 min); use it as the bonus.",
+    "checkedAtLocal": "2026-06-05T22:16:27-07:00",
     "keyWaits": {
       "Radiator": "90 mins",
       "Guardians": "100 mins",
       "Incredicoaster": "65 mins",
-      "WEB Slingers": "30 mins"
+      "WEB Slingers": "20 mins"
     }
   },
   "opportunities": [
@@ -27,16 +27,16 @@
     },
     {
       "ride": "Soarin' Over California",
-      "wait": 25,
-      "status": "25 mins",
+      "wait": 30,
+      "status": "30 mins",
       "land": "Grizzly Peak",
       "message": "Soarin is a good sit-down reset at this wait.",
       "priority": 65
     },
     {
       "ride": "WEB SLINGERS: A Spider-Man Adventure",
-      "wait": 30,
-      "status": "30 mins",
+      "wait": 20,
+      "status": "20 mins",
       "land": "Avengers Campus",
       "message": "WEB Slingers is worth it at this wait; skip giant lines.",
       "priority": 60
@@ -68,27 +68,27 @@
       "sort": 5
     },
     {
-      "display": "Soarin'",
-      "ride": "Soarin' Over California",
-      "priorityNote": "Sit-down reset",
-      "completed": false,
-      "status": "25 mins",
-      "wait": 25,
-      "isOpen": true,
-      "recommended": true,
-      "why": "Recommended at \u226435 when people need a calmer ride.",
-      "sort": 25
-    },
-    {
       "display": "WEB Slingers",
       "ride": "WEB SLINGERS: A Spider-Man Adventure",
       "priorityNote": "Good bonus ride",
+      "completed": false,
+      "status": "20 mins",
+      "wait": 20,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Recommended at \u226440; skip long waits because bigger rides matter more.",
+      "sort": 20
+    },
+    {
+      "display": "Soarin'",
+      "ride": "Soarin' Over California",
+      "priorityNote": "Sit-down reset",
       "completed": false,
       "status": "30 mins",
       "wait": 30,
       "isOpen": true,
       "recommended": true,
-      "why": "Recommended at \u226440; skip long waits because bigger rides matter more.",
+      "why": "Recommended at \u226435 when people need a calmer ride.",
       "sort": 30
     },
     {
@@ -204,8 +204,8 @@
       "name": "WEB SLINGERS: A Spider-Man Adventure",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "30 mins",
-      "wait_time": 30,
+      "status": "20 mins",
+      "wait_time": 20,
       "kind": "posted"
     },
     {
@@ -222,8 +222,8 @@
       "name": "Soarin' Over California",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "25 mins",
-      "wait_time": 25,
+      "status": "30 mins",
+      "wait_time": 30,
       "kind": "posted"
     },
     {
@@ -240,8 +240,8 @@
       "name": "Mater's Junkyard Jamboree",
       "land": "Cars Land",
       "is_open": true,
-      "status": "20 mins",
-      "wait_time": 20,
+      "status": "5 mins",
+      "wait_time": 5,
       "kind": "posted"
     },
     {
