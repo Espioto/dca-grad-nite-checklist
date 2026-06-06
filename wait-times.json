@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-06T00:21:35-07:00",
+  "updatedAt": "2026-06-06T00:23:37-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,10 +8,10 @@
     "action": "Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
     "why": "Early dinner replaces the old 5\u20136:45 waitlist block and frees up prime afternoon ride time.",
     "fingerprint": "2:30\u20133:30 \u00b7 Din Tai Fung now|Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
-    "checkedAtLocal": "2026-06-06T00:21:35-07:00",
+    "checkedAtLocal": "2026-06-06T00:23:37-07:00",
     "keyWaits": {
       "Radiator": "80 mins",
-      "Guardians": "160 mins",
+      "Guardians": "90 mins",
       "Incredicoaster": "90 mins",
       "WEB Slingers": "5 mins"
     }
@@ -120,6 +120,18 @@
       "sort": 130
     },
     {
+      "display": "Guardians",
+      "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
+      "priorityNote": "Top hype ride",
+      "completed": false,
+      "status": "90 mins",
+      "wait": 90,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 90 min is about 35 min over the target threshold (55). Recheck later.",
+      "sort": 140
+    },
+    {
       "display": "Incredicoaster",
       "ride": "Incredicoaster",
       "priorityNote": "High value",
@@ -130,18 +142,6 @@
       "recommended": false,
       "why": "Not worth it yet: 90 min is about 55 min over the target threshold (35). Recheck later.",
       "sort": 140
-    },
-    {
-      "display": "Guardians",
-      "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
-      "priorityNote": "Top hype ride",
-      "completed": false,
-      "status": "160 mins",
-      "wait": 160,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 160 min is about 105 min over the target threshold (55). Recheck later.",
-      "sort": 210
     },
     {
       "display": "Little Mermaid",
@@ -187,8 +187,8 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "160 mins",
-      "wait_time": 160,
+      "status": "90 mins",
+      "wait_time": 90,
       "kind": "posted"
     },
     {
