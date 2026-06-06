@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T20:19:36-07:00",
+  "updatedAt": "2026-06-05T20:21:40-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,9 +8,9 @@
     "action": "Bathroom, water, charge phones, hoodie, regroup near Cars Land unless waits scream otherwise.",
     "why": "This hour is about positioning, not squeezing in a risky long line.",
     "fingerprint": "8:00\u20139:00 \u00b7 reset before Grad Nite|Bathroom, water, charge phones, hoodie, regroup near Cars Land unless waits scream otherwise.",
-    "checkedAtLocal": "2026-06-05T20:19:36-07:00",
+    "checkedAtLocal": "2026-06-05T20:21:40-07:00",
     "keyWaits": {
-      "Radiator": "95 mins",
+      "Radiator": "85 mins",
       "Guardians": "135 mins",
       "Incredicoaster": "50 mins",
       "WEB Slingers": "25 mins"
@@ -112,24 +112,24 @@
       "ride": "Toy Story Midway Mania!",
       "priorityNote": "Fun group competition",
       "completed": false,
-      "status": "60 mins",
-      "wait": 60,
+      "status": "50 mins",
+      "wait": 50,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 60 min is about 25 min over the target threshold (35). Recheck later.",
-      "sort": 110
+      "why": "Not worth it yet: 50 min is about 15 min over the target threshold (35). Recheck later.",
+      "sort": 100
     },
     {
       "display": "Radiator Springs Racers",
       "ride": "Radiator Springs Racers",
       "priorityNote": "Must-do at night",
       "completed": false,
-      "status": "95 mins",
-      "wait": 95,
+      "status": "85 mins",
+      "wait": 85,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 95 min is about 35 min over the target threshold (60). Recheck later.",
-      "sort": 145
+      "why": "Not worth it yet: 85 min is about 25 min over the target threshold (60). Recheck later.",
+      "sort": 135
     },
     {
       "display": "Guardians",
@@ -178,8 +178,8 @@
       "name": "Radiator Springs Racers",
       "land": "Cars Land",
       "is_open": true,
-      "status": "95 mins",
-      "wait_time": 95,
+      "status": "85 mins",
+      "wait_time": 85,
       "kind": "posted"
     },
     {
@@ -250,8 +250,8 @@
       "name": "Toy Story Midway Mania!",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "60 mins",
-      "wait_time": 60,
+      "status": "50 mins",
+      "wait_time": 50,
       "kind": "posted"
     },
     {
