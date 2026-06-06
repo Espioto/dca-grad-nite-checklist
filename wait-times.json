@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-06T00:11:20-07:00",
+  "updatedAt": "2026-06-06T00:13:23-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,15 +8,23 @@
     "action": "Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
     "why": "Early dinner replaces the old 5\u20136:45 waitlist block and frees up prime afternoon ride time.",
     "fingerprint": "2:30\u20133:30 \u00b7 Din Tai Fung now|Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
-    "checkedAtLocal": "2026-06-06T00:11:20-07:00",
+    "checkedAtLocal": "2026-06-06T00:13:23-07:00",
     "keyWaits": {
-      "Radiator": "80 mins",
-      "Guardians": "140 mins",
+      "Radiator": "65 mins",
+      "Guardians": "180 mins",
       "Incredicoaster": "90 mins",
       "WEB Slingers": "5 mins"
     }
   },
   "opportunities": [
+    {
+      "ride": "Soarin' Over California",
+      "wait": 25,
+      "status": "25 mins",
+      "land": "Grizzly Peak",
+      "message": "Soarin is a good sit-down reset at this wait.",
+      "priority": 65
+    },
     {
       "ride": "WEB SLINGERS: A Spider-Man Adventure",
       "wait": 5,
@@ -52,6 +60,18 @@
       "sort": 5
     },
     {
+      "display": "Soarin'",
+      "ride": "Soarin' Over California",
+      "priorityNote": "Sit-down reset",
+      "completed": false,
+      "status": "25 mins",
+      "wait": 25,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Recommended at \u226435 when people need a calmer ride.",
+      "sort": 25
+    },
+    {
       "display": "Pixar Pal-A-Round",
       "ride": "Pixar Pal-A-Round - Non-Swinging",
       "priorityNote": "Photo/view ride",
@@ -61,18 +81,6 @@
       "isOpen": false,
       "recommended": false,
       "why": "No live status found. Check the Disneyland app before walking over.",
-      "sort": 90
-    },
-    {
-      "display": "Soarin'",
-      "ride": "Soarin' Over California",
-      "priorityNote": "Sit-down reset",
-      "completed": false,
-      "status": "40 mins",
-      "wait": 40,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 40 min is about 5 min over the target threshold (35). Recheck later.",
       "sort": 90
     },
     {
@@ -104,12 +112,12 @@
       "ride": "Radiator Springs Racers",
       "priorityNote": "Must-do at night",
       "completed": false,
-      "status": "80 mins",
-      "wait": 80,
+      "status": "65 mins",
+      "wait": 65,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 80 min is about 20 min over the target threshold (60). Recheck later.",
-      "sort": 130
+      "why": "Not worth it yet: 65 min is about 5 min over the target threshold (60). Recheck later.",
+      "sort": 115
     },
     {
       "display": "Incredicoaster",
@@ -128,12 +136,12 @@
       "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "priorityNote": "Top hype ride",
       "completed": false,
-      "status": "140 mins",
-      "wait": 140,
+      "status": "180 mins",
+      "wait": 180,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 140 min is about 85 min over the target threshold (55). Recheck later.",
-      "sort": 190
+      "why": "Not worth it yet: 180 min is about 125 min over the target threshold (55). Recheck later.",
+      "sort": 230
     },
     {
       "display": "Little Mermaid",
@@ -170,8 +178,8 @@
       "name": "Radiator Springs Racers",
       "land": "Cars Land",
       "is_open": true,
-      "status": "80 mins",
-      "wait_time": 80,
+      "status": "65 mins",
+      "wait_time": 65,
       "kind": "posted"
     },
     {
@@ -179,8 +187,8 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "140 mins",
-      "wait_time": 140,
+      "status": "180 mins",
+      "wait_time": 180,
       "kind": "posted"
     },
     {
@@ -206,8 +214,8 @@
       "name": "Soarin' Over California",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "40 mins",
-      "wait_time": 40,
+      "status": "25 mins",
+      "wait_time": 25,
       "kind": "posted"
     },
     {
