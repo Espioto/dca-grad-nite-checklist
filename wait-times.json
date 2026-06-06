@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T22:49:19-07:00",
+  "updatedAt": "2026-06-05T22:51:22-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,9 +8,9 @@
     "action": "WEB Slingers is reasonable (15 min); use it as the bonus.",
     "why": "This is the hype block; Guardians is worth it when it drops.",
     "fingerprint": "10:00\u201311:15 \u00b7 Avengers Campus|WEB Slingers is reasonable (15 min); use it as the bonus.",
-    "checkedAtLocal": "2026-06-05T22:49:19-07:00",
+    "checkedAtLocal": "2026-06-05T22:51:22-07:00",
     "keyWaits": {
-      "Radiator": "90 mins",
+      "Radiator": "110 mins",
       "Guardians": "175 mins",
       "Incredicoaster": "65 mins",
       "WEB Slingers": "15 mins"
@@ -132,12 +132,12 @@
       "ride": "Radiator Springs Racers",
       "priorityNote": "Must-do at night",
       "completed": false,
-      "status": "90 mins",
-      "wait": 90,
+      "status": "110 mins",
+      "wait": 110,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 90 min is about 30 min over the target threshold (60). Recheck later.",
-      "sort": 140
+      "why": "Not worth it yet: 110 min is about 50 min over the target threshold (60). Recheck later.",
+      "sort": 160
     },
     {
       "display": "Guardians",
@@ -186,8 +186,8 @@
       "name": "Radiator Springs Racers",
       "land": "Cars Land",
       "is_open": true,
-      "status": "90 mins",
-      "wait_time": 90,
+      "status": "110 mins",
+      "wait_time": 110,
       "kind": "posted"
     },
     {
