@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T18:20:42-07:00",
+  "updatedAt": "2026-06-05T18:22:44-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,11 +8,11 @@
     "action": "Hit Soarin' now (25 min).",
     "why": "This used to be dinner time; now it is bonus park time for Incredicoaster, Toy Story, Soarin, or short fillers.",
     "fingerprint": "5:00\u20136:30 \u00b7 Pixar Pier / efficient ride loop|Hit Soarin' now (25 min).",
-    "checkedAtLocal": "2026-06-05T18:20:42-07:00",
+    "checkedAtLocal": "2026-06-05T18:22:44-07:00",
     "keyWaits": {
       "Radiator": "70 mins",
-      "Guardians": "95 mins",
-      "Incredicoaster": "35 mins",
+      "Guardians": "120 mins",
+      "Incredicoaster": "45 mins",
       "WEB Slingers": "Closed"
     }
   },
@@ -38,18 +38,6 @@
       "recommended": true,
       "why": "Recommended at \u226435 when people need a calmer ride.",
       "sort": 25
-    },
-    {
-      "display": "Incredicoaster",
-      "ride": "Incredicoaster",
-      "priorityNote": "High value",
-      "completed": false,
-      "status": "35 mins",
-      "wait": 35,
-      "isOpen": true,
-      "recommended": true,
-      "why": "Recommended at \u226435; great at night or as a reride.",
-      "sort": 35
     },
     {
       "display": "Toy Story Mania",
@@ -100,6 +88,18 @@
       "sort": 90
     },
     {
+      "display": "Incredicoaster",
+      "ride": "Incredicoaster",
+      "priorityNote": "High value",
+      "completed": false,
+      "status": "45 mins",
+      "wait": 45,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 45 min is about 10 min over the target threshold (35). Recheck later.",
+      "sort": 95
+    },
+    {
       "display": "WEB Slingers",
       "ride": "WEB SLINGERS: A Spider-Man Adventure",
       "priorityNote": "Good bonus ride",
@@ -128,12 +128,12 @@
       "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "priorityNote": "Top hype ride",
       "completed": false,
-      "status": "95 mins",
-      "wait": 95,
+      "status": "120 mins",
+      "wait": 120,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 95 min is about 40 min over the target threshold (55). Recheck later.",
-      "sort": 145
+      "why": "Not worth it yet: 120 min is about 65 min over the target threshold (55). Recheck later.",
+      "sort": 170
     },
     {
       "display": "Little Mermaid",
@@ -179,8 +179,8 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "95 mins",
-      "wait_time": 95,
+      "status": "120 mins",
+      "wait_time": 120,
       "kind": "posted"
     },
     {
@@ -197,8 +197,8 @@
       "name": "Incredicoaster",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "35 mins",
-      "wait_time": 35,
+      "status": "45 mins",
+      "wait_time": 45,
       "kind": "posted"
     },
     {
