@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T17:04:53-07:00",
+  "updatedAt": "2026-06-05T17:06:56-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,14 +8,14 @@
     "action": "Radiator Single Rider is open if you\u2019re cool splitting.",
     "why": "This used to be dinner time; now it is bonus park time for Incredicoaster, Toy Story, Soarin, or short fillers.",
     "fingerprint": "5:00\u20136:30 \u00b7 Pixar Pier / efficient ride loop|Radiator Single Rider is open if you\u2019re cool splitting.",
-    "checkedAtLocal": "2026-06-05T17:04:53-07:00",
+    "checkedAtLocal": "2026-06-05T17:06:56-07:00",
     "keyWaits": {
       "Radiator": "70 mins",
       "Radiator Single Rider": "Open",
       "Guardians": "110 mins",
-      "Incredicoaster": "40 mins",
+      "Incredicoaster": "55 mins",
       "Incredicoaster Single Rider": "Open",
-      "WEB Slingers": "Closed"
+      "WEB Slingers": "55 mins"
     }
   },
   "opportunities": [
@@ -34,6 +34,14 @@
       "land": "Pixar Pier",
       "message": "Incredicoaster Single Rider is marked Open \u2014 strong option if the group will split.",
       "priority": 82
+    },
+    {
+      "ride": "WEB SLINGERS: A Spider-Man Adventure Single Rider",
+      "wait": null,
+      "status": "Open",
+      "land": "Avengers Campus",
+      "message": "WEB Slingers Single Rider is marked Open \u2014 good quick add-on if nearby.",
+      "priority": 78
     }
   ],
   "rideDecisions": [
@@ -62,6 +70,18 @@
       "sort": 5
     },
     {
+      "display": "WEB Single Rider",
+      "ride": "WEB SLINGERS: A Spider-Man Adventure Single Rider",
+      "priorityNote": "Quick add-on",
+      "completed": false,
+      "status": "Open",
+      "wait": null,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Single Rider is marked open; good if nearby and willing to split.",
+      "sort": 5
+    },
+    {
       "display": "Grizzly River Run",
       "ride": "Grizzly River Run",
       "priorityNote": "Only if okay wet",
@@ -74,18 +94,6 @@
       "sort": 80
     },
     {
-      "display": "Incredicoaster",
-      "ride": "Incredicoaster",
-      "priorityNote": "High value",
-      "completed": false,
-      "status": "40 mins",
-      "wait": 40,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 40 min is about 5 min over the target threshold (35). Recheck later.",
-      "sort": 90
-    },
-    {
       "display": "Pixar Pal-A-Round",
       "ride": "Pixar Pal-A-Round - Non-Swinging",
       "priorityNote": "Photo/view ride",
@@ -95,6 +103,18 @@
       "isOpen": false,
       "recommended": false,
       "why": "No live status found. Check the Disneyland app before walking over.",
+      "sort": 90
+    },
+    {
+      "display": "Soarin'",
+      "ride": "Soarin' Over California",
+      "priorityNote": "Sit-down reset",
+      "completed": false,
+      "status": "40 mins",
+      "wait": 40,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 40 min is about 5 min over the target threshold (35). Recheck later.",
       "sort": 90
     },
     {
@@ -122,39 +142,27 @@
       "sort": 95
     },
     {
-      "display": "WEB Single Rider",
-      "ride": "WEB SLINGERS: A Spider-Man Adventure Single Rider",
-      "priorityNote": "Quick add-on",
-      "completed": false,
-      "status": "Closed",
-      "wait": null,
-      "isOpen": false,
-      "recommended": false,
-      "why": "Closed right now \u2014 do not route here.",
-      "sort": 95
-    },
-    {
-      "display": "WEB Slingers",
-      "ride": "WEB SLINGERS: A Spider-Man Adventure",
-      "priorityNote": "Good bonus ride",
-      "completed": false,
-      "status": "Closed",
-      "wait": null,
-      "isOpen": false,
-      "recommended": false,
-      "why": "Closed right now \u2014 do not route here.",
-      "sort": 95
-    },
-    {
-      "display": "Soarin'",
-      "ride": "Soarin' Over California",
-      "priorityNote": "Sit-down reset",
+      "display": "Incredicoaster",
+      "ride": "Incredicoaster",
+      "priorityNote": "High value",
       "completed": false,
       "status": "55 mins",
       "wait": 55,
       "isOpen": true,
       "recommended": false,
       "why": "Not worth it yet: 55 min is about 20 min over the target threshold (35). Recheck later.",
+      "sort": 105
+    },
+    {
+      "display": "WEB Slingers",
+      "ride": "WEB SLINGERS: A Spider-Man Adventure",
+      "priorityNote": "Good bonus ride",
+      "completed": false,
+      "status": "55 mins",
+      "wait": 55,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 55 min is about 15 min over the target threshold (40). Recheck later.",
       "sort": 105
     },
     {
@@ -242,27 +250,27 @@
       "id": "8843",
       "name": "WEB SLINGERS: A Spider-Man Adventure",
       "land": "Avengers Campus",
-      "is_open": false,
-      "status": "Closed",
-      "wait_time": null,
-      "kind": "closed"
+      "is_open": true,
+      "status": "55 mins",
+      "wait_time": 55,
+      "kind": "posted"
     },
     {
       "id": "10907",
       "name": "WEB SLINGERS: A Spider-Man Adventure Single Rider",
       "land": "Avengers Campus",
-      "is_open": false,
-      "status": "Closed",
+      "is_open": true,
+      "status": "Open",
       "wait_time": null,
-      "kind": "closed"
+      "kind": "open_no_minutes"
     },
     {
       "id": "322",
       "name": "Incredicoaster",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "40 mins",
-      "wait_time": 40,
+      "status": "55 mins",
+      "wait_time": 55,
       "kind": "posted"
     },
     {
@@ -279,8 +287,8 @@
       "name": "Soarin' Over California",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "55 mins",
-      "wait_time": 55,
+      "status": "40 mins",
+      "wait_time": 40,
       "kind": "posted"
     },
     {
