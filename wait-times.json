@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-06-05T19:59:06-07:00",
+  "updatedAt": "2026-06-05T20:01:10-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
   "schedule": {
-    "phase": "6:30\u20138:00 \u00b7 golden hour + Cars Land setup",
-    "action": "Hit Soarin' now (35 min).",
-    "why": "Use photos and medium rides, but avoid anything that risks the 8PM reset before Grad Nite.",
-    "fingerprint": "6:30\u20138:00 \u00b7 golden hour + Cars Land setup|Hit Soarin' now (35 min).",
-    "checkedAtLocal": "2026-06-05T19:59:06-07:00",
+    "phase": "8:00\u20139:00 \u00b7 reset before Grad Nite",
+    "action": "Bathroom, water, charge phones, hoodie, regroup near Cars Land unless waits scream otherwise.",
+    "why": "This hour is about positioning, not squeezing in a risky long line.",
+    "fingerprint": "8:00\u20139:00 \u00b7 reset before Grad Nite|Bathroom, water, charge phones, hoodie, regroup near Cars Land unless waits scream otherwise.",
+    "checkedAtLocal": "2026-06-05T20:01:10-07:00",
     "keyWaits": {
       "Radiator": "55 mins",
       "Guardians": "100 mins",
@@ -40,18 +40,6 @@
       "sort": 5
     },
     {
-      "display": "Toy Story Mania",
-      "ride": "Toy Story Midway Mania!",
-      "priorityNote": "Fun group competition",
-      "completed": false,
-      "status": "30 mins",
-      "wait": 30,
-      "isOpen": true,
-      "recommended": true,
-      "why": "Recommended at \u226435; fun but not worth a huge wait.",
-      "sort": 30
-    },
-    {
       "display": "Soarin'",
       "ride": "Soarin' Over California",
       "priorityNote": "Sit-down reset",
@@ -61,6 +49,18 @@
       "isOpen": true,
       "recommended": true,
       "why": "Recommended at \u226435 when people need a calmer ride.",
+      "sort": 35
+    },
+    {
+      "display": "Toy Story Mania",
+      "ride": "Toy Story Midway Mania!",
+      "priorityNote": "Fun group competition",
+      "completed": false,
+      "status": "35 mins",
+      "wait": 35,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Recommended at \u226435; fun but not worth a huge wait.",
       "sort": 35
     },
     {
@@ -242,8 +242,8 @@
       "name": "Toy Story Midway Mania!",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "30 mins",
-      "wait_time": 30,
+      "status": "35 mins",
+      "wait_time": 35,
       "kind": "posted"
     },
     {
