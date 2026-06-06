@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-06-05T19:48:51-07:00",
+  "updatedAt": "2026-06-05T19:50:54-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
   "schedule": {
     "phase": "6:30\u20138:00 \u00b7 golden hour + Cars Land setup",
-    "action": "Hit WEB Slingers now (35 min).",
+    "action": "Hit Soarin' now (35 min).",
     "why": "Use photos and medium rides, but avoid anything that risks the 8PM reset before Grad Nite.",
-    "fingerprint": "6:30\u20138:00 \u00b7 golden hour + Cars Land setup|Hit WEB Slingers now (35 min).",
-    "checkedAtLocal": "2026-06-05T19:48:51-07:00",
+    "fingerprint": "6:30\u20138:00 \u00b7 golden hour + Cars Land setup|Hit Soarin' now (35 min).",
+    "checkedAtLocal": "2026-06-05T19:50:54-07:00",
     "keyWaits": {
       "Radiator": "70 mins",
       "Guardians": "80 mins",
       "Incredicoaster": "45 mins",
-      "WEB Slingers": "35 mins"
+      "WEB Slingers": "Closed"
     }
   },
   "opportunities": [
@@ -24,14 +24,6 @@
       "land": "Grizzly Peak",
       "message": "Soarin is a good sit-down reset at this wait.",
       "priority": 65
-    },
-    {
-      "ride": "WEB SLINGERS: A Spider-Man Adventure",
-      "wait": 35,
-      "status": "35 mins",
-      "land": "Avengers Campus",
-      "message": "WEB Slingers is worth it at this wait; skip giant lines.",
-      "priority": 60
     }
   ],
   "rideDecisions": [
@@ -52,12 +44,12 @@
       "ride": "Toy Story Midway Mania!",
       "priorityNote": "Fun group competition",
       "completed": false,
-      "status": "25 mins",
-      "wait": 25,
+      "status": "30 mins",
+      "wait": 30,
       "isOpen": true,
       "recommended": true,
       "why": "Recommended at \u226435; fun but not worth a huge wait.",
-      "sort": 25
+      "sort": 30
     },
     {
       "display": "Soarin'",
@@ -69,18 +61,6 @@
       "isOpen": true,
       "recommended": true,
       "why": "Recommended at \u226435 when people need a calmer ride.",
-      "sort": 35
-    },
-    {
-      "display": "WEB Slingers",
-      "ride": "WEB SLINGERS: A Spider-Man Adventure",
-      "priorityNote": "Good bonus ride",
-      "completed": false,
-      "status": "35 mins",
-      "wait": 35,
-      "isOpen": true,
-      "recommended": true,
-      "why": "Recommended at \u226440; skip long waits because bigger rides matter more.",
       "sort": 35
     },
     {
@@ -117,6 +97,18 @@
       "isOpen": true,
       "recommended": false,
       "why": "Not worth it yet: 45 min is about 10 min over the target threshold (35). Recheck later.",
+      "sort": 95
+    },
+    {
+      "display": "WEB Slingers",
+      "ride": "WEB SLINGERS: A Spider-Man Adventure",
+      "priorityNote": "Good bonus ride",
+      "completed": false,
+      "status": "Closed",
+      "wait": null,
+      "isOpen": false,
+      "recommended": false,
+      "why": "Closed right now \u2014 do not route here.",
       "sort": 95
     },
     {
@@ -195,10 +187,10 @@
       "id": "8843",
       "name": "WEB SLINGERS: A Spider-Man Adventure",
       "land": "Avengers Campus",
-      "is_open": true,
-      "status": "35 mins",
-      "wait_time": 35,
-      "kind": "posted"
+      "is_open": false,
+      "status": "Closed",
+      "wait_time": null,
+      "kind": "closed"
     },
     {
       "id": "322",
@@ -250,8 +242,8 @@
       "name": "Toy Story Midway Mania!",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "25 mins",
-      "wait_time": 25,
+      "status": "30 mins",
+      "wait_time": 30,
       "kind": "posted"
     },
     {
