@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-06-05T16:58:43-07:00",
+  "updatedAt": "2026-06-05T17:00:46-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
   "schedule": {
-    "phase": "3:30\u20135:00 \u00b7 post-dinner quick wins",
+    "phase": "5:00\u20136:30 \u00b7 Pixar Pier / efficient ride loop",
     "action": "Hit WEB Slingers now (30 min).",
-    "why": "Dinner is already handled, so clear efficient rides while normal guests are still spread out.",
-    "fingerprint": "3:30\u20135:00 \u00b7 post-dinner quick wins|Hit WEB Slingers now (30 min).",
-    "checkedAtLocal": "2026-06-05T16:58:43-07:00",
+    "why": "This used to be dinner time; now it is bonus park time for Incredicoaster, Toy Story, Soarin, or short fillers.",
+    "fingerprint": "5:00\u20136:30 \u00b7 Pixar Pier / efficient ride loop|Hit WEB Slingers now (30 min).",
+    "checkedAtLocal": "2026-06-05T17:00:46-07:00",
     "keyWaits": {
       "Radiator": "70 mins",
       "Radiator Single Rider": "Open",
