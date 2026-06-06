@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-06-05T23:13:56-07:00",
+  "updatedAt": "2026-06-05T23:16:01-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
   "schedule": {
-    "phase": "10:00\u201311:15 \u00b7 Avengers Campus",
-    "action": "WEB Slingers is reasonable (20 min); use it as the bonus.",
-    "why": "This is the hype block; Guardians is worth it when it drops.",
-    "fingerprint": "10:00\u201311:15 \u00b7 Avengers Campus|WEB Slingers is reasonable (20 min); use it as the bonus.",
-    "checkedAtLocal": "2026-06-05T23:13:56-07:00",
+    "phase": "11:15\u201312:30 \u00b7 Pixar Pier night lap",
+    "action": "Get water/snack/photo, then choose the shortest elite ride.",
+    "why": "Night Incredicoaster is high value, but avoid a late-night stall.",
+    "fingerprint": "11:15\u201312:30 \u00b7 Pixar Pier night lap|Get water/snack/photo, then choose the shortest elite ride.",
+    "checkedAtLocal": "2026-06-05T23:16:01-07:00",
     "keyWaits": {
       "Radiator": "110 mins",
       "Guardians": "150 mins",
       "Incredicoaster": "85 mins",
-      "WEB Slingers": "20 mins"
+      "WEB Slingers": "15 mins"
     }
   },
   "opportunities": [
@@ -35,8 +35,8 @@
     },
     {
       "ride": "WEB SLINGERS: A Spider-Man Adventure",
-      "wait": 20,
-      "status": "20 mins",
+      "wait": 15,
+      "status": "15 mins",
       "land": "Avengers Campus",
       "message": "WEB Slingers is worth it at this wait; skip giant lines.",
       "priority": 60
@@ -84,12 +84,12 @@
       "ride": "WEB SLINGERS: A Spider-Man Adventure",
       "priorityNote": "Good bonus ride",
       "completed": false,
-      "status": "20 mins",
-      "wait": 20,
+      "status": "15 mins",
+      "wait": 15,
       "isOpen": true,
       "recommended": true,
       "why": "Recommended at \u226440; skip long waits because bigger rides matter more.",
-      "sort": 20
+      "sort": 15
     },
     {
       "display": "Pixar Pal-A-Round",
@@ -204,8 +204,8 @@
       "name": "WEB SLINGERS: A Spider-Man Adventure",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "20 mins",
-      "wait_time": 20,
+      "status": "15 mins",
+      "wait_time": 15,
       "kind": "posted"
     },
     {
