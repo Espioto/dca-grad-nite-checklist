@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T19:55:01-07:00",
+  "updatedAt": "2026-06-05T19:57:03-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,10 +8,10 @@
     "action": "Hit Soarin' now (35 min).",
     "why": "Use photos and medium rides, but avoid anything that risks the 8PM reset before Grad Nite.",
     "fingerprint": "6:30\u20138:00 \u00b7 golden hour + Cars Land setup|Hit Soarin' now (35 min).",
-    "checkedAtLocal": "2026-06-05T19:55:01-07:00",
+    "checkedAtLocal": "2026-06-05T19:57:03-07:00",
     "keyWaits": {
-      "Radiator": "70 mins",
-      "Guardians": "80 mins",
+      "Radiator": "55 mins",
+      "Guardians": "100 mins",
       "Incredicoaster": "45 mins",
       "WEB Slingers": "Closed"
     }
@@ -32,12 +32,12 @@
       "ride": "Grizzly River Run",
       "priorityNote": "Only if okay wet",
       "completed": false,
-      "status": "15 mins",
-      "wait": 15,
+      "status": "5 mins",
+      "wait": 5,
       "isOpen": true,
       "recommended": true,
       "why": "Recommended only if short and everyone accepts getting wet.",
-      "sort": 15
+      "sort": 5
     },
     {
       "display": "Toy Story Mania",
@@ -62,6 +62,18 @@
       "recommended": true,
       "why": "Recommended at \u226435 when people need a calmer ride.",
       "sort": 35
+    },
+    {
+      "display": "Radiator Springs Racers",
+      "ride": "Radiator Springs Racers",
+      "priorityNote": "Must-do at night",
+      "completed": false,
+      "status": "55 mins",
+      "wait": 55,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Worth it together if \u226460, especially after dark.",
+      "sort": 55
     },
     {
       "display": "Monsters Inc.",
@@ -112,28 +124,16 @@
       "sort": 95
     },
     {
-      "display": "Radiator Springs Racers",
-      "ride": "Radiator Springs Racers",
-      "priorityNote": "Must-do at night",
-      "completed": false,
-      "status": "70 mins",
-      "wait": 70,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 70 min is about 10 min over the target threshold (60). Recheck later.",
-      "sort": 120
-    },
-    {
       "display": "Guardians",
       "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "priorityNote": "Top hype ride",
       "completed": false,
-      "status": "80 mins",
-      "wait": 80,
+      "status": "100 mins",
+      "wait": 100,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 80 min is about 25 min over the target threshold (55). Recheck later.",
-      "sort": 130
+      "why": "Not worth it yet: 100 min is about 45 min over the target threshold (55). Recheck later.",
+      "sort": 150
     },
     {
       "display": "Little Mermaid",
@@ -170,8 +170,8 @@
       "name": "Radiator Springs Racers",
       "land": "Cars Land",
       "is_open": true,
-      "status": "70 mins",
-      "wait_time": 70,
+      "status": "55 mins",
+      "wait_time": 55,
       "kind": "posted"
     },
     {
@@ -179,8 +179,8 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "80 mins",
-      "wait_time": 80,
+      "status": "100 mins",
+      "wait_time": 100,
       "kind": "posted"
     },
     {
@@ -251,8 +251,8 @@
       "name": "Grizzly River Run",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "15 mins",
-      "wait_time": 15,
+      "status": "5 mins",
+      "wait_time": 5,
       "kind": "posted"
     }
   ]
