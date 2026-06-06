@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T19:13:59-07:00",
+  "updatedAt": "2026-06-05T19:16:02-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,12 +8,12 @@
     "action": "Follow the printed block and avoid any giant standby line.",
     "why": "Use photos and medium rides, but avoid anything that risks the 8PM reset before Grad Nite.",
     "fingerprint": "6:30\u20138:00 \u00b7 golden hour + Cars Land setup|Follow the printed block and avoid any giant standby line.",
-    "checkedAtLocal": "2026-06-05T19:13:59-07:00",
+    "checkedAtLocal": "2026-06-05T19:16:02-07:00",
     "keyWaits": {
       "Radiator": "70 mins",
       "Guardians": "120 mins",
       "Incredicoaster": "45 mins",
-      "WEB Slingers": "65 mins"
+      "WEB Slingers": "45 mins"
     }
   },
   "opportunities": [],
@@ -79,6 +79,18 @@
       "sort": 95
     },
     {
+      "display": "WEB Slingers",
+      "ride": "WEB SLINGERS: A Spider-Man Adventure",
+      "priorityNote": "Good bonus ride",
+      "completed": false,
+      "status": "45 mins",
+      "wait": 45,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 45 min is about 5 min over the target threshold (40). Recheck later.",
+      "sort": 95
+    },
+    {
       "display": "Toy Story Mania",
       "ride": "Toy Story Midway Mania!",
       "priorityNote": "Fun group competition",
@@ -89,18 +101,6 @@
       "recommended": false,
       "why": "Not worth it yet: 55 min is about 20 min over the target threshold (35). Recheck later.",
       "sort": 105
-    },
-    {
-      "display": "WEB Slingers",
-      "ride": "WEB SLINGERS: A Spider-Man Adventure",
-      "priorityNote": "Good bonus ride",
-      "completed": false,
-      "status": "65 mins",
-      "wait": 65,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 65 min is about 25 min over the target threshold (40). Recheck later.",
-      "sort": 115
     },
     {
       "display": "Radiator Springs Racers",
@@ -179,8 +179,8 @@
       "name": "WEB SLINGERS: A Spider-Man Adventure",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "65 mins",
-      "wait_time": 65,
+      "status": "45 mins",
+      "wait_time": 45,
       "kind": "posted"
     },
     {
