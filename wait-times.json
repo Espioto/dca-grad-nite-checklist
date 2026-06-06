@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-06-05T19:34:29-07:00",
+  "updatedAt": "2026-06-05T19:36:32-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
   "schedule": {
     "phase": "6:30\u20138:00 \u00b7 golden hour + Cars Land setup",
-    "action": "Hit Soarin' now (35 min).",
+    "action": "Hit WEB Slingers now (35 min).",
     "why": "Use photos and medium rides, but avoid anything that risks the 8PM reset before Grad Nite.",
-    "fingerprint": "6:30\u20138:00 \u00b7 golden hour + Cars Land setup|Hit Soarin' now (35 min).",
-    "checkedAtLocal": "2026-06-05T19:34:29-07:00",
+    "fingerprint": "6:30\u20138:00 \u00b7 golden hour + Cars Land setup|Hit WEB Slingers now (35 min).",
+    "checkedAtLocal": "2026-06-05T19:36:32-07:00",
     "keyWaits": {
       "Radiator": "70 mins",
       "Guardians": "80 mins",
       "Incredicoaster": "35 mins",
-      "WEB Slingers": "45 mins"
+      "WEB Slingers": "35 mins"
     }
   },
   "opportunities": [
@@ -24,6 +24,14 @@
       "land": "Grizzly Peak",
       "message": "Soarin is a good sit-down reset at this wait.",
       "priority": 65
+    },
+    {
+      "ride": "WEB SLINGERS: A Spider-Man Adventure",
+      "wait": 35,
+      "status": "35 mins",
+      "land": "Avengers Campus",
+      "message": "WEB Slingers is worth it at this wait; skip giant lines.",
+      "priority": 60
     }
   ],
   "rideDecisions": [
@@ -49,6 +57,18 @@
       "isOpen": true,
       "recommended": true,
       "why": "Recommended at \u226435 when people need a calmer ride.",
+      "sort": 35
+    },
+    {
+      "display": "WEB Slingers",
+      "ride": "WEB SLINGERS: A Spider-Man Adventure",
+      "priorityNote": "Good bonus ride",
+      "completed": false,
+      "status": "35 mins",
+      "wait": 35,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Recommended at \u226440; skip long waits because bigger rides matter more.",
       "sort": 35
     },
     {
@@ -98,18 +118,6 @@
       "recommended": false,
       "why": "Not worth it yet: 40 min is about 5 min over the target threshold (35). Recheck later.",
       "sort": 90
-    },
-    {
-      "display": "WEB Slingers",
-      "ride": "WEB SLINGERS: A Spider-Man Adventure",
-      "priorityNote": "Good bonus ride",
-      "completed": false,
-      "status": "45 mins",
-      "wait": 45,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 45 min is about 5 min over the target threshold (40). Recheck later.",
-      "sort": 95
     },
     {
       "display": "Radiator Springs Racers",
@@ -188,8 +196,8 @@
       "name": "WEB SLINGERS: A Spider-Man Adventure",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "45 mins",
-      "wait_time": 45,
+      "status": "35 mins",
+      "wait_time": 35,
       "kind": "posted"
     },
     {
