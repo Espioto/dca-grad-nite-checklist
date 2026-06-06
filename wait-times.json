@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T17:39:43-07:00",
+  "updatedAt": "2026-06-05T17:41:46-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,7 +8,7 @@
     "action": "Follow the printed block and avoid any giant standby line.",
     "why": "This used to be dinner time; now it is bonus park time for Incredicoaster, Toy Story, Soarin, or short fillers.",
     "fingerprint": "5:00\u20136:30 \u00b7 Pixar Pier / efficient ride loop|Follow the printed block and avoid any giant standby line.",
-    "checkedAtLocal": "2026-06-05T17:39:43-07:00",
+    "checkedAtLocal": "2026-06-05T17:41:46-07:00",
     "keyWaits": {
       "Radiator": "70 mins",
       "Guardians": "75 mins",
@@ -18,6 +18,18 @@
   },
   "opportunities": [],
   "rideDecisions": [
+    {
+      "display": "Monsters Inc.",
+      "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
+      "priorityNote": "Low-effort indoor",
+      "completed": false,
+      "status": "25 mins",
+      "wait": 25,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 25 min is about 10 min over the target threshold (15). Recheck later.",
+      "sort": 75
+    },
     {
       "display": "Grizzly River Run",
       "ride": "Grizzly River Run",
@@ -53,18 +65,6 @@
       "recommended": false,
       "why": "Not worth it yet: 40 min is about 5 min over the target threshold (35). Recheck later.",
       "sort": 90
-    },
-    {
-      "display": "Monsters Inc.",
-      "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
-      "priorityNote": "Low-effort indoor",
-      "completed": false,
-      "status": "45 mins",
-      "wait": 45,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 45 min is about 30 min over the target threshold (15). Recheck later.",
-      "sort": 95
     },
     {
       "display": "Toy Story Mania",
@@ -206,8 +206,8 @@
       "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
       "land": "Hollywood Land",
       "is_open": true,
-      "status": "45 mins",
-      "wait_time": 45,
+      "status": "25 mins",
+      "wait_time": 25,
       "kind": "posted"
     },
     {
@@ -224,8 +224,8 @@
       "name": "The Little Mermaid - Ariel's Undersea Adventure",
       "land": "Paradise Gardens Park",
       "is_open": true,
-      "status": "30 mins",
-      "wait_time": 30,
+      "status": "25 mins",
+      "wait_time": 25,
       "kind": "posted"
     },
     {
