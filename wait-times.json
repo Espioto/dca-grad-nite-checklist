@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-06T00:15:26-07:00",
+  "updatedAt": "2026-06-06T00:17:29-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,10 +8,10 @@
     "action": "Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
     "why": "Early dinner replaces the old 5\u20136:45 waitlist block and frees up prime afternoon ride time.",
     "fingerprint": "2:30\u20133:30 \u00b7 Din Tai Fung now|Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
-    "checkedAtLocal": "2026-06-06T00:15:26-07:00",
+    "checkedAtLocal": "2026-06-06T00:17:29-07:00",
     "keyWaits": {
-      "Radiator": "65 mins",
-      "Guardians": "180 mins",
+      "Radiator": "80 mins",
+      "Guardians": "160 mins",
       "Incredicoaster": "90 mins",
       "WEB Slingers": "5 mins"
     }
@@ -112,12 +112,12 @@
       "ride": "Radiator Springs Racers",
       "priorityNote": "Must-do at night",
       "completed": false,
-      "status": "65 mins",
-      "wait": 65,
+      "status": "80 mins",
+      "wait": 80,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 65 min is about 5 min over the target threshold (60). Recheck later.",
-      "sort": 115
+      "why": "Not worth it yet: 80 min is about 20 min over the target threshold (60). Recheck later.",
+      "sort": 130
     },
     {
       "display": "Incredicoaster",
@@ -136,12 +136,12 @@
       "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "priorityNote": "Top hype ride",
       "completed": false,
-      "status": "180 mins",
-      "wait": 180,
+      "status": "160 mins",
+      "wait": 160,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 180 min is about 125 min over the target threshold (55). Recheck later.",
-      "sort": 230
+      "why": "Not worth it yet: 160 min is about 105 min over the target threshold (55). Recheck later.",
+      "sort": 210
     },
     {
       "display": "Little Mermaid",
@@ -178,8 +178,8 @@
       "name": "Radiator Springs Racers",
       "land": "Cars Land",
       "is_open": true,
-      "status": "65 mins",
-      "wait_time": 65,
+      "status": "80 mins",
+      "wait_time": 80,
       "kind": "posted"
     },
     {
@@ -187,8 +187,8 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "180 mins",
-      "wait_time": 180,
+      "status": "160 mins",
+      "wait_time": 160,
       "kind": "posted"
     },
     {
