@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T20:38:04-07:00",
+  "updatedAt": "2026-06-05T20:40:07-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,7 +8,7 @@
     "action": "Bathroom, water, charge phones, hoodie, regroup near Cars Land unless waits scream otherwise.",
     "why": "This hour is about positioning, not squeezing in a risky long line.",
     "fingerprint": "8:00\u20139:00 \u00b7 reset before Grad Nite|Bathroom, water, charge phones, hoodie, regroup near Cars Land unless waits scream otherwise.",
-    "checkedAtLocal": "2026-06-05T20:38:04-07:00",
+    "checkedAtLocal": "2026-06-05T20:40:07-07:00",
     "keyWaits": {
       "Radiator": "90 mins",
       "Guardians": "135 mins",
