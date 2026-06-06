@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T22:34:56-07:00",
+  "updatedAt": "2026-06-05T22:36:59-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,10 +8,10 @@
     "action": "WEB Slingers is reasonable (5 min); use it as the bonus.",
     "why": "This is the hype block; Guardians is worth it when it drops.",
     "fingerprint": "10:00\u201311:15 \u00b7 Avengers Campus|WEB Slingers is reasonable (5 min); use it as the bonus.",
-    "checkedAtLocal": "2026-06-05T22:34:56-07:00",
+    "checkedAtLocal": "2026-06-05T22:36:59-07:00",
     "keyWaits": {
       "Radiator": "90 mins",
-      "Guardians": "150 mins",
+      "Guardians": "175 mins",
       "Incredicoaster": "65 mins",
       "WEB Slingers": "5 mins"
     }
@@ -27,8 +27,8 @@
     },
     {
       "ride": "Soarin' Over California",
-      "wait": 15,
-      "status": "15 mins",
+      "wait": 10,
+      "status": "10 mins",
       "land": "Grizzly Peak",
       "message": "Soarin is a good sit-down reset at this wait.",
       "priority": 65
@@ -72,12 +72,12 @@
       "ride": "Soarin' Over California",
       "priorityNote": "Sit-down reset",
       "completed": false,
-      "status": "15 mins",
-      "wait": 15,
+      "status": "10 mins",
+      "wait": 10,
       "isOpen": true,
       "recommended": true,
       "why": "Recommended at \u226435 when people need a calmer ride.",
-      "sort": 15
+      "sort": 10
     },
     {
       "display": "Toy Story Mania",
@@ -144,12 +144,12 @@
       "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "priorityNote": "Top hype ride",
       "completed": false,
-      "status": "150 mins",
-      "wait": 150,
+      "status": "175 mins",
+      "wait": 175,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 150 min is about 95 min over the target threshold (55). Recheck later.",
-      "sort": 200
+      "why": "Not worth it yet: 175 min is about 120 min over the target threshold (55). Recheck later.",
+      "sort": 225
     },
     {
       "display": "Little Mermaid",
@@ -195,8 +195,8 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "150 mins",
-      "wait_time": 150,
+      "status": "175 mins",
+      "wait_time": 175,
       "kind": "posted"
     },
     {
@@ -222,8 +222,8 @@
       "name": "Soarin' Over California",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "15 mins",
-      "wait_time": 15,
+      "status": "10 mins",
+      "wait_time": 10,
       "kind": "posted"
     },
     {
