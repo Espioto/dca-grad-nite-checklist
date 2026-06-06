@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-06T00:46:10-07:00",
+  "updatedAt": "2026-06-06T00:48:13-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,7 +8,7 @@
     "action": "Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
     "why": "Early dinner replaces the old 5\u20136:45 waitlist block and frees up prime afternoon ride time.",
     "fingerprint": "2:30\u20133:30 \u00b7 Din Tai Fung now|Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
-    "checkedAtLocal": "2026-06-06T00:46:10-07:00",
+    "checkedAtLocal": "2026-06-06T00:48:13-07:00",
     "keyWaits": {
       "Radiator": "Closed",
       "Guardians": "90 mins",
