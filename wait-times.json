@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T19:20:08-07:00",
+  "updatedAt": "2026-06-05T19:22:11-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,16 +8,28 @@
     "action": "Follow the printed block and avoid any giant standby line.",
     "why": "Use photos and medium rides, but avoid anything that risks the 8PM reset before Grad Nite.",
     "fingerprint": "6:30\u20138:00 \u00b7 golden hour + Cars Land setup|Follow the printed block and avoid any giant standby line.",
-    "checkedAtLocal": "2026-06-05T19:20:08-07:00",
+    "checkedAtLocal": "2026-06-05T19:22:11-07:00",
     "keyWaits": {
       "Radiator": "70 mins",
-      "Guardians": "120 mins",
+      "Guardians": "80 mins",
       "Incredicoaster": "45 mins",
       "WEB Slingers": "45 mins"
     }
   },
   "opportunities": [],
   "rideDecisions": [
+    {
+      "display": "Monsters Inc.",
+      "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
+      "priorityNote": "Low-effort indoor",
+      "completed": false,
+      "status": "30 mins",
+      "wait": 30,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 30 min is about 15 min over the target threshold (15). Recheck later.",
+      "sort": 80
+    },
     {
       "display": "Grizzly River Run",
       "ride": "Grizzly River Run",
@@ -67,15 +79,15 @@
       "sort": 95
     },
     {
-      "display": "Monsters Inc.",
-      "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
-      "priorityNote": "Low-effort indoor",
+      "display": "Toy Story Mania",
+      "ride": "Toy Story Midway Mania!",
+      "priorityNote": "Fun group competition",
       "completed": false,
       "status": "45 mins",
       "wait": 45,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 45 min is about 30 min over the target threshold (15). Recheck later.",
+      "why": "Not worth it yet: 45 min is about 10 min over the target threshold (35). Recheck later.",
       "sort": 95
     },
     {
@@ -89,18 +101,6 @@
       "recommended": false,
       "why": "Not worth it yet: 45 min is about 5 min over the target threshold (40). Recheck later.",
       "sort": 95
-    },
-    {
-      "display": "Toy Story Mania",
-      "ride": "Toy Story Midway Mania!",
-      "priorityNote": "Fun group competition",
-      "completed": false,
-      "status": "55 mins",
-      "wait": 55,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 55 min is about 20 min over the target threshold (35). Recheck later.",
-      "sort": 105
     },
     {
       "display": "Radiator Springs Racers",
@@ -119,12 +119,12 @@
       "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "priorityNote": "Top hype ride",
       "completed": false,
-      "status": "120 mins",
-      "wait": 120,
+      "status": "80 mins",
+      "wait": 80,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 120 min is about 65 min over the target threshold (55). Recheck later.",
-      "sort": 170
+      "why": "Not worth it yet: 80 min is about 25 min over the target threshold (55). Recheck later.",
+      "sort": 130
     },
     {
       "display": "Little Mermaid",
@@ -170,8 +170,8 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "120 mins",
-      "wait_time": 120,
+      "status": "80 mins",
+      "wait_time": 80,
       "kind": "posted"
     },
     {
@@ -206,8 +206,8 @@
       "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
       "land": "Hollywood Land",
       "is_open": true,
-      "status": "45 mins",
-      "wait_time": 45,
+      "status": "30 mins",
+      "wait_time": 30,
       "kind": "posted"
     },
     {
@@ -224,8 +224,8 @@
       "name": "The Little Mermaid - Ariel's Undersea Adventure",
       "land": "Paradise Gardens Park",
       "is_open": true,
-      "status": "10 mins",
-      "wait_time": 10,
+      "status": "5 mins",
+      "wait_time": 5,
       "kind": "posted"
     },
     {
@@ -233,8 +233,8 @@
       "name": "Toy Story Midway Mania!",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "55 mins",
-      "wait_time": 55,
+      "status": "45 mins",
+      "wait_time": 45,
       "kind": "posted"
     },
     {
