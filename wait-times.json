@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T17:54:03-07:00",
+  "updatedAt": "2026-06-05T17:56:07-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,11 +8,11 @@
     "action": "Follow the printed block and avoid any giant standby line.",
     "why": "This used to be dinner time; now it is bonus park time for Incredicoaster, Toy Story, Soarin, or short fillers.",
     "fingerprint": "5:00\u20136:30 \u00b7 Pixar Pier / efficient ride loop|Follow the printed block and avoid any giant standby line.",
-    "checkedAtLocal": "2026-06-05T17:54:03-07:00",
+    "checkedAtLocal": "2026-06-05T17:56:07-07:00",
     "keyWaits": {
       "Radiator": "70 mins",
       "Guardians": "85 mins",
-      "Incredicoaster": "65 mins",
+      "Incredicoaster": "50 mins",
       "WEB Slingers": "55 mins"
     }
   },
@@ -67,6 +67,18 @@
       "sort": 90
     },
     {
+      "display": "Incredicoaster",
+      "ride": "Incredicoaster",
+      "priorityNote": "High value",
+      "completed": false,
+      "status": "50 mins",
+      "wait": 50,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 50 min is about 15 min over the target threshold (35). Recheck later.",
+      "sort": 100
+    },
+    {
       "display": "Toy Story Mania",
       "ride": "Toy Story Midway Mania!",
       "priorityNote": "Fun group competition",
@@ -89,18 +101,6 @@
       "recommended": false,
       "why": "Not worth it yet: 55 min is about 15 min over the target threshold (40). Recheck later.",
       "sort": 105
-    },
-    {
-      "display": "Incredicoaster",
-      "ride": "Incredicoaster",
-      "priorityNote": "High value",
-      "completed": false,
-      "status": "65 mins",
-      "wait": 65,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 65 min is about 30 min over the target threshold (35). Recheck later.",
-      "sort": 115
     },
     {
       "display": "Radiator Springs Racers",
@@ -188,8 +188,8 @@
       "name": "Incredicoaster",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "65 mins",
-      "wait_time": 65,
+      "status": "50 mins",
+      "wait_time": 50,
       "kind": "posted"
     },
     {
