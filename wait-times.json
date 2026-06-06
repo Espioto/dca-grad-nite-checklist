@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T18:55:32-07:00",
+  "updatedAt": "2026-06-05T18:57:35-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,9 +8,9 @@
     "action": "Follow the printed block and avoid any giant standby line.",
     "why": "Use photos and medium rides, but avoid anything that risks the 8PM reset before Grad Nite.",
     "fingerprint": "6:30\u20138:00 \u00b7 golden hour + Cars Land setup|Follow the printed block and avoid any giant standby line.",
-    "checkedAtLocal": "2026-06-05T18:55:32-07:00",
+    "checkedAtLocal": "2026-06-05T18:57:35-07:00",
     "keyWaits": {
-      "Radiator": "95 mins",
+      "Radiator": "75 mins",
       "Guardians": "120 mins",
       "Incredicoaster": "45 mins",
       "WEB Slingers": "45 mins"
@@ -107,12 +107,12 @@
       "ride": "Radiator Springs Racers",
       "priorityNote": "Must-do at night",
       "completed": false,
-      "status": "95 mins",
-      "wait": 95,
+      "status": "75 mins",
+      "wait": 75,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 95 min is about 35 min over the target threshold (60). Recheck later.",
-      "sort": 145
+      "why": "Not worth it yet: 75 min is about 15 min over the target threshold (60). Recheck later.",
+      "sort": 125
     },
     {
       "display": "Guardians",
@@ -161,8 +161,8 @@
       "name": "Radiator Springs Racers",
       "land": "Cars Land",
       "is_open": true,
-      "status": "95 mins",
-      "wait_time": 95,
+      "status": "75 mins",
+      "wait_time": 75,
       "kind": "posted"
     },
     {
