@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T22:59:34-07:00",
+  "updatedAt": "2026-06-05T23:01:39-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,11 +8,11 @@
     "action": "WEB Slingers is reasonable (20 min); use it as the bonus.",
     "why": "This is the hype block; Guardians is worth it when it drops.",
     "fingerprint": "10:00\u201311:15 \u00b7 Avengers Campus|WEB Slingers is reasonable (20 min); use it as the bonus.",
-    "checkedAtLocal": "2026-06-05T22:59:34-07:00",
+    "checkedAtLocal": "2026-06-05T23:01:39-07:00",
     "keyWaits": {
       "Radiator": "110 mins",
       "Guardians": "175 mins",
-      "Incredicoaster": "65 mins",
+      "Incredicoaster": "85 mins",
       "WEB Slingers": "20 mins"
     }
   },
@@ -120,12 +120,12 @@
       "ride": "Incredicoaster",
       "priorityNote": "High value",
       "completed": false,
-      "status": "65 mins",
-      "wait": 65,
+      "status": "85 mins",
+      "wait": 85,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 65 min is about 30 min over the target threshold (35). Recheck later.",
-      "sort": 115
+      "why": "Not worth it yet: 85 min is about 50 min over the target threshold (35). Recheck later.",
+      "sort": 135
     },
     {
       "display": "Radiator Springs Racers",
@@ -213,8 +213,8 @@
       "name": "Incredicoaster",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "65 mins",
-      "wait_time": 65,
+      "status": "85 mins",
+      "wait_time": 85,
       "kind": "posted"
     },
     {
