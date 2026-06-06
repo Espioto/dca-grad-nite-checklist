@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-06T01:29:11-07:00",
+  "updatedAt": "2026-06-06T01:31:14-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,10 +8,10 @@
     "action": "Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
     "why": "Early dinner replaces the old 5\u20136:45 waitlist block and frees up prime afternoon ride time.",
     "fingerprint": "2:30\u20133:30 \u00b7 Din Tai Fung now|Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
-    "checkedAtLocal": "2026-06-06T01:29:11-07:00",
+    "checkedAtLocal": "2026-06-06T01:31:14-07:00",
     "keyWaits": {
       "Radiator": "Closed",
-      "Guardians": "60 mins",
+      "Guardians": "45 mins",
       "Incredicoaster": "Closed",
       "WEB Slingers": "5 mins"
     }
@@ -40,6 +40,14 @@
       "land": "Avengers Campus",
       "message": "WEB Slingers is worth it at this wait; skip giant lines.",
       "priority": 60
+    },
+    {
+      "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
+      "wait": 45,
+      "status": "45 mins",
+      "land": "Avengers Campus",
+      "message": "Guardians at/under 45 is worth jumping on.",
+      "priority": 55
     }
   ],
   "rideDecisions": [
@@ -78,6 +86,18 @@
       "recommended": true,
       "why": "Recommended at \u226435 when people need a calmer ride.",
       "sort": 15
+    },
+    {
+      "display": "Guardians",
+      "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
+      "priorityNote": "Top hype ride",
+      "completed": false,
+      "status": "45 mins",
+      "wait": 45,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Recommended when \u226455; go immediately if \u226445.",
+      "sort": 45
     },
     {
       "display": "Pixar Pal-A-Round",
@@ -140,18 +160,6 @@
       "sort": 95
     },
     {
-      "display": "Guardians",
-      "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
-      "priorityNote": "Top hype ride",
-      "completed": false,
-      "status": "60 mins",
-      "wait": 60,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 60 min is about 5 min over the target threshold (55). Recheck later.",
-      "sort": 110
-    },
-    {
       "display": "Little Mermaid",
       "ride": "The Little Mermaid - Ariel's Undersea Adventure",
       "priorityNote": "AC reset",
@@ -195,8 +203,8 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "60 mins",
-      "wait_time": 60,
+      "status": "45 mins",
+      "wait_time": 45,
       "kind": "posted"
     },
     {
