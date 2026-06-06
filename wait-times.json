@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T23:30:21-07:00",
+  "updatedAt": "2026-06-05T23:32:24-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,7 +8,7 @@
     "action": "Get water/snack/photo, then choose the shortest elite ride.",
     "why": "Night Incredicoaster is high value, but avoid a late-night stall.",
     "fingerprint": "11:15\u201312:30 \u00b7 Pixar Pier night lap|Get water/snack/photo, then choose the shortest elite ride.",
-    "checkedAtLocal": "2026-06-05T23:30:21-07:00",
+    "checkedAtLocal": "2026-06-05T23:32:24-07:00",
     "keyWaits": {
       "Radiator": "110 mins",
       "Guardians": "150 mins",
@@ -17,14 +17,6 @@
     }
   },
   "opportunities": [
-    {
-      "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
-      "wait": 5,
-      "status": "5 mins",
-      "land": "Hollywood Land",
-      "message": "Monsters Inc. is a good warmup/low-energy ride right now.",
-      "priority": 85
-    },
     {
       "ride": "Soarin' Over California",
       "wait": 20,
@@ -43,18 +35,6 @@
     }
   ],
   "rideDecisions": [
-    {
-      "display": "Monsters Inc.",
-      "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
-      "priorityNote": "Low-effort indoor",
-      "completed": false,
-      "status": "5 mins",
-      "wait": 5,
-      "isOpen": true,
-      "recommended": true,
-      "why": "Recommended at \u226415 as a quick indoor reset.",
-      "sort": 5
-    },
     {
       "display": "Toy Story Mania",
       "ride": "Toy Story Midway Mania!",
@@ -107,6 +87,18 @@
       "display": "Grizzly River Run",
       "ride": "Grizzly River Run",
       "priorityNote": "Only if okay wet",
+      "completed": false,
+      "status": "Closed",
+      "wait": null,
+      "isOpen": false,
+      "recommended": false,
+      "why": "Closed right now \u2014 do not route here.",
+      "sort": 95
+    },
+    {
+      "display": "Monsters Inc.",
+      "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
+      "priorityNote": "Low-effort indoor",
       "completed": false,
       "status": "Closed",
       "wait": null,
@@ -230,10 +222,10 @@
       "id": "291",
       "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
       "land": "Hollywood Land",
-      "is_open": true,
-      "status": "5 mins",
-      "wait_time": 5,
-      "kind": "posted"
+      "is_open": false,
+      "status": "Closed",
+      "wait_time": null,
+      "kind": "closed"
     },
     {
       "id": "315",
