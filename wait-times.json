@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T21:04:42-07:00",
+  "updatedAt": "2026-06-05T21:06:45-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,7 +8,7 @@
     "action": "Start Cars Land photos/Mater\u2019s filler and watch for Radiator or Guardians to drop.",
     "why": "Radiator at night is the top target, but not at any cost.",
     "fingerprint": "9:00\u201310:00 \u00b7 Grad Nite opener|Start Cars Land photos/Mater\u2019s filler and watch for Radiator or Guardians to drop.",
-    "checkedAtLocal": "2026-06-05T21:04:42-07:00",
+    "checkedAtLocal": "2026-06-05T21:06:45-07:00",
     "keyWaits": {
       "Radiator": "100 mins",
       "Guardians": "150 mins",
@@ -35,18 +35,6 @@
     }
   ],
   "rideDecisions": [
-    {
-      "display": "Grizzly River Run",
-      "ride": "Grizzly River Run",
-      "priorityNote": "Only if okay wet",
-      "completed": false,
-      "status": "15 mins",
-      "wait": 15,
-      "isOpen": true,
-      "recommended": true,
-      "why": "Recommended only if short and everyone accepts getting wet.",
-      "sort": 15
-    },
     {
       "display": "Soarin'",
       "ride": "Soarin' Over California",
@@ -106,6 +94,18 @@
       "recommended": false,
       "why": "No live status found. Check the Disneyland app before walking over.",
       "sort": 90
+    },
+    {
+      "display": "Grizzly River Run",
+      "ride": "Grizzly River Run",
+      "priorityNote": "Only if okay wet",
+      "completed": false,
+      "status": "Closed",
+      "wait": null,
+      "isOpen": false,
+      "recommended": false,
+      "why": "Closed right now \u2014 do not route here.",
+      "sort": 95
     },
     {
       "display": "Incredicoaster",
@@ -258,10 +258,10 @@
       "id": "302",
       "name": "Grizzly River Run",
       "land": "Grizzly Peak",
-      "is_open": true,
-      "status": "15 mins",
-      "wait_time": 15,
-      "kind": "posted"
+      "is_open": false,
+      "status": "Closed",
+      "wait_time": null,
+      "kind": "closed"
     }
   ]
 }
