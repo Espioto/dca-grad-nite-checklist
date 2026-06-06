@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T20:29:52-07:00",
+  "updatedAt": "2026-06-05T20:31:55-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,7 +8,7 @@
     "action": "Bathroom, water, charge phones, hoodie, regroup near Cars Land unless waits scream otherwise.",
     "why": "This hour is about positioning, not squeezing in a risky long line.",
     "fingerprint": "8:00\u20139:00 \u00b7 reset before Grad Nite|Bathroom, water, charge phones, hoodie, regroup near Cars Land unless waits scream otherwise.",
-    "checkedAtLocal": "2026-06-05T20:29:52-07:00",
+    "checkedAtLocal": "2026-06-05T20:31:55-07:00",
     "keyWaits": {
       "Radiator": "85 mins",
       "Guardians": "135 mins",
@@ -40,12 +40,12 @@
       "ride": "Grizzly River Run",
       "priorityNote": "Only if okay wet",
       "completed": false,
-      "status": "10 mins",
-      "wait": 10,
+      "status": "15 mins",
+      "wait": 15,
       "isOpen": true,
       "recommended": true,
       "why": "Recommended only if short and everyone accepts getting wet.",
-      "sort": 10
+      "sort": 15
     },
     {
       "display": "Soarin'",
@@ -76,12 +76,12 @@
       "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
       "priorityNote": "Low-effort indoor",
       "completed": false,
-      "status": "30 mins",
-      "wait": 30,
+      "status": "25 mins",
+      "wait": 25,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 30 min is about 15 min over the target threshold (15). Recheck later.",
-      "sort": 80
+      "why": "Not worth it yet: 25 min is about 10 min over the target threshold (15). Recheck later.",
+      "sort": 75
     },
     {
       "display": "Pixar Pal-A-Round",
@@ -96,21 +96,21 @@
       "sort": 90
     },
     {
-      "display": "Incredicoaster",
-      "ride": "Incredicoaster",
-      "priorityNote": "High value",
-      "completed": false,
-      "status": "50 mins",
-      "wait": 50,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 50 min is about 15 min over the target threshold (35). Recheck later.",
-      "sort": 100
-    },
-    {
       "display": "Toy Story Mania",
       "ride": "Toy Story Midway Mania!",
       "priorityNote": "Fun group competition",
+      "completed": false,
+      "status": "40 mins",
+      "wait": 40,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 40 min is about 5 min over the target threshold (35). Recheck later.",
+      "sort": 90
+    },
+    {
+      "display": "Incredicoaster",
+      "ride": "Incredicoaster",
+      "priorityNote": "High value",
       "completed": false,
       "status": "50 mins",
       "wait": 50,
@@ -223,8 +223,8 @@
       "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
       "land": "Hollywood Land",
       "is_open": true,
-      "status": "30 mins",
-      "wait_time": 30,
+      "status": "25 mins",
+      "wait_time": 25,
       "kind": "posted"
     },
     {
@@ -250,8 +250,8 @@
       "name": "Toy Story Midway Mania!",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "50 mins",
-      "wait_time": 50,
+      "status": "40 mins",
+      "wait_time": 40,
       "kind": "posted"
     },
     {
@@ -259,8 +259,8 @@
       "name": "Grizzly River Run",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "10 mins",
-      "wait_time": 10,
+      "status": "15 mins",
+      "wait_time": 15,
       "kind": "posted"
     }
   ]
