@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T23:38:33-07:00",
+  "updatedAt": "2026-06-05T23:40:36-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,7 +8,7 @@
     "action": "Get water/snack/photo, then choose the shortest elite ride.",
     "why": "Night Incredicoaster is high value, but avoid a late-night stall.",
     "fingerprint": "11:15\u201312:30 \u00b7 Pixar Pier night lap|Get water/snack/photo, then choose the shortest elite ride.",
-    "checkedAtLocal": "2026-06-05T23:38:33-07:00",
+    "checkedAtLocal": "2026-06-05T23:40:36-07:00",
     "keyWaits": {
       "Radiator": "110 mins",
       "Guardians": "150 mins",
