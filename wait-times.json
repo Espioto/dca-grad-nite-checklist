@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-06-05T18:14:33-07:00",
+  "updatedAt": "2026-06-05T18:16:36-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
   "schedule": {
     "phase": "5:00\u20136:30 \u00b7 Pixar Pier / efficient ride loop",
-    "action": "Follow the printed block and avoid any giant standby line.",
+    "action": "Hit Soarin' now (25 min).",
     "why": "This used to be dinner time; now it is bonus park time for Incredicoaster, Toy Story, Soarin, or short fillers.",
-    "fingerprint": "5:00\u20136:30 \u00b7 Pixar Pier / efficient ride loop|Follow the printed block and avoid any giant standby line.",
-    "checkedAtLocal": "2026-06-05T18:14:33-07:00",
+    "fingerprint": "5:00\u20136:30 \u00b7 Pixar Pier / efficient ride loop|Hit Soarin' now (25 min).",
+    "checkedAtLocal": "2026-06-05T18:16:36-07:00",
     "keyWaits": {
       "Radiator": "70 mins",
       "Guardians": "95 mins",
@@ -16,8 +16,29 @@
       "WEB Slingers": "Closed"
     }
   },
-  "opportunities": [],
+  "opportunities": [
+    {
+      "ride": "Soarin' Over California",
+      "wait": 25,
+      "status": "25 mins",
+      "land": "Grizzly Peak",
+      "message": "Soarin is a good sit-down reset at this wait.",
+      "priority": 65
+    }
+  ],
   "rideDecisions": [
+    {
+      "display": "Soarin'",
+      "ride": "Soarin' Over California",
+      "priorityNote": "Sit-down reset",
+      "completed": false,
+      "status": "25 mins",
+      "wait": 25,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Recommended at \u226435 when people need a calmer ride.",
+      "sort": 25
+    },
     {
       "display": "Incredicoaster",
       "ride": "Incredicoaster",
@@ -76,18 +97,6 @@
       "isOpen": false,
       "recommended": false,
       "why": "No live status found. Check the Disneyland app before walking over.",
-      "sort": 90
-    },
-    {
-      "display": "Soarin'",
-      "ride": "Soarin' Over California",
-      "priorityNote": "Sit-down reset",
-      "completed": false,
-      "status": "40 mins",
-      "wait": 40,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 40 min is about 5 min over the target threshold (35). Recheck later.",
       "sort": 90
     },
     {
@@ -197,8 +206,8 @@
       "name": "Soarin' Over California",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "40 mins",
-      "wait_time": 40,
+      "status": "25 mins",
+      "wait_time": 25,
       "kind": "posted"
     },
     {
