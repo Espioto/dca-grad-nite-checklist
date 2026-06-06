@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-06T00:44:07-07:00",
+  "updatedAt": "2026-06-06T00:46:10-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,9 +8,9 @@
     "action": "Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
     "why": "Early dinner replaces the old 5\u20136:45 waitlist block and frees up prime afternoon ride time.",
     "fingerprint": "2:30\u20133:30 \u00b7 Din Tai Fung now|Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
-    "checkedAtLocal": "2026-06-06T00:44:07-07:00",
+    "checkedAtLocal": "2026-06-06T00:46:10-07:00",
     "keyWaits": {
-      "Radiator": "80 mins",
+      "Radiator": "Closed",
       "Guardians": "90 mins",
       "Incredicoaster": "35 mins",
       "WEB Slingers": "5 mins"
@@ -27,8 +27,8 @@
     },
     {
       "ride": "Soarin' Over California",
-      "wait": 30,
-      "status": "30 mins",
+      "wait": 15,
+      "status": "15 mins",
       "land": "Grizzly Peak",
       "message": "Soarin is a good sit-down reset at this wait.",
       "priority": 65
@@ -84,12 +84,12 @@
       "ride": "Soarin' Over California",
       "priorityNote": "Sit-down reset",
       "completed": false,
-      "status": "30 mins",
-      "wait": 30,
+      "status": "15 mins",
+      "wait": 15,
       "isOpen": true,
       "recommended": true,
       "why": "Recommended at \u226435 when people need a calmer ride.",
-      "sort": 30
+      "sort": 15
     },
     {
       "display": "Incredicoaster",
@@ -132,12 +132,12 @@
       "ride": "Radiator Springs Racers",
       "priorityNote": "Must-do at night",
       "completed": false,
-      "status": "80 mins",
-      "wait": 80,
-      "isOpen": true,
+      "status": "Closed",
+      "wait": null,
+      "isOpen": false,
       "recommended": false,
-      "why": "Not worth it yet: 80 min is about 20 min over the target threshold (60). Recheck later.",
-      "sort": 130
+      "why": "Closed right now \u2014 do not route here.",
+      "sort": 95
     },
     {
       "display": "Guardians",
@@ -185,10 +185,10 @@
       "id": "295",
       "name": "Radiator Springs Racers",
       "land": "Cars Land",
-      "is_open": true,
-      "status": "80 mins",
-      "wait_time": 80,
-      "kind": "posted"
+      "is_open": false,
+      "status": "Closed",
+      "wait_time": null,
+      "kind": "closed"
     },
     {
       "id": "329",
@@ -222,8 +222,8 @@
       "name": "Soarin' Over California",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "30 mins",
-      "wait_time": 30,
+      "status": "15 mins",
+      "wait_time": 15,
       "kind": "posted"
     },
     {
