@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-06-05T18:28:53-07:00",
+  "updatedAt": "2026-06-05T18:30:56-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
   "schedule": {
-    "phase": "5:00\u20136:30 \u00b7 Pixar Pier / efficient ride loop",
-    "action": "Hit Soarin' now (25 min).",
-    "why": "This used to be dinner time; now it is bonus park time for Incredicoaster, Toy Story, Soarin, or short fillers.",
-    "fingerprint": "5:00\u20136:30 \u00b7 Pixar Pier / efficient ride loop|Hit Soarin' now (25 min).",
-    "checkedAtLocal": "2026-06-05T18:28:53-07:00",
+    "phase": "6:30\u20138:00 \u00b7 golden hour + Cars Land setup",
+    "action": "Hit Soarin' now (35 min).",
+    "why": "Use photos and medium rides, but avoid anything that risks the 8PM reset before Grad Nite.",
+    "fingerprint": "6:30\u20138:00 \u00b7 golden hour + Cars Land setup|Hit Soarin' now (35 min).",
+    "checkedAtLocal": "2026-06-05T18:30:56-07:00",
     "keyWaits": {
       "Radiator": "95 mins",
       "Guardians": "120 mins",
@@ -19,8 +19,8 @@
   "opportunities": [
     {
       "ride": "Soarin' Over California",
-      "wait": 25,
-      "status": "25 mins",
+      "wait": 35,
+      "status": "35 mins",
       "land": "Grizzly Peak",
       "message": "Soarin is a good sit-down reset at this wait.",
       "priority": 65
@@ -32,24 +32,12 @@
       "ride": "Soarin' Over California",
       "priorityNote": "Sit-down reset",
       "completed": false,
-      "status": "25 mins",
-      "wait": 25,
+      "status": "35 mins",
+      "wait": 35,
       "isOpen": true,
       "recommended": true,
       "why": "Recommended at \u226435 when people need a calmer ride.",
-      "sort": 25
-    },
-    {
-      "display": "Monsters Inc.",
-      "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
-      "priorityNote": "Low-effort indoor",
-      "completed": false,
-      "status": "30 mins",
-      "wait": 30,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 30 min is about 15 min over the target threshold (15). Recheck later.",
-      "sort": 80
+      "sort": 35
     },
     {
       "display": "Grizzly River Run",
@@ -88,16 +76,28 @@
       "sort": 95
     },
     {
-      "display": "Toy Story Mania",
-      "ride": "Toy Story Midway Mania!",
-      "priorityNote": "Fun group competition",
+      "display": "Monsters Inc.",
+      "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
+      "priorityNote": "Low-effort indoor",
       "completed": false,
       "status": "45 mins",
       "wait": 45,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 45 min is about 10 min over the target threshold (35). Recheck later.",
+      "why": "Not worth it yet: 45 min is about 30 min over the target threshold (15). Recheck later.",
       "sort": 95
+    },
+    {
+      "display": "Toy Story Mania",
+      "ride": "Toy Story Midway Mania!",
+      "priorityNote": "Fun group competition",
+      "completed": false,
+      "status": "50 mins",
+      "wait": 50,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 50 min is about 15 min over the target threshold (35). Recheck later.",
+      "sort": 100
     },
     {
       "display": "WEB Slingers",
@@ -206,8 +206,8 @@
       "name": "Soarin' Over California",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "25 mins",
-      "wait_time": 25,
+      "status": "35 mins",
+      "wait_time": 35,
       "kind": "posted"
     },
     {
@@ -215,8 +215,8 @@
       "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
       "land": "Hollywood Land",
       "is_open": true,
-      "status": "30 mins",
-      "wait_time": 30,
+      "status": "45 mins",
+      "wait_time": 45,
       "kind": "posted"
     },
     {
@@ -242,8 +242,8 @@
       "name": "Toy Story Midway Mania!",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "45 mins",
-      "wait_time": 45,
+      "status": "50 mins",
+      "wait_time": 50,
       "kind": "posted"
     },
     {
