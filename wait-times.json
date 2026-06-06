@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T18:30:56-07:00",
+  "updatedAt": "2026-06-05T18:32:59-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,10 +8,10 @@
     "action": "Hit Soarin' now (35 min).",
     "why": "Use photos and medium rides, but avoid anything that risks the 8PM reset before Grad Nite.",
     "fingerprint": "6:30\u20138:00 \u00b7 golden hour + Cars Land setup|Hit Soarin' now (35 min).",
-    "checkedAtLocal": "2026-06-05T18:30:56-07:00",
+    "checkedAtLocal": "2026-06-05T18:32:59-07:00",
     "keyWaits": {
       "Radiator": "95 mins",
-      "Guardians": "120 mins",
+      "Guardians": "95 mins",
       "Incredicoaster": "45 mins",
       "WEB Slingers": "55 mins"
     }
@@ -112,6 +112,18 @@
       "sort": 105
     },
     {
+      "display": "Guardians",
+      "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
+      "priorityNote": "Top hype ride",
+      "completed": false,
+      "status": "95 mins",
+      "wait": 95,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 95 min is about 40 min over the target threshold (55). Recheck later.",
+      "sort": 145
+    },
+    {
       "display": "Radiator Springs Racers",
       "ride": "Radiator Springs Racers",
       "priorityNote": "Must-do at night",
@@ -122,18 +134,6 @@
       "recommended": false,
       "why": "Not worth it yet: 95 min is about 35 min over the target threshold (60). Recheck later.",
       "sort": 145
-    },
-    {
-      "display": "Guardians",
-      "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
-      "priorityNote": "Top hype ride",
-      "completed": false,
-      "status": "120 mins",
-      "wait": 120,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 120 min is about 65 min over the target threshold (55). Recheck later.",
-      "sort": 170
     },
     {
       "display": "Little Mermaid",
@@ -179,8 +179,8 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "120 mins",
-      "wait_time": 120,
+      "status": "95 mins",
+      "wait_time": 95,
       "kind": "posted"
     },
     {
