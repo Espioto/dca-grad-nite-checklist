@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T23:03:42-07:00",
+  "updatedAt": "2026-06-05T23:05:45-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,7 +8,7 @@
     "action": "WEB Slingers is reasonable (20 min); use it as the bonus.",
     "why": "This is the hype block; Guardians is worth it when it drops.",
     "fingerprint": "10:00\u201311:15 \u00b7 Avengers Campus|WEB Slingers is reasonable (20 min); use it as the bonus.",
-    "checkedAtLocal": "2026-06-05T23:03:42-07:00",
+    "checkedAtLocal": "2026-06-05T23:05:45-07:00",
     "keyWaits": {
       "Radiator": "110 mins",
       "Guardians": "175 mins",
@@ -27,8 +27,8 @@
     },
     {
       "ride": "Soarin' Over California",
-      "wait": 20,
-      "status": "20 mins",
+      "wait": 10,
+      "status": "10 mins",
       "land": "Grizzly Peak",
       "message": "Soarin is a good sit-down reset at this wait.",
       "priority": 65
@@ -56,6 +56,18 @@
       "sort": 5
     },
     {
+      "display": "Soarin'",
+      "ride": "Soarin' Over California",
+      "priorityNote": "Sit-down reset",
+      "completed": false,
+      "status": "10 mins",
+      "wait": 10,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Recommended at \u226435 when people need a calmer ride.",
+      "sort": 10
+    },
+    {
       "display": "Toy Story Mania",
       "ride": "Toy Story Midway Mania!",
       "priorityNote": "Fun group competition",
@@ -66,18 +78,6 @@
       "recommended": true,
       "why": "Recommended at \u226435; fun but not worth a huge wait.",
       "sort": 15
-    },
-    {
-      "display": "Soarin'",
-      "ride": "Soarin' Over California",
-      "priorityNote": "Sit-down reset",
-      "completed": false,
-      "status": "20 mins",
-      "wait": 20,
-      "isOpen": true,
-      "recommended": true,
-      "why": "Recommended at \u226435 when people need a calmer ride.",
-      "sort": 20
     },
     {
       "display": "WEB Slingers",
@@ -222,8 +222,8 @@
       "name": "Soarin' Over California",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "20 mins",
-      "wait_time": 20,
+      "status": "10 mins",
+      "wait_time": 10,
       "kind": "posted"
     },
     {
