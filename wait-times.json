@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T23:07:47-07:00",
+  "updatedAt": "2026-06-05T23:09:50-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,7 +8,7 @@
     "action": "WEB Slingers is reasonable (20 min); use it as the bonus.",
     "why": "This is the hype block; Guardians is worth it when it drops.",
     "fingerprint": "10:00\u201311:15 \u00b7 Avengers Campus|WEB Slingers is reasonable (20 min); use it as the bonus.",
-    "checkedAtLocal": "2026-06-05T23:07:47-07:00",
+    "checkedAtLocal": "2026-06-05T23:09:50-07:00",
     "keyWaits": {
       "Radiator": "110 mins",
       "Guardians": "175 mins",
