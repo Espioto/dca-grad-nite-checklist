@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-06-05T23:59:02-07:00",
+  "updatedAt": "2026-06-06T00:01:05-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
   "schedule": {
-    "phase": "11:15\u201312:30 \u00b7 Pixar Pier night lap",
-    "action": "Get water/snack/photo, then choose the shortest elite ride.",
-    "why": "Night Incredicoaster is high value, but avoid a late-night stall.",
-    "fingerprint": "11:15\u201312:30 \u00b7 Pixar Pier night lap|Get water/snack/photo, then choose the shortest elite ride.",
-    "checkedAtLocal": "2026-06-05T23:59:02-07:00",
+    "phase": "2:30\u20133:30 \u00b7 Din Tai Fung now",
+    "action": "Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
+    "why": "Early dinner replaces the old 5\u20136:45 waitlist block and frees up prime afternoon ride time.",
+    "fingerprint": "2:30\u20133:30 \u00b7 Din Tai Fung now|Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
+    "checkedAtLocal": "2026-06-06T00:01:05-07:00",
     "keyWaits": {
-      "Radiator": "110 mins",
-      "Guardians": "145 mins",
+      "Radiator": "80 mins",
+      "Guardians": "140 mins",
       "Incredicoaster": "90 mins",
       "WEB Slingers": "5 mins"
     }
@@ -100,6 +100,18 @@
       "sort": 95
     },
     {
+      "display": "Radiator Springs Racers",
+      "ride": "Radiator Springs Racers",
+      "priorityNote": "Must-do at night",
+      "completed": false,
+      "status": "80 mins",
+      "wait": 80,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 80 min is about 20 min over the target threshold (60). Recheck later.",
+      "sort": 130
+    },
+    {
       "display": "Incredicoaster",
       "ride": "Incredicoaster",
       "priorityNote": "High value",
@@ -112,28 +124,16 @@
       "sort": 140
     },
     {
-      "display": "Radiator Springs Racers",
-      "ride": "Radiator Springs Racers",
-      "priorityNote": "Must-do at night",
-      "completed": false,
-      "status": "110 mins",
-      "wait": 110,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 110 min is about 50 min over the target threshold (60). Recheck later.",
-      "sort": 160
-    },
-    {
       "display": "Guardians",
       "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "priorityNote": "Top hype ride",
       "completed": false,
-      "status": "145 mins",
-      "wait": 145,
+      "status": "140 mins",
+      "wait": 140,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 145 min is about 90 min over the target threshold (55). Recheck later.",
-      "sort": 195
+      "why": "Not worth it yet: 140 min is about 85 min over the target threshold (55). Recheck later.",
+      "sort": 190
     },
     {
       "display": "Little Mermaid",
@@ -170,8 +170,8 @@
       "name": "Radiator Springs Racers",
       "land": "Cars Land",
       "is_open": true,
-      "status": "110 mins",
-      "wait_time": 110,
+      "status": "80 mins",
+      "wait_time": 80,
       "kind": "posted"
     },
     {
@@ -179,8 +179,8 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "145 mins",
-      "wait_time": 145,
+      "status": "140 mins",
+      "wait_time": 140,
       "kind": "posted"
     },
     {
