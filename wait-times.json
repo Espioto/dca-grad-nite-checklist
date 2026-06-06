@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T21:53:53-07:00",
+  "updatedAt": "2026-06-05T21:55:56-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,12 +8,12 @@
     "action": "Start Cars Land photos/Mater\u2019s filler and watch for Radiator or Guardians to drop.",
     "why": "Radiator at night is the top target, but not at any cost.",
     "fingerprint": "9:00\u201310:00 \u00b7 Grad Nite opener|Start Cars Land photos/Mater\u2019s filler and watch for Radiator or Guardians to drop.",
-    "checkedAtLocal": "2026-06-05T21:53:53-07:00",
+    "checkedAtLocal": "2026-06-05T21:55:56-07:00",
     "keyWaits": {
       "Radiator": "100 mins",
       "Guardians": "150 mins",
       "Incredicoaster": "65 mins",
-      "WEB Slingers": "20 mins"
+      "WEB Slingers": "25 mins"
     }
   },
   "opportunities": [
@@ -35,8 +35,8 @@
     },
     {
       "ride": "WEB SLINGERS: A Spider-Man Adventure",
-      "wait": 20,
-      "status": "20 mins",
+      "wait": 25,
+      "status": "25 mins",
       "land": "Avengers Campus",
       "message": "WEB Slingers is worth it at this wait; skip giant lines.",
       "priority": 60
@@ -72,12 +72,12 @@
       "ride": "WEB SLINGERS: A Spider-Man Adventure",
       "priorityNote": "Good bonus ride",
       "completed": false,
-      "status": "20 mins",
-      "wait": 20,
+      "status": "25 mins",
+      "wait": 25,
       "isOpen": true,
       "recommended": true,
       "why": "Recommended at \u226440; skip long waits because bigger rides matter more.",
-      "sort": 20
+      "sort": 25
     },
     {
       "display": "Soarin'",
@@ -204,8 +204,8 @@
       "name": "WEB SLINGERS: A Spider-Man Adventure",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "20 mins",
-      "wait_time": 20,
+      "status": "25 mins",
+      "wait_time": 25,
       "kind": "posted"
     },
     {
