@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T23:40:36-07:00",
+  "updatedAt": "2026-06-05T23:42:39-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,11 +8,11 @@
     "action": "Get water/snack/photo, then choose the shortest elite ride.",
     "why": "Night Incredicoaster is high value, but avoid a late-night stall.",
     "fingerprint": "11:15\u201312:30 \u00b7 Pixar Pier night lap|Get water/snack/photo, then choose the shortest elite ride.",
-    "checkedAtLocal": "2026-06-05T23:40:36-07:00",
+    "checkedAtLocal": "2026-06-05T23:42:39-07:00",
     "keyWaits": {
       "Radiator": "110 mins",
       "Guardians": "150 mins",
-      "Incredicoaster": "85 mins",
+      "Incredicoaster": "90 mins",
       "WEB Slingers": "15 mins"
     }
   },
@@ -112,12 +112,12 @@
       "ride": "Incredicoaster",
       "priorityNote": "High value",
       "completed": false,
-      "status": "85 mins",
-      "wait": 85,
+      "status": "90 mins",
+      "wait": 90,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 85 min is about 50 min over the target threshold (35). Recheck later.",
-      "sort": 135
+      "why": "Not worth it yet: 90 min is about 55 min over the target threshold (35). Recheck later.",
+      "sort": 140
     },
     {
       "display": "Radiator Springs Racers",
@@ -205,8 +205,8 @@
       "name": "Incredicoaster",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "85 mins",
-      "wait_time": 85,
+      "status": "90 mins",
+      "wait_time": 90,
       "kind": "posted"
     },
     {
