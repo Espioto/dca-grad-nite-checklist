@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T19:01:40-07:00",
+  "updatedAt": "2026-06-05T19:03:43-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,7 +8,7 @@
     "action": "Follow the printed block and avoid any giant standby line.",
     "why": "Use photos and medium rides, but avoid anything that risks the 8PM reset before Grad Nite.",
     "fingerprint": "6:30\u20138:00 \u00b7 golden hour + Cars Land setup|Follow the printed block and avoid any giant standby line.",
-    "checkedAtLocal": "2026-06-05T19:01:40-07:00",
+    "checkedAtLocal": "2026-06-05T19:03:43-07:00",
     "keyWaits": {
       "Radiator": "75 mins",
       "Guardians": "120 mins",
