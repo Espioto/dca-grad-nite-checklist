@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T20:09:22-07:00",
+  "updatedAt": "2026-06-05T20:11:24-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,10 +8,10 @@
     "action": "Bathroom, water, charge phones, hoodie, regroup near Cars Land unless waits scream otherwise.",
     "why": "This hour is about positioning, not squeezing in a risky long line.",
     "fingerprint": "8:00\u20139:00 \u00b7 reset before Grad Nite|Bathroom, water, charge phones, hoodie, regroup near Cars Land unless waits scream otherwise.",
-    "checkedAtLocal": "2026-06-05T20:09:22-07:00",
+    "checkedAtLocal": "2026-06-05T20:11:24-07:00",
     "keyWaits": {
-      "Radiator": "55 mins",
-      "Guardians": "100 mins",
+      "Radiator": "80 mins",
+      "Guardians": "120 mins",
       "Incredicoaster": "50 mins",
       "WEB Slingers": "15 mins"
     }
@@ -72,30 +72,6 @@
       "sort": 30
     },
     {
-      "display": "Toy Story Mania",
-      "ride": "Toy Story Midway Mania!",
-      "priorityNote": "Fun group competition",
-      "completed": false,
-      "status": "35 mins",
-      "wait": 35,
-      "isOpen": true,
-      "recommended": true,
-      "why": "Recommended at \u226435; fun but not worth a huge wait.",
-      "sort": 35
-    },
-    {
-      "display": "Radiator Springs Racers",
-      "ride": "Radiator Springs Racers",
-      "priorityNote": "Must-do at night",
-      "completed": false,
-      "status": "55 mins",
-      "wait": 55,
-      "isOpen": true,
-      "recommended": true,
-      "why": "Worth it together if \u226460, especially after dark.",
-      "sort": 55
-    },
-    {
       "display": "Monsters Inc.",
       "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
       "priorityNote": "Low-effort indoor",
@@ -132,16 +108,40 @@
       "sort": 100
     },
     {
+      "display": "Toy Story Mania",
+      "ride": "Toy Story Midway Mania!",
+      "priorityNote": "Fun group competition",
+      "completed": false,
+      "status": "55 mins",
+      "wait": 55,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 55 min is about 20 min over the target threshold (35). Recheck later.",
+      "sort": 105
+    },
+    {
+      "display": "Radiator Springs Racers",
+      "ride": "Radiator Springs Racers",
+      "priorityNote": "Must-do at night",
+      "completed": false,
+      "status": "80 mins",
+      "wait": 80,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 80 min is about 20 min over the target threshold (60). Recheck later.",
+      "sort": 130
+    },
+    {
       "display": "Guardians",
       "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "priorityNote": "Top hype ride",
       "completed": false,
-      "status": "100 mins",
-      "wait": 100,
+      "status": "120 mins",
+      "wait": 120,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 100 min is about 45 min over the target threshold (55). Recheck later.",
-      "sort": 150
+      "why": "Not worth it yet: 120 min is about 65 min over the target threshold (55). Recheck later.",
+      "sort": 170
     },
     {
       "display": "Little Mermaid",
@@ -178,8 +178,8 @@
       "name": "Radiator Springs Racers",
       "land": "Cars Land",
       "is_open": true,
-      "status": "55 mins",
-      "wait_time": 55,
+      "status": "80 mins",
+      "wait_time": 80,
       "kind": "posted"
     },
     {
@@ -187,8 +187,8 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "100 mins",
-      "wait_time": 100,
+      "status": "120 mins",
+      "wait_time": 120,
       "kind": "posted"
     },
     {
@@ -250,8 +250,8 @@
       "name": "Toy Story Midway Mania!",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "35 mins",
-      "wait_time": 35,
+      "status": "55 mins",
+      "wait_time": 55,
       "kind": "posted"
     },
     {
