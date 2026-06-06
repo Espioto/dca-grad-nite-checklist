@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T23:48:48-07:00",
+  "updatedAt": "2026-06-05T23:50:51-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,10 +8,10 @@
     "action": "Get water/snack/photo, then choose the shortest elite ride.",
     "why": "Night Incredicoaster is high value, but avoid a late-night stall.",
     "fingerprint": "11:15\u201312:30 \u00b7 Pixar Pier night lap|Get water/snack/photo, then choose the shortest elite ride.",
-    "checkedAtLocal": "2026-06-05T23:48:48-07:00",
+    "checkedAtLocal": "2026-06-05T23:50:51-07:00",
     "keyWaits": {
       "Radiator": "110 mins",
-      "Guardians": "150 mins",
+      "Guardians": "145 mins",
       "Incredicoaster": "90 mins",
       "WEB Slingers": "5 mins"
     }
@@ -136,12 +136,12 @@
       "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "priorityNote": "Top hype ride",
       "completed": false,
-      "status": "150 mins",
-      "wait": 150,
+      "status": "145 mins",
+      "wait": 145,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 150 min is about 95 min over the target threshold (55). Recheck later.",
-      "sort": 200
+      "why": "Not worth it yet: 145 min is about 90 min over the target threshold (55). Recheck later.",
+      "sort": 195
     },
     {
       "display": "Little Mermaid",
@@ -187,8 +187,8 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "150 mins",
-      "wait_time": 150,
+      "status": "145 mins",
+      "wait_time": 145,
       "kind": "posted"
     },
     {
