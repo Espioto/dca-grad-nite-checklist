@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T20:05:16-07:00",
+  "updatedAt": "2026-06-05T20:07:19-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,22 +8,30 @@
     "action": "Bathroom, water, charge phones, hoodie, regroup near Cars Land unless waits scream otherwise.",
     "why": "This hour is about positioning, not squeezing in a risky long line.",
     "fingerprint": "8:00\u20139:00 \u00b7 reset before Grad Nite|Bathroom, water, charge phones, hoodie, regroup near Cars Land unless waits scream otherwise.",
-    "checkedAtLocal": "2026-06-05T20:05:16-07:00",
+    "checkedAtLocal": "2026-06-05T20:07:19-07:00",
     "keyWaits": {
       "Radiator": "55 mins",
       "Guardians": "100 mins",
-      "Incredicoaster": "45 mins",
-      "WEB Slingers": "Closed"
+      "Incredicoaster": "50 mins",
+      "WEB Slingers": "15 mins"
     }
   },
   "opportunities": [
     {
       "ride": "Soarin' Over California",
-      "wait": 35,
-      "status": "35 mins",
+      "wait": 30,
+      "status": "30 mins",
       "land": "Grizzly Peak",
       "message": "Soarin is a good sit-down reset at this wait.",
       "priority": 65
+    },
+    {
+      "ride": "WEB SLINGERS: A Spider-Man Adventure",
+      "wait": 15,
+      "status": "15 mins",
+      "land": "Avengers Campus",
+      "message": "WEB Slingers is worth it at this wait; skip giant lines.",
+      "priority": 60
     }
   ],
   "rideDecisions": [
@@ -32,24 +40,36 @@
       "ride": "Grizzly River Run",
       "priorityNote": "Only if okay wet",
       "completed": false,
-      "status": "5 mins",
-      "wait": 5,
+      "status": "15 mins",
+      "wait": 15,
       "isOpen": true,
       "recommended": true,
       "why": "Recommended only if short and everyone accepts getting wet.",
-      "sort": 5
+      "sort": 15
+    },
+    {
+      "display": "WEB Slingers",
+      "ride": "WEB SLINGERS: A Spider-Man Adventure",
+      "priorityNote": "Good bonus ride",
+      "completed": false,
+      "status": "15 mins",
+      "wait": 15,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Recommended at \u226440; skip long waits because bigger rides matter more.",
+      "sort": 15
     },
     {
       "display": "Soarin'",
       "ride": "Soarin' Over California",
       "priorityNote": "Sit-down reset",
       "completed": false,
-      "status": "35 mins",
-      "wait": 35,
+      "status": "30 mins",
+      "wait": 30,
       "isOpen": true,
       "recommended": true,
       "why": "Recommended at \u226435 when people need a calmer ride.",
-      "sort": 35
+      "sort": 30
     },
     {
       "display": "Toy Story Mania",
@@ -104,24 +124,12 @@
       "ride": "Incredicoaster",
       "priorityNote": "High value",
       "completed": false,
-      "status": "45 mins",
-      "wait": 45,
+      "status": "50 mins",
+      "wait": 50,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 45 min is about 10 min over the target threshold (35). Recheck later.",
-      "sort": 95
-    },
-    {
-      "display": "WEB Slingers",
-      "ride": "WEB SLINGERS: A Spider-Man Adventure",
-      "priorityNote": "Good bonus ride",
-      "completed": false,
-      "status": "Closed",
-      "wait": null,
-      "isOpen": false,
-      "recommended": false,
-      "why": "Closed right now \u2014 do not route here.",
-      "sort": 95
+      "why": "Not worth it yet: 50 min is about 15 min over the target threshold (35). Recheck later.",
+      "sort": 100
     },
     {
       "display": "Guardians",
@@ -187,18 +195,18 @@
       "id": "8843",
       "name": "WEB SLINGERS: A Spider-Man Adventure",
       "land": "Avengers Campus",
-      "is_open": false,
-      "status": "Closed",
-      "wait_time": null,
-      "kind": "closed"
+      "is_open": true,
+      "status": "15 mins",
+      "wait_time": 15,
+      "kind": "posted"
     },
     {
       "id": "322",
       "name": "Incredicoaster",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "45 mins",
-      "wait_time": 45,
+      "status": "50 mins",
+      "wait_time": 50,
       "kind": "posted"
     },
     {
@@ -206,8 +214,8 @@
       "name": "Soarin' Over California",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "35 mins",
-      "wait_time": 35,
+      "status": "30 mins",
+      "wait_time": 30,
       "kind": "posted"
     },
     {
@@ -251,8 +259,8 @@
       "name": "Grizzly River Run",
       "land": "Grizzly Peak",
       "is_open": true,
-      "status": "5 mins",
-      "wait_time": 5,
+      "status": "15 mins",
+      "wait_time": 15,
       "kind": "posted"
     }
   ]
