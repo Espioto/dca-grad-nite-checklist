@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T18:00:12-07:00",
+  "updatedAt": "2026-06-05T18:02:15-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,27 +8,27 @@
     "action": "Follow the printed block and avoid any giant standby line.",
     "why": "This used to be dinner time; now it is bonus park time for Incredicoaster, Toy Story, Soarin, or short fillers.",
     "fingerprint": "5:00\u20136:30 \u00b7 Pixar Pier / efficient ride loop|Follow the printed block and avoid any giant standby line.",
-    "checkedAtLocal": "2026-06-05T18:00:12-07:00",
+    "checkedAtLocal": "2026-06-05T18:02:15-07:00",
     "keyWaits": {
       "Radiator": "70 mins",
       "Guardians": "85 mins",
       "Incredicoaster": "50 mins",
-      "WEB Slingers": "55 mins"
+      "WEB Slingers": "Closed"
     }
   },
   "opportunities": [],
   "rideDecisions": [
     {
-      "display": "Monsters Inc.",
-      "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
-      "priorityNote": "Low-effort indoor",
+      "display": "Toy Story Mania",
+      "ride": "Toy Story Midway Mania!",
+      "priorityNote": "Fun group competition",
       "completed": false,
-      "status": "25 mins",
-      "wait": 25,
+      "status": "35 mins",
+      "wait": 35,
       "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 25 min is about 10 min over the target threshold (15). Recheck later.",
-      "sort": 75
+      "recommended": true,
+      "why": "Recommended at \u226435; fun but not worth a huge wait.",
+      "sort": 35
     },
     {
       "display": "Grizzly River Run",
@@ -40,6 +40,18 @@
       "isOpen": true,
       "recommended": false,
       "why": "Not worth it yet: 30 min is about 5 min over the target threshold (25). Recheck later.",
+      "sort": 80
+    },
+    {
+      "display": "Monsters Inc.",
+      "ride": "Monsters, Inc. Mike & Sulley to the Rescue!",
+      "priorityNote": "Low-effort indoor",
+      "completed": false,
+      "status": "30 mins",
+      "wait": 30,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 30 min is about 15 min over the target threshold (15). Recheck later.",
       "sort": 80
     },
     {
@@ -67,6 +79,18 @@
       "sort": 90
     },
     {
+      "display": "WEB Slingers",
+      "ride": "WEB SLINGERS: A Spider-Man Adventure",
+      "priorityNote": "Good bonus ride",
+      "completed": false,
+      "status": "Closed",
+      "wait": null,
+      "isOpen": false,
+      "recommended": false,
+      "why": "Closed right now \u2014 do not route here.",
+      "sort": 95
+    },
+    {
       "display": "Incredicoaster",
       "ride": "Incredicoaster",
       "priorityNote": "High value",
@@ -77,30 +101,6 @@
       "recommended": false,
       "why": "Not worth it yet: 50 min is about 15 min over the target threshold (35). Recheck later.",
       "sort": 100
-    },
-    {
-      "display": "Toy Story Mania",
-      "ride": "Toy Story Midway Mania!",
-      "priorityNote": "Fun group competition",
-      "completed": false,
-      "status": "55 mins",
-      "wait": 55,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 55 min is about 20 min over the target threshold (35). Recheck later.",
-      "sort": 105
-    },
-    {
-      "display": "WEB Slingers",
-      "ride": "WEB SLINGERS: A Spider-Man Adventure",
-      "priorityNote": "Good bonus ride",
-      "completed": false,
-      "status": "55 mins",
-      "wait": 55,
-      "isOpen": true,
-      "recommended": false,
-      "why": "Not worth it yet: 55 min is about 15 min over the target threshold (40). Recheck later.",
-      "sort": 105
     },
     {
       "display": "Radiator Springs Racers",
@@ -178,10 +178,10 @@
       "id": "8843",
       "name": "WEB SLINGERS: A Spider-Man Adventure",
       "land": "Avengers Campus",
-      "is_open": true,
-      "status": "55 mins",
-      "wait_time": 55,
-      "kind": "posted"
+      "is_open": false,
+      "status": "Closed",
+      "wait_time": null,
+      "kind": "closed"
     },
     {
       "id": "322",
@@ -206,8 +206,8 @@
       "name": "Monsters, Inc. Mike & Sulley to the Rescue!",
       "land": "Hollywood Land",
       "is_open": true,
-      "status": "25 mins",
-      "wait_time": 25,
+      "status": "30 mins",
+      "wait_time": 30,
       "kind": "posted"
     },
     {
@@ -233,8 +233,8 @@
       "name": "Toy Story Midway Mania!",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "55 mins",
-      "wait_time": 55,
+      "status": "35 mins",
+      "wait_time": 35,
       "kind": "posted"
     },
     {
