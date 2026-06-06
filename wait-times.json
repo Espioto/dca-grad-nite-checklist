@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-06T01:18:57-07:00",
+  "updatedAt": "2026-06-06T01:20:59-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,11 +8,11 @@
     "action": "Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
     "why": "Early dinner replaces the old 5\u20136:45 waitlist block and frees up prime afternoon ride time.",
     "fingerprint": "2:30\u20133:30 \u00b7 Din Tai Fung now|Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
-    "checkedAtLocal": "2026-06-06T01:18:57-07:00",
+    "checkedAtLocal": "2026-06-06T01:20:59-07:00",
     "keyWaits": {
       "Radiator": "Closed",
-      "Guardians": "90 mins",
-      "Incredicoaster": "45 mins",
+      "Guardians": "60 mins",
+      "Incredicoaster": "Closed",
       "WEB Slingers": "5 mins"
     }
   },
@@ -53,18 +53,6 @@
       "isOpen": true,
       "recommended": true,
       "why": "Recommended at \u226415 as a quick indoor reset.",
-      "sort": 5
-    },
-    {
-      "display": "Toy Story Mania",
-      "ride": "Toy Story Midway Mania!",
-      "priorityNote": "Fun group competition",
-      "completed": false,
-      "status": "5 mins",
-      "wait": 5,
-      "isOpen": true,
-      "recommended": true,
-      "why": "Recommended at \u226435; fun but not worth a huge wait.",
       "sort": 5
     },
     {
@@ -120,11 +108,11 @@
       "ride": "Incredicoaster",
       "priorityNote": "High value",
       "completed": false,
-      "status": "45 mins",
-      "wait": 45,
-      "isOpen": true,
+      "status": "Closed",
+      "wait": null,
+      "isOpen": false,
       "recommended": false,
-      "why": "Not worth it yet: 45 min is about 10 min over the target threshold (35). Recheck later.",
+      "why": "Closed right now \u2014 do not route here.",
       "sort": 95
     },
     {
@@ -140,16 +128,28 @@
       "sort": 95
     },
     {
+      "display": "Toy Story Mania",
+      "ride": "Toy Story Midway Mania!",
+      "priorityNote": "Fun group competition",
+      "completed": false,
+      "status": "Closed",
+      "wait": null,
+      "isOpen": false,
+      "recommended": false,
+      "why": "Closed right now \u2014 do not route here.",
+      "sort": 95
+    },
+    {
       "display": "Guardians",
       "ride": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "priorityNote": "Top hype ride",
       "completed": false,
-      "status": "90 mins",
-      "wait": 90,
+      "status": "60 mins",
+      "wait": 60,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 90 min is about 35 min over the target threshold (55). Recheck later.",
-      "sort": 140
+      "why": "Not worth it yet: 60 min is about 5 min over the target threshold (55). Recheck later.",
+      "sort": 110
     },
     {
       "display": "Little Mermaid",
@@ -195,8 +195,8 @@
       "name": "Guardians of the Galaxy - Mission: BREAKOUT!",
       "land": "Avengers Campus",
       "is_open": true,
-      "status": "90 mins",
-      "wait_time": 90,
+      "status": "60 mins",
+      "wait_time": 60,
       "kind": "posted"
     },
     {
@@ -212,10 +212,10 @@
       "id": "322",
       "name": "Incredicoaster",
       "land": "Pixar Pier",
-      "is_open": true,
-      "status": "45 mins",
-      "wait_time": 45,
-      "kind": "posted"
+      "is_open": false,
+      "status": "Closed",
+      "wait_time": null,
+      "kind": "closed"
     },
     {
       "id": "312",
@@ -248,19 +248,19 @@
       "id": "316",
       "name": "The Little Mermaid - Ariel's Undersea Adventure",
       "land": "Paradise Gardens Park",
-      "is_open": true,
-      "status": "5 mins",
-      "wait_time": 5,
-      "kind": "posted"
+      "is_open": false,
+      "status": "Closed",
+      "wait_time": null,
+      "kind": "closed"
     },
     {
       "id": "313",
       "name": "Toy Story Midway Mania!",
       "land": "Pixar Pier",
-      "is_open": true,
-      "status": "5 mins",
-      "wait_time": 5,
-      "kind": "posted"
+      "is_open": false,
+      "status": "Closed",
+      "wait_time": null,
+      "kind": "closed"
     },
     {
       "id": "302",
