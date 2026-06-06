@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T21:49:47-07:00",
+  "updatedAt": "2026-06-05T21:51:50-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,9 +8,9 @@
     "action": "Start Cars Land photos/Mater\u2019s filler and watch for Radiator or Guardians to drop.",
     "why": "Radiator at night is the top target, but not at any cost.",
     "fingerprint": "9:00\u201310:00 \u00b7 Grad Nite opener|Start Cars Land photos/Mater\u2019s filler and watch for Radiator or Guardians to drop.",
-    "checkedAtLocal": "2026-06-05T21:49:47-07:00",
+    "checkedAtLocal": "2026-06-05T21:51:50-07:00",
     "keyWaits": {
-      "Radiator": "95 mins",
+      "Radiator": "100 mins",
       "Guardians": "150 mins",
       "Incredicoaster": "65 mins",
       "WEB Slingers": "20 mins"
@@ -56,6 +56,18 @@
       "sort": 5
     },
     {
+      "display": "Toy Story Mania",
+      "ride": "Toy Story Midway Mania!",
+      "priorityNote": "Fun group competition",
+      "completed": false,
+      "status": "5 mins",
+      "wait": 5,
+      "isOpen": true,
+      "recommended": true,
+      "why": "Recommended at \u226435; fun but not worth a huge wait.",
+      "sort": 5
+    },
+    {
       "display": "WEB Slingers",
       "ride": "WEB SLINGERS: A Spider-Man Adventure",
       "priorityNote": "Good bonus ride",
@@ -66,18 +78,6 @@
       "recommended": true,
       "why": "Recommended at \u226440; skip long waits because bigger rides matter more.",
       "sort": 20
-    },
-    {
-      "display": "Toy Story Mania",
-      "ride": "Toy Story Midway Mania!",
-      "priorityNote": "Fun group competition",
-      "completed": false,
-      "status": "30 mins",
-      "wait": 30,
-      "isOpen": true,
-      "recommended": true,
-      "why": "Recommended at \u226435; fun but not worth a huge wait.",
-      "sort": 30
     },
     {
       "display": "Soarin'",
@@ -132,12 +132,12 @@
       "ride": "Radiator Springs Racers",
       "priorityNote": "Must-do at night",
       "completed": false,
-      "status": "95 mins",
-      "wait": 95,
+      "status": "100 mins",
+      "wait": 100,
       "isOpen": true,
       "recommended": false,
-      "why": "Not worth it yet: 95 min is about 35 min over the target threshold (60). Recheck later.",
-      "sort": 145
+      "why": "Not worth it yet: 100 min is about 40 min over the target threshold (60). Recheck later.",
+      "sort": 150
     },
     {
       "display": "Guardians",
@@ -186,8 +186,8 @@
       "name": "Radiator Springs Racers",
       "land": "Cars Land",
       "is_open": true,
-      "status": "95 mins",
-      "wait_time": 95,
+      "status": "100 mins",
+      "wait_time": 100,
       "kind": "posted"
     },
     {
@@ -258,8 +258,8 @@
       "name": "Toy Story Midway Mania!",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "30 mins",
-      "wait_time": 30,
+      "status": "5 mins",
+      "wait_time": 5,
       "kind": "posted"
     },
     {
