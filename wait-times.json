@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T21:33:23-07:00",
+  "updatedAt": "2026-06-05T21:35:26-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,7 +8,7 @@
     "action": "Start Cars Land photos/Mater\u2019s filler and watch for Radiator or Guardians to drop.",
     "why": "Radiator at night is the top target, but not at any cost.",
     "fingerprint": "9:00\u201310:00 \u00b7 Grad Nite opener|Start Cars Land photos/Mater\u2019s filler and watch for Radiator or Guardians to drop.",
-    "checkedAtLocal": "2026-06-05T21:33:23-07:00",
+    "checkedAtLocal": "2026-06-05T21:35:26-07:00",
     "keyWaits": {
       "Radiator": "100 mins",
       "Guardians": "150 mins",
