@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-06T00:54:21-07:00",
+  "updatedAt": "2026-06-06T00:56:24-07:00",
   "source": "https://queue-times.com/en-US/parks/17/queue_times",
   "status": "live_queue_times_html",
   "message": "Live public Queue Times page parsed. Disneyland app still wins if it disagrees.",
@@ -8,11 +8,11 @@
     "action": "Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
     "why": "Early dinner replaces the old 5\u20136:45 waitlist block and frees up prime afternoon ride time.",
     "fingerprint": "2:30\u20133:30 \u00b7 Din Tai Fung now|Eat, hydrate, bathroom, and charge phones \u2014 then head back into DCA as soon as the group is done.",
-    "checkedAtLocal": "2026-06-06T00:54:21-07:00",
+    "checkedAtLocal": "2026-06-06T00:56:24-07:00",
     "keyWaits": {
       "Radiator": "Closed",
       "Guardians": "90 mins",
-      "Incredicoaster": "35 mins",
+      "Incredicoaster": "45 mins",
       "WEB Slingers": "5 mins"
     }
   },
@@ -92,18 +92,6 @@
       "sort": 15
     },
     {
-      "display": "Incredicoaster",
-      "ride": "Incredicoaster",
-      "priorityNote": "High value",
-      "completed": false,
-      "status": "35 mins",
-      "wait": 35,
-      "isOpen": true,
-      "recommended": true,
-      "why": "Recommended at \u226435; great at night or as a reride.",
-      "sort": 35
-    },
-    {
       "display": "Pixar Pal-A-Round",
       "ride": "Pixar Pal-A-Round - Non-Swinging",
       "priorityNote": "Photo/view ride",
@@ -125,6 +113,18 @@
       "isOpen": false,
       "recommended": false,
       "why": "Closed right now \u2014 do not route here.",
+      "sort": 95
+    },
+    {
+      "display": "Incredicoaster",
+      "ride": "Incredicoaster",
+      "priorityNote": "High value",
+      "completed": false,
+      "status": "45 mins",
+      "wait": 45,
+      "isOpen": true,
+      "recommended": false,
+      "why": "Not worth it yet: 45 min is about 10 min over the target threshold (35). Recheck later.",
       "sort": 95
     },
     {
@@ -213,8 +213,8 @@
       "name": "Incredicoaster",
       "land": "Pixar Pier",
       "is_open": true,
-      "status": "35 mins",
-      "wait_time": 35,
+      "status": "45 mins",
+      "wait_time": 45,
       "kind": "posted"
     },
     {
